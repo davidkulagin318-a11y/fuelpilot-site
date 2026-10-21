@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Support | FuelPilot</title>
+  <meta name="description" content="Help with FuelPilot: fuel prices, navigation, OBD-II adapters, exports, receipts and FuelPilot Pro.">
+  <link rel="canonical" href="https://fuelpilotapp.com/support/">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0d1620" media="(prefers-color-scheme: dark)">
+  <meta property="og:site_name" content="FuelPilot">
+  <meta property="og:title" content="Support | FuelPilot">
+  <meta property="og:description" content="Help with FuelPilot: fuel prices, navigation, OBD-II adapters, exports, receipts and FuelPilot Pro.">
+  <meta property="og:image" content="https://fuelpilotapp.com/assets/og.png">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" href="/assets/favicon-48.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="preload" href="/assets/fonts/overpass-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="/" aria-label="FuelPilot home">
+        <img src="/assets/icon-128.png" width="36" height="36" alt="">
+        FuelPilot
+      </a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="/support/" aria-current="page">Support</a>
+        <a href="/privacy/">Privacy</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="page">
+    <div class="wrap">
+      <h1>Support</h1>
+      <p class="meta">Answers to common questions. If yours isn't here, email <a href="mailto:support@fuelpilotapp.com">support@fuelpilotapp.com</a> and we'll get back to you, usually within a day or two.</p>
+
+      <ul class="toc" aria-label="On this page">
+        <li><a href="#start">Getting started</a></li>
+        <li><a href="#fuel">Fuel prices and Autopilot</a></li>
+        <li><a href="#navigation">Navigation</a></li>
+        <li><a href="#obd">OBD-II adapters</a></li>
+        <li><a href="#trips">Trips and exports</a></li>
+        <li><a href="#receipts">Receipts</a></li>
+        <li><a href="#pro">FuelPilot Pro</a></li>
+        <li><a href="#account">Your account</a></li>
+      </ul>
+
+      <h2 id="start">Getting started</h2>
+
+      <h3>What do I need to set up first?</h3>
+      <p>Allow location when FuelPilot asks, then add your vehicle in the Vehicle tab with its tank size and MPG. Range and fuel stop picks depend on those two numbers, and FuelPilot fine-tunes your MPG as you log fuel-ups.</p>
+
+      <h3>Is there an Android version?</h3>
+      <p>FuelPilot is launching on iPhone first. Android is coming after that.</p>
+
+      <h2 id="fuel">Fuel prices and Autopilot</h2>
+
+      <h3>Where do the fuel prices come from?</h3>
+      <p>From HERE Technologies, a fuel price provider, and they're refreshed regularly. Prices can still lag behind the pump, so the price on the pump is the one you pay.</p>
+
+      <h3>Why didn't Autopilot pick the cheapest station I can see?</h3>
+      <p>Autopilot picks the cheapest station you can reach with your reserve left, on or close to your route. A cheaper station might be out of range, too far off the route, or not save enough to be worth the detour. You can change your reserve and the minimum savings for a detour in <span class="path">Settings › Autopilot</span>.</p>
+
+      <h3>Why doesn't it send me to Costco or a cardlock?</h3>
+      <p>Stations that need a membership are left out until you tell FuelPilot you have one. Turn on Costco, Sam's Club, BJ's or fleet cardlock in <span class="path">Settings › Fuel memberships</span>.</p>
+
+      <h2 id="navigation">Navigation</h2>
+
+      <h3>Does FuelPilot avoid low bridges and truck restrictions?</h3>
+      <p>No. Routes are planned for passenger vehicles and don't account for height or weight limits, truck or hazardous materials restrictions, or roads closed to trailers. If you're tall, heavy or towing, check your route and follow posted signs.</p>
+
+      <h3>Directions stop when my screen locks.</h3>
+      <p>On your iPhone, open <span class="path">Settings › FuelPilot › Location</span>, choose <strong>Always</strong> and turn on <strong>Precise Location</strong>. FuelPilot only uses your location in the background while you're navigating.</p>
+
+      <h3>The spoken directions sound robotic.</h3>
+      <p>FuelPilot uses the best voice installed on your iPhone. To download a better one, open <span class="path">Settings › Accessibility › Spoken Content › Voices</span>, pick English and download an Enhanced or Premium voice. Then choose it in FuelPilot's Settings.</p>
+
+      <h2 id="obd">OBD-II adapters</h2>
+
+      <h3>Which adapters work?</h3>
+      <p>Bluetooth Low Energy (BLE) OBD-II adapters based on the ELM327 chip. FuelPilot is tested with the <strong>Vgate iCar Pro BLE</strong>. iPhones can't use "classic" Bluetooth OBD-II adapters, and Wi-Fi adapters aren't supported, so look for one labeled BLE or Bluetooth 4.0 that says it works with iPhone.</p>
+
+      <h3>How do I connect it?</h3>
+      <p>Plug the adapter into your vehicle's OBD-II port (usually under the dash on the driver's side) and turn the ignition on. In FuelPilot, open the OBD tab, tap <strong>Pair / Connect</strong> and choose your adapter. You don't need to pair it in your iPhone's Bluetooth settings first.</p>
+
+      <h3>The fuel level reading is blank.</h3>
+      <p>Not every vehicle reports fuel level over OBD-II, especially some older diesels. FuelPilot then uses your tank size and learned MPG to estimate it, and still shows live data such as fuel rate where your vehicle provides it.</p>
+
+      <h3>Can I leave the adapter plugged in?</h3>
+      <p>Many adapters sleep when the engine is off, but some keep drawing a little power. If your vehicle sits for days at a time, unplug the adapter or use one with an automatic sleep mode.</p>
+
+      <h2 id="trips">Trips and exports</h2>
+
+      <h3>How are trips recorded?</h3>
+      <p>Every drive you navigate with FuelPilot is saved to your logbook automatically. The free plan shows the last 7 days. Older trips are kept, and they all come back if you upgrade to Pro.</p>
+
+      <h3>How do I export a mileage log or IFTA report?</h3>
+      <p>In the Trips tab, tap <strong>Export</strong>, choose a mileage log, fuel expense report or IFTA summary, and pick the period. You get a spreadsheet (CSV) file and a private download link that works for 24 hours, so you can email it or open it on a computer. Exports are part of FuelPilot Pro.</p>
+
+      <h3>How does the IFTA summary work out miles by state?</h3>
+      <p>From the GPS path of the trips you navigated with FuelPilot, checked against official state boundaries, and fuel by state from where your receipts were scanned. Drives you didn't navigate with FuelPilot aren't included, so check the totals before you file.</p>
+
+      <h2 id="receipts">Receipts</h2>
+
+      <h3>How do I log a fuel-up?</h3>
+      <p>Tap <strong>Add receipt</strong> and take a photo of the receipt. With FuelPilot Pro, the station, gallons, price and total are read from the photo for you to check and confirm. You can always type the details in yourself.</p>
+
+      <h3>Can I stop receipt photos being read by AI?</h3>
+      <p>Yes. Turn off <strong>Read receipts with AI</strong> in <span class="path">Settings › Receipts</span>. Photos are then only stored with your receipt, and you enter the numbers yourself.</p>
+
+      <h2 id="pro">FuelPilot Pro</h2>
+
+      <h3>What does Pro include, and how much is it?</h3>
+      <p>Fuel Autopilot with prices along your whole route, receipt reading, your full logbook with exports, OBD-II live data, and more than one vehicle with towing mode. It's $7.99 a month or $49.99 a year in the US, and starts with a 7-day free trial.</p>
+
+      <h3>How do I cancel?</h3>
+      <p>On your iPhone, open <span class="path">Settings › [your name] › Subscriptions</span>, tap FuelPilot and then <strong>Cancel Subscription</strong>. Cancel at least 24 hours before your trial or billing period ends to avoid the next charge. Deleting the app or your account doesn't cancel the subscription.</p>
+
+      <h3>I got a new phone and Pro is gone.</h3>
+      <p>Sign in to FuelPilot, open <span class="path">Settings › Subscription</span> and tap <strong>Restore Purchases</strong>. Make sure your phone is signed in to the same Apple Account you used to subscribe.</p>
+
+      <h3>How do I get a refund?</h3>
+      <p>Apple handles payments and refunds for the App Store. Request one at <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+
+      <h2 id="account">Your account</h2>
+
+      <h3>I forgot my password.</h3>
+      <p>On the sign-in screen, tap <strong>Forgot password?</strong> and follow the email we send you.</p>
+
+      <h3>How do I delete my account?</h3>
+      <p>In the app, open <span class="path">Settings › Profile › Delete account</span>. This permanently deletes your account and all its data. If you can't sign in, see <a href="/delete-account/">Delete your account</a>.</p>
+
+      <div class="contact-box" id="contact">
+        <h2>Still need help?</h2>
+        <p>Email us and include your phone model, iOS version and, for connection problems, your OBD-II adapter's name.</p>
+        <p class="email"><a href="mailto:support@fuelpilotapp.com">support@fuelpilotapp.com</a></p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <nav class="footer-links" aria-label="Footer">
+        <a href="/support/">Support</a>
+        <a href="/privacy/">Privacy policy</a>
+        <a href="/terms/">Terms of use</a>
+        <a href="/delete-account/">Delete your account</a>
+      </nav>
+      <p>Questions? <a href="mailto:support@fuelpilotapp.com">support@fuelpilotapp.com</a></p>
+      <p>&copy; 2026 FuelPilot</p>
+    </div>
+  </footer>
+</body>
+</html>

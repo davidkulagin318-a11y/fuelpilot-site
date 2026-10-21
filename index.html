@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FuelPilot: navigation that plans your fuel stops</title>
+  <meta name="description" content="FuelPilot is navigation that plans your fuel stops. It checks prices along your route, picks the cheapest stop you can reach and logs every trip for tax time.">
+  <link rel="canonical" href="https://fuelpilotapp.com/">
+  <meta name="theme-color" content="#e8f2fa" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0f2335" media="(prefers-color-scheme: dark)">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="FuelPilot">
+  <meta property="og:title" content="FuelPilot: navigation that plans your fuel stops">
+  <meta property="og:description" content="Checks fuel prices along your route, picks the cheapest stop you can reach and logs every trip for tax time.">
+  <meta property="og:url" content="https://fuelpilotapp.com/">
+  <meta property="og:image" content="https://fuelpilotapp.com/assets/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" href="/assets/favicon-48.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="preload" href="/assets/fonts/overpass-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="/" aria-label="FuelPilot home">
+        <img src="/assets/icon-128.png" width="36" height="36" alt="">
+        FuelPilot
+      </a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="/support/">Support</a>
+        <a href="/privacy/">Privacy</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="wrap">
+        <div class="hero-copy">
+          <h1>Navigation that plans your fuel stops.</h1>
+          <p class="lede">FuelPilot keeps an eye on your range, checks fuel prices along your route and takes you to the cheapest stop you can reach. Made for diesel pickups, RVs and anyone who logs miles for work.</p>
+          <p class="availability">
+            <span class="soon">Coming soon to the App Store</span>
+            <span>Free to download. Pro starts with a 7-day free trial.</span>
+          </p>
+        </div>
+
+        <figure class="sign" role="img" aria-label="Example sign: fuel stop at Exit 33, Osceola, diesel $3.39, in 142 miles, arriving with a quarter tank.">
+          <div class="sign-board" aria-hidden="true">
+            <div class="sign-tab">Exit 33</div>
+            <div class="sign-face">
+              <div class="sign-top">
+                <svg class="pump" viewBox="0 0 64 64" fill="none">
+                  <rect x="10" y="8" width="28" height="46" rx="3.5" fill="#fff"/>
+                  <rect x="15.5" y="14" width="17" height="13" rx="2" fill="var(--sign)"/>
+                  <rect x="6" y="52" width="36" height="6" rx="1.5" fill="#fff"/>
+                  <path d="M38 21h4a3 3 0 0 1 3 3v18a4.5 4.5 0 0 0 9 0V22" stroke="#fff" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+                  <rect x="50" y="9" width="8" height="13" rx="2" fill="#fff"/>
+                  <path d="M51 12.5l-4.5 3" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+                </svg>
+                <div>
+                  <p class="sign-title">Fuel stop</p>
+                  <p class="sign-place">Osceola</p>
+                </div>
+              </div>
+              <p class="sign-price"><span class="fuel">Diesel</span><span class="amount">$3.39<small>9</small></span></p>
+              <p class="sign-note">In 142 miles. You'll arrive with a quarter tank.</p>
+            </div>
+          </div>
+          <div class="posts" aria-hidden="true"><span></span><span></span></div>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="how">
+      <div class="wrap">
+        <h2 id="how">How a drive works</h2>
+        <ol class="route">
+          <li>
+            <span class="stop" aria-hidden="true">1</span>
+            <h3>Pick a destination</h3>
+            <p>Search for a place or drop a pin. You get turn-by-turn directions with spoken guidance.</p>
+          </li>
+          <li>
+            <span class="stop" aria-hidden="true">2</span>
+            <h3>FuelPilot watches your range</h3>
+            <p>It knows your tank size and MPG, or reads the real fuel level from an OBD-II adapter.</p>
+          </li>
+          <li>
+            <span class="stop" aria-hidden="true">3</span>
+            <h3>It picks the fuel stop</h3>
+            <p>Before you run low, it finds the cheapest station on your route that you can reach with your reserve left, and adds it to the trip.</p>
+          </li>
+          <li>
+            <span class="stop" aria-hidden="true">4</span>
+            <h3>The trip logs itself</h3>
+            <p>Miles, time, fuel and stops go into your logbook, ready for your records or your accountant.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="features">
+      <div class="wrap">
+        <h2 id="features">What's in the app</h2>
+        <div class="features">
+          <div class="feature">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3s6 6.4 6 11a6 6 0 0 1-12 0c0-4.6 6-11 6-11z"/><path d="M9.5 14.5a2.5 2.5 0 0 0 2.5 2.5"/></svg>
+            <div>
+              <h3>Fuel Autopilot</h3>
+              <p>Live prices along your whole route and the cheapest stop you can reach, picked before you need it. You choose your reserve and how much a detour has to save.</p>
+            </div>
+          </div>
+          <div class="feature">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 18-7-4-7 4z"/></svg>
+            <div>
+              <h3>Turn-by-turn navigation</h3>
+              <p>Spoken directions, rerouting and weather on the map. Directions keep going with the screen off or while you're in another app.</p>
+            </div>
+          </div>
+          <div class="feature">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-6.2 7-11.2A7 7 0 0 0 5 9.8C5 14.8 12 21 12 21z"/><circle cx="12" cy="10" r="2.5"/></svg>
+            <div>
+              <h3>Cheapest gas near you</h3>
+              <p>One tap finds the lowest price within the distance you set, from 1 to 20 miles.</p>
+            </div>
+          </div>
+          <div class="feature">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4.5A1.5 1.5 0 0 1 6.5 3H19v15H6.5A1.5 1.5 0 0 0 5 19.5z"/><path d="M5 19.5A1.5 1.5 0 0 0 6.5 21H19v-3"/><path d="M9 7.5h6M9 11h4"/></svg>
+            <div>
+              <h3>A logbook that writes itself</h3>
+              <p>Every navigated drive is saved with its route map, miles, time, MPG and stops. Tag trips business or personal and add notes.</p>
+            </div>
+          </div>
+          <div class="feature">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12v18l-3-2-3 2-3-2-3 2z"/><path d="M9 8h6M9 12h6M9 16h3"/></svg>
+            <div>
+              <h3>Receipts read for you</h3>
+              <p>Take a photo of the receipt and the gallons, price and total fill themselves in. Prefer to type them? Turn photo reading off in Settings.</p>
+            </div>
+          </div>
+          <div class="feature">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 3h7l5 5v13H7z"/><path d="M14 3v5h5"/><path d="M10 13h6M10 17h6M13 13v4"/></svg>
+            <div>
+              <h3>Ready for tax time</h3>
+              <p>Export a mileage log, a fuel expense report or a quarterly IFTA summary with miles and gallons by state, as a spreadsheet file.</p>
+            </div>
+          </div>
+          <div class="feature">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 8h17l-2.2 9H5.7z"/><path d="M7.5 11.5h.01M10.5 11.5h.01M13.5 11.5h.01M16.5 11.5h.01M9 14.5h.01M12 14.5h.01M15 14.5h.01"/></svg>
+            <div>
+              <h3>OBD-II live data</h3>
+              <p>Plug in a Bluetooth adapter for the real fuel level and MPG from your engine. It also reads and clears check engine codes.</p>
+            </div>
+          </div>
+          <div class="feature">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.5 6.5h11v9h-11z"/><path d="M13.5 9.5h4l3 3.5v2.5h-7"/><circle cx="6.5" cy="17.5" r="1.8"/><circle cx="16.5" cy="17.5" r="1.8"/></svg>
+            <div>
+              <h3>Every vehicle, towing included</h3>
+              <p>Each truck gets its own tank size and MPG, and towing mode adjusts the numbers when there's a trailer behind you.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="plans">
+      <div class="wrap">
+        <h2 id="plans">Free and Pro</h2>
+        <p class="section-intro">Navigation and nearby prices are free. Pro adds the parts that save money and paperwork on every trip.</p>
+        <div class="plans-wrap">
+          <table class="plans">
+            <thead>
+              <tr>
+                <th scope="col"><span class="visually-hidden">Feature</span></th>
+                <th scope="col"><span class="plan-name">Free</span><span class="plan-price">$0</span></th>
+                <th scope="col" class="pro"><span class="plan-name">Pro</span><span class="plan-price">$7.99 a month or $49.99 a year</span></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">Turn-by-turn navigation</th><td class="yes"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Included"><path d="M5 12.5l4.5 4.5L19 7"/></svg></td><td class="yes pro"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Included"><path d="M5 12.5l4.5 4.5L19 7"/></svg></td></tr>
+              <tr><th scope="row">Cheapest gas near you</th><td class="yes"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Included"><path d="M5 12.5l4.5 4.5L19 7"/></svg></td><td class="yes pro"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Included"><path d="M5 12.5l4.5 4.5L19 7"/></svg></td></tr>
+              <tr><th scope="row">Trip logbook</th><td>Last 7 days</td><td class="pro">Every trip</td></tr>
+              <tr><th scope="row">Fuel Autopilot with prices along your route</th><td class="no"><span aria-hidden="true">&ndash;</span><span class="visually-hidden">Not included</span></td><td class="yes pro"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Included"><path d="M5 12.5l4.5 4.5L19 7"/></svg></td></tr>
+              <tr><th scope="row">Receipt photo reading</th><td class="no"><span aria-hidden="true">&ndash;</span><span class="visually-hidden">Not included</span></td><td class="yes pro"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Included"><path d="M5 12.5l4.5 4.5L19 7"/></svg></td></tr>
+              <tr><th scope="row">Mileage, expense and IFTA exports</th><td class="no"><span aria-hidden="true">&ndash;</span><span class="visually-hidden">Not included</span></td><td class="yes pro"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Included"><path d="M5 12.5l4.5 4.5L19 7"/></svg></td></tr>
+              <tr><th scope="row">OBD-II live data</th><td class="no"><span aria-hidden="true">&ndash;</span><span class="visually-hidden">Not included</span></td><td class="yes pro"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Included"><path d="M5 12.5l4.5 4.5L19 7"/></svg></td></tr>
+              <tr><th scope="row">More than one vehicle, towing mode</th><td class="no"><span aria-hidden="true">&ndash;</span><span class="visually-hidden">Not included</span></td><td class="yes pro"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Included"><path d="M5 12.5l4.5 4.5L19 7"/></svg></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="plans-note">Pro starts with a 7-day free trial and renews automatically until you cancel in your App Store account settings. Cancel at least a day before the trial or a billing period ends to avoid the next charge. Prices are in US dollars and may differ by country.</p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="privacy-promise">
+      <div class="wrap promise">
+        <h2 id="privacy-promise">Your drives stay yours</h2>
+        <div>
+          <p>No ads, no tracking, and your data is never sold. You can delete your account and everything in it from the app at any time.</p>
+          <p style="margin-top: 14px"><a href="/privacy/">Read the privacy policy</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <nav class="footer-links" aria-label="Footer">
+        <a href="/support/">Support</a>
+        <a href="/privacy/">Privacy policy</a>
+        <a href="/terms/">Terms of use</a>
+        <a href="/delete-account/">Delete your account</a>
+      </nav>
+      <p>Questions? <a href="mailto:support@fuelpilotapp.com">support@fuelpilotapp.com</a></p>
+      <p>&copy; 2026 FuelPilot</p>
+    </div>
+  </footer>
+</body>
+</html>
