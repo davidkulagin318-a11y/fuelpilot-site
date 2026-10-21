@@ -74,7 +74,7 @@ FOOT = """    </div>
         <a href="/delete-account/">Delete your account</a>
       </nav>
       <p>Questions? <a href="mailto:support@fuelpilotapp.com">support@fuelpilotapp.com</a></p>
-      <p>&copy; 2026 FuelPilot</p>
+      <p>&copy; 2026 David Kulagin</p>
     </div>
   </footer>
 </body>
