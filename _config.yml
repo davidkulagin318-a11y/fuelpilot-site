@@ -1,0 +1,7 @@
+# GitHub Pages settings. Publish /.well-known/security.txt (folders that start
+# with a dot are skipped otherwise) and keep the repo's own notes off the site.
+include:
+  - .well-known
+exclude:
+  - README.md
+  - _build

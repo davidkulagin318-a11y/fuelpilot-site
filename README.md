@@ -7,7 +7,7 @@ account deletion. Plain HTML and CSS, hosted free on GitHub Pages.
 
 | URL | File | Used for |
 |---|---|---|
-| `/` | `index.html` | Home page |
+| `/` | built from `_build/pages/home.html` | Home page |
 | `/privacy/` | built from `_build/pages/privacy.html` | App Store Connect and Play Console privacy policy URL; `EXPO_PUBLIC_PRIVACY_URL` in the app |
 | `/support/` | built from `_build/pages/support.html` | App Store Connect support URL |
 | `/terms/` | built from `_build/pages/terms.html` | Terms of use (Apple's standard EULA still applies to App Store purchases) |
@@ -15,12 +15,16 @@ account deletion. Plain HTML and CSS, hosted free on GitHub Pages.
 
 ## Editing
 
-- The home page is `index.html`; edit it directly.
-- The other pages share a header and footer. Edit the body in `_build/pages/`,
-  then run `python3 _build/build.py` from this folder to rebuild them.
-- Styles are in `assets/site.css`. The font is Overpass (SIL Open Font
-  License, `assets/fonts/OFL.txt`), served from this site so pages load
-  nothing from other websites.
+- Every page shares one header and footer. Edit the body in `_build/pages/`
+  (`home.html` is the home page), then run `python3 _build/build.py` from this
+  folder to rebuild them all.
+- Styles are in `assets/site.css`. The look matches the app: graphite, the
+  logo's blue, Barlow Semi Condensed (SIL Open Font License,
+  `assets/fonts/OFL.txt`), squared shapes.
+- The site loads nothing from other websites and runs no scripts. Each page
+  carries a Content-Security-Policy that enforces this (set in `build.py`), so
+  don't add inline `style="..."` attributes or `<script>` tags; they won't run.
+- `.well-known/security.txt` has an `Expires` date. Move it forward once a year.
 
 GitHub Pages leaves `_build/` out of the live site because the folder name
 starts with an underscore.
@@ -42,8 +46,8 @@ DNS at Porkbun for fuelpilotapp.com:
 
 ## When the app is live
 
-Swap the "Coming soon to the App Store" pill on the home page for Apple's
+Swap the "Coming soon to the App Store" pill in `_build/pages/home.html` for Apple's
 "Download on the App Store" badge, linked to
 `https://apps.apple.com/app/id6823442691`, and add
-`<meta name="apple-itunes-app" content="app-id=6823442691">` to the home
-page's `<head>` for Safari's app banner.
+`<meta name="apple-itunes-app" content="app-id=6823442691">` to `HEAD` in
+`_build/build.py` for Safari's app banner.
