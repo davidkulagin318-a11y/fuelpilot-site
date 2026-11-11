@@ -17,7 +17,7 @@ SITE = {
     'terms': ('terms/index.html', 'Terms of use | FuelPilot',
               'The terms for using the FuelPilot app, FuelPilot Pro and this website.', None),
     'support': ('support/index.html', 'Support | FuelPilot',
-                'Help with FuelPilot: fuel prices, navigation, OBD-II adapters, exports, receipts and FuelPilot Pro.', 'support'),
+                'Help with FuelPilot: fuel prices, navigation, exports, receipts and FuelPilot Pro.', 'support'),
     'delete-account': ('delete-account/index.html', 'Delete your account | FuelPilot',
                        'How to delete your FuelPilot account and data, in the app or by email.', None),
     '404': ('404.html', 'Page not found | FuelPilot', 'This page does not exist.', None),
