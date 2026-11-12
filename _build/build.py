@@ -47,6 +47,7 @@ HEAD = """<!doctype html>
   <title>{title}</title>
   <meta name="description" content="{description}">
 {canonical}  <meta name="theme-color" content="#0f0f10">
+  <meta name="color-scheme" content="dark">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="FuelPilot">
   <meta property="og:title" content="{title}">

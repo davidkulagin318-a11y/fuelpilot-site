@@ -9,6 +9,7 @@
   <meta name="description" content="FuelPilot is navigation that plans your fuel stops. It checks prices along your route, picks the cheapest stops you can reach and logs every trip for tax time.">
   <link rel="canonical" href="https://fuelpilotapp.com/">
   <meta name="theme-color" content="#0f0f10">
+  <meta name="color-scheme" content="dark">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="FuelPilot">
   <meta property="og:title" content="FuelPilot: navigation that plans your fuel stops">
@@ -41,61 +42,68 @@
   </header>
 
   <main id="main">
-    <section class="hero night">
-      <div class="wrap">
+    <section class="hero">
+      <div class="wrap hero-grid">
         <div class="hero-copy">
-          <h1>Navigation that plans your <em>fuel stops.</em></h1>
+          <h1>Navigation that plans your fuel stops</h1>
           <p class="lede">FuelPilot keeps an eye on your range, checks fuel prices along your route and takes you to the cheapest stop you can reach. Made for diesel pickups, RVs and anyone who logs miles for work.</p>
-          <p class="availability">
-            <span class="soon">Coming soon to the App Store</span>
-            <span class="fine">Free to download. Pro starts with a 7-day free trial.</span>
-          </p>
+          <div class="hero-actions">
+            <span class="store-soon">Coming soon to the App Store</span>
+            <a class="quiet-link" href="#plans">Compare Free and Pro <span aria-hidden="true">→</span></a>
+          </div>
+          <p class="fine">Free to download. Pro starts with a 7-day free trial.</p>
         </div>
 
-        <figure class="sheet" role="img" aria-label="Example of a planned fuel stop: Osceola, Exit 33, diesel $3.39 a gallon, in 142 miles. Put in 14 gallons, arrive with a quarter tank, Autopilot saves $11.40.">
-          <div class="map" aria-hidden="true">
-            <svg viewBox="0 0 440 230">
-              <path class="grid-line" d="M0 57.5h440M0 115.5h440M0 172.5h440M73.5 0v230M146.5 0v230M220.5 0v230M293.5 0v230M366.5 0v230"/>
-              <path class="road" d="M-10 150C80 140 150 190 240 180s150-70 210-60"/>
-              <path class="road" d="M120-10c10 60-20 110 0 160s50 60 60 90"/>
-              <path class="casing" d="M44 196C70 150 120 140 160 120s70-20 100-48 70-36 132-40"/>
-              <path class="route" d="M44 196C70 150 120 140 160 120s70-20 100-48 70-36 132-40"/>
-              <circle class="puck" cx="44" cy="196" r="8"/>
-              <circle class="dest" cx="392" cy="32" r="7"/>
-            </svg>
-            <span class="pin dim pin-a">3.61</span>
-            <span class="pin pin-b">3.52</span>
-            <span class="pin dim pin-c">3.58</span>
-            <span class="pin stop pin-stop"><svg viewBox="0 0 16 21"><path class="drop-fill" d="M8 0s8 8.6 8 13.4A7.8 7.8 0 0 1 8 21a7.8 7.8 0 0 1-8-7.6C0 8.6 8 0 8 0z"/></svg>3.39</span>
-          </div>
-          <div class="gauge" aria-hidden="true">
-            <span>Range <b>212 mi</b></span>
-            <span>Tank <b>⅝</b></span>
-            <span>Next fuel <b>142 mi</b></span>
-          </div>
-          <div class="sheet-body" aria-hidden="true">
-            <div class="stop-card">
-              <span class="tile"><svg viewBox="0 0 16 21"><path class="drop-fill" d="M8 0s8 8.6 8 13.4A7.8 7.8 0 0 1 8 21a7.8 7.8 0 0 1-8-7.6C0 8.6 8 0 8 0z"/></svg></span>
-              <span class="stop-name">Osceola</span>
-              <span class="stop-price">$3.39<small>9</small></span>
-              <span class="stop-meta">Exit 33 · Diesel</span>
+        <div class="hero-visual">
+          <div class="phone" role="img" aria-label="FuelPilot route preview: a fuel stop in Osceola, Exit 33, diesel $3.39 a gallon. Put in 14 gallons, arrive with a quarter tank, Autopilot saves $11.40.">
+            <div class="screen" aria-hidden="true">
+              <svg class="phone-map" viewBox="0 0 320 680">
+                <path class="grid-line" d="M0 64h320M0 128h320M0 192h320M0 256h320M0 320h320M0 384h320M64 0v680M128 0v680M192 0v680M256 0v680"/>
+                <path class="road" d="M-10 240c80-10 150 50 340 22"/>
+                <path class="road" d="M196 90c-14 110 50 230 22 330"/>
+                <path class="road" d="M-10 336c100 20 230-18 340 16"/>
+                <path class="road minor" d="M110 90c-6 60 20 120 6 200"/>
+                <path class="casing" d="M70 372c26-42 48-60 80-80s62-44 76-92 18-54 30-72"/>
+                <path class="route" d="M70 372c26-42 48-60 80-80s62-44 76-92 18-54 30-72"/>
+                <circle class="dest" cx="256" cy="128" r="7"/>
+                <circle class="puck" cx="70" cy="372" r="9"/>
+              </svg>
+              <span class="island"></span>
+              <div class="cluster">
+                <span>Range <b>212 mi</b></span>
+                <span>Tank <b>⅝</b></span>
+                <span>Next fuel <b>142 mi</b></span>
+              </div>
+              <span class="pin dim pos-a">3.61</span>
+              <span class="pin pos-b">3.52</span>
+              <span class="pin dim pos-c">3.58</span>
+              <span class="pin stop pos-stop"><svg viewBox="0 0 16 21"><path d="M8 0s8 8.6 8 13.4A7.8 7.8 0 0 1 8 21a7.8 7.8 0 0 1-8-7.6C0 8.6 8 0 8 0z"/></svg>3.39</span>
+              <div class="psheet">
+                <span class="grabber"></span>
+                <div class="stop-card">
+                  <span class="tile"><svg viewBox="0 0 16 21"><path d="M8 0s8 8.6 8 13.4A7.8 7.8 0 0 1 8 21a7.8 7.8 0 0 1-8-7.6C0 8.6 8 0 8 0z"/></svg></span>
+                  <span class="stop-name">Osceola</span>
+                  <span class="stop-price">$3.39<small>9</small></span>
+                  <span class="stop-meta">Exit 33 · Diesel</span>
+                </div>
+                <div class="sheet-rows">
+                  <span><small>Put in</small>14 gal</span>
+                  <span><small>Arrive</small>¼</span>
+                  <span><small>Detour</small>2 min</span>
+                </div>
+                <p class="saves">Autopilot saves $11.40</p>
+                <span class="go">Start</span>
+              </div>
             </div>
-            <ul class="sheet-rows">
-              <li><b>14 gal</b>Put in</li>
-              <li><b>¼</b>Arrive</li>
-              <li><b>$48</b>Fuel for the trip</li>
-            </ul>
-            <p class="saves">Autopilot saves $11.40</p>
           </div>
-          <figcaption>Example. Prices and savings depend on your route.</figcaption>
-        </figure>
+        </div>
       </div>
     </section>
 
     <section class="section" aria-labelledby="how">
       <div class="wrap">
         <h2 id="how">How a drive works</h2>
-        <ol class="route-steps">
+        <ol class="steps">
           <li>
             <span class="step-n" aria-hidden="true">1</span>
             <h3>Pick a destination</h3>
@@ -121,52 +129,46 @@
     </section>
 
     <section class="section" aria-labelledby="features">
-      <div class="wrap">
-        <h2 id="features">What's in the app</h2>
+      <div class="wrap split">
+        <div class="split-head">
+          <h2 id="features">What's in the app</h2>
+          <p class="section-intro">Navigation, fuel prices and your trip records in one place. Features marked Pro come with FuelPilot Pro.</p>
+        </div>
         <div class="features">
           <div class="feature">
-            <span class="tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3s6 6.4 6 11a6 6 0 0 1-12 0c0-4.6 6-11 6-11z"/><path d="M9.5 14.5a2.5 2.5 0 0 0 2.5 2.5"/></svg></span>
-            <h3>Fuel Autopilot <span class="tag">Pro</span></h3>
+            <h3><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3s6 6.4 6 11a6 6 0 0 1-12 0c0-4.6 6-11 6-11z"/></svg>Fuel Autopilot <span class="tag">Pro</span></h3>
             <p>Every fuel stop for the trip, planned up front from prices along your whole route. You choose your reserve, how far out of the way you'll go and how much a detour has to save.</p>
           </div>
           <div class="feature">
-            <span class="tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 18-7-4-7 4z"/></svg></span>
-            <h3>Turn-by-turn navigation</h3>
-            <p>Spoken directions, rerouting and weather on the map, with the screen off or in another app. Avoid tolls or highways, and find a restroom, food, a rest area or a truck stop in one tap.</p>
+            <h3><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 18-7-4-7 4z"/></svg>Turn-by-turn navigation</h3>
+            <p>Spoken directions, rerouting and weather on the map. Avoid tolls or highways, and find a restroom, food, a rest area or a truck stop in one tap.</p>
           </div>
           <div class="feature">
-            <span class="tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-6.2 7-11.2A7 7 0 0 0 5 9.8C5 14.8 12 21 12 21z"/><circle cx="12" cy="10" r="2.5"/></svg></span>
-            <h3>Cheapest gas near you</h3>
+            <h3><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.2 7-11.2A7 7 0 0 0 5 9.8C5 14.8 12 21 12 21z"/><circle cx="12" cy="10" r="2.5"/></svg>Cheapest gas near you</h3>
             <p>Tap Get gas to find the lowest price within the distance you set, from 1 to 20 miles.</p>
           </div>
           <div class="feature">
-            <span class="tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 12.5V5a1.5 1.5 0 0 1 1.5-1.5h7.5l8 8-9 9z"/><circle cx="8" cy="8" r="1.4"/></svg></span>
-            <h3>The price you actually pay</h3>
+            <h3><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 12.5V5a1.5 1.5 0 0 1 1.5-1.5h7.5l8 8-9 9z"/><circle cx="8" cy="8" r="1.4"/></svg>The price you actually pay</h3>
             <p>Enter your fuel discounts once and every pick plans on your price. Costco, Sam's Club, BJ's and cardlock stations only show up if you have a membership.</p>
           </div>
           <div class="feature">
-            <span class="tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4.5A1.5 1.5 0 0 1 6.5 3H19v15H6.5A1.5 1.5 0 0 0 5 19.5z"/><path d="M5 19.5A1.5 1.5 0 0 0 6.5 21H19v-3"/><path d="M9 7.5h6M9 11h4"/></svg></span>
-            <h3>A logbook that writes itself</h3>
+            <h3><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 17a8 8 0 1 1 16 0"/><path d="M12 17l4-6"/></svg>Learns your real MPG</h3>
+            <p>FuelPilot works out your real MPG from the gallons you put in and the miles you drove, so your range keeps getting more accurate. Nothing to plug in.</p>
+          </div>
+          <div class="feature">
+            <h3><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4.5A1.5 1.5 0 0 1 6.5 3H19v15H6.5A1.5 1.5 0 0 0 5 19.5z"/><path d="M5 19.5A1.5 1.5 0 0 0 6.5 21H19v-3"/></svg>A logbook that writes itself</h3>
             <p>Every navigated drive is saved with its route map, miles, time, MPG, stops and what you saved on fuel. Tag trips business or personal and add notes.</p>
           </div>
           <div class="feature">
-            <span class="tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12v18l-3-2-3 2-3-2-3 2z"/><path d="M9 8h6M9 12h6M9 16h3"/></svg></span>
-            <h3>Receipts read for you <span class="tag">Pro</span></h3>
+            <h3><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h12v18l-3-2-3 2-3-2-3 2z"/><path d="M9 8h6M9 12h6"/></svg>Receipts read for you <span class="tag">Pro</span></h3>
             <p>Take a photo of the receipt and the station, gallons, price and total fill themselves in. Prefer to type them? Turn photo reading off in Settings.</p>
           </div>
           <div class="feature">
-            <span class="tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 17a8 8 0 1 1 16 0"/><path d="M12 17l4-6"/><path d="M12 6.5V9M5.5 13H8M16 13h2.5"/></svg></span>
-            <h3>Learns your real MPG</h3>
-            <p>Fill up, drive, fill up again. FuelPilot works out your real MPG from the gallons you put in and the miles you drove, so your range keeps getting more accurate. Nothing to plug in.</p>
-          </div>
-          <div class="feature">
-            <span class="tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 3h7l5 5v13H7z"/><path d="M14 3v5h5"/><path d="M10 13h6M10 17h6M13 13v4"/></svg></span>
-            <h3>Ready for tax time <span class="tag">Pro</span></h3>
+            <h3><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h7l5 5v13H7z"/><path d="M14 3v5h5M10 13h6M10 17h6"/></svg>Ready for tax time <span class="tag">Pro</span></h3>
             <p>Export a mileage log, a fuel expense report or a quarterly IFTA summary with miles and gallons by state, as a spreadsheet file.</p>
           </div>
           <div class="feature">
-            <span class="tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.5 6.5h11v9h-11z"/><path d="M13.5 9.5h4l3 3.5v2.5h-7"/><circle cx="6.5" cy="17.5" r="1.8"/><circle cx="16.5" cy="17.5" r="1.8"/></svg></span>
-            <h3>Every vehicle, towing included <span class="tag">Pro</span></h3>
+            <h3><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2.5 6.5h11v9h-11z"/><path d="M13.5 9.5h4l3 3.5v2.5h-7"/><circle cx="6.5" cy="17.5" r="1.8"/><circle cx="16.5" cy="17.5" r="1.8"/></svg>Every vehicle, towing included <span class="tag">Pro</span></h3>
             <p>Each vehicle keeps its own tank size and MPG, and towing mode adjusts your range when there's a trailer behind you.</p>
           </div>
         </div>
@@ -181,7 +183,7 @@
           <div class="plan">
             <h3>Free</h3>
             <p class="price">$0</p>
-            <p class="alt">No card needed.</p>
+            <p class="alt">No card needed</p>
             <ul>
               <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg>Turn-by-turn navigation</li>
               <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg>Cheapest gas near you</li>
@@ -191,9 +193,9 @@
             </ul>
           </div>
           <div class="plan pro">
-            <h3>Pro</h3>
+            <h3>Pro <span class="tag">7-day free trial</span></h3>
             <p class="price">$49.99 <span>a year</span></p>
-            <p class="alt">or $7.99 a month. Starts with a 7-day free trial.</p>
+            <p class="alt">or $7.99 a month</p>
             <ul>
               <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg>Everything in Free</li>
               <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg>Fuel Autopilot: every stop picked and added for you</li>
@@ -226,9 +228,11 @@
     </section>
 
     <section class="section" aria-labelledby="privacy-promise">
-      <div class="wrap promise">
-        <h2 id="privacy-promise">Your drives stay yours</h2>
-        <div>
+      <div class="wrap split">
+        <div class="split-head">
+          <h2 id="privacy-promise">Your drives stay yours</h2>
+        </div>
+        <div class="promise">
           <p>No ads, no tracking, and your data is never sold. You can delete your account and everything in it from the app at any time.</p>
           <p><a href="/privacy/">Read the privacy policy</a></p>
         </div>
