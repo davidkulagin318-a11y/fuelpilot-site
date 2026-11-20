@@ -45,7 +45,7 @@
   <main id="main" class="page">
     <div class="wrap">
       <h1>Privacy policy</h1>
-      <p class="meta">Effective November 11, 2026</p>
+      <p class="meta">Effective November 20, 2026</p>
 
       <p class="summary">The short version: your data is there to power your own fuel planning and logbook. We don't sell it, we don't show ads, and we don't track you across other apps or websites.</p>
 
@@ -61,7 +61,7 @@
         <li><a href="#contact">Contact</a></li>
       </ul>
 
-      <p>FuelPilot ("the app") is a fuel planning, navigation and trip-logging app made by David Kulagin ("we", "us"). This policy explains what data the app collects, why, where it goes, and the choices you have.</p>
+      <p>FuelPilot ("the app") is a fuel planning, navigation and trip-logging app made by Ghost Systems LLC ("we", "us"). This policy explains what data the app collects, why, where it goes, and the choices you have.</p>
 
       <h2 id="collect">What we collect</h2>
 
@@ -84,16 +84,16 @@
       <p>Places you save to your address book, such as Home and Work, are stored with your account so they're there on any device. The list of places you recently searched for is kept only on your phone. You can remove either at any time in <span class="path">Settings › Address book</span>.</p>
 
       <h3>Vehicle data</h3>
-      <p>Vehicle details you enter, such as year, make, model, tank size and MPG, and the fuel level you set. FuelPilot learns your real MPG from the gallons on your fill-ups and the GPS miles you drove between them. The app doesn't connect to your vehicle and doesn't use Bluetooth.</p>
+      <p>Vehicle details you enter, such as year, make, model, tank size and MPG, and the fuel level you set. For an RV or truck, also the size you enter: height, weight, length, axles, trailers and any hazardous materials class. FuelPilot learns your real MPG from the gallons on your fill-ups and the GPS miles you drove between them. The app doesn't connect to your vehicle and doesn't use Bluetooth.</p>
 
       <h3>Station reports</h3>
       <p>If you report a station as closed or report a different price at the pump, the report is saved with your account and, if location is on, where your phone was at that moment, which is used to check that the report came from the station. Other drivers never see who made a report.</p>
 
       <h3>Settings</h3>
-      <p>Preferences such as units, theme, Autopilot settings, fuel memberships and discounts, stored on your phone, with your account, or both. Your sign-in session is kept in your phone's secure storage (the iOS Keychain or Android Keystore).</p>
+      <p>Preferences such as units, theme, Autopilot settings, Big Rig mode, fuel memberships and discounts, stored on your phone, with your account, or both. Your sign-in session is kept in your phone's secure storage (the iOS Keychain or Android Keystore).</p>
 
       <h3>Purchases</h3>
-      <p>If you subscribe to FuelPilot Pro, Apple (App Store) or Google (Google Play) handles the payment, and we never see your card or payment details. We receive your subscription status (plan, free trial, renewal and expiry dates) so the app knows which features to unlock.</p>
+      <p>If you subscribe to FuelPilot Pro or FuelPilot Big Rig, Apple (App Store) or Google (Google Play) handles the payment, and we never see your card or payment details. We receive your subscription status (plan, free trial, renewal and expiry dates) so the app knows which features to unlock.</p>
 
       <p>We do <strong>not</strong> collect contacts, messages, browsing history or advertising identifiers, and we don't collect any data for advertising or tracking.</p>
 
@@ -106,18 +106,19 @@
         <li><strong>Supabase</strong> runs our database, sign-in and file storage. Your account, trips, receipts and vehicle data are stored there, protected by rules that let only your account read your records.</li>
         <li><strong>Apple Maps</strong> (iPhone) shows the map, place search and routes. Your search text, your location and the places you navigate between are sent to Apple to show results and work out routes.</li>
         <li><strong>Mapbox</strong> (Android) shows the map, place search and routes. Your search text, your location and the places you navigate between are sent to Mapbox to show results and work out routes.</li>
-        <li><strong>HERE Technologies</strong> provides fuel prices. Points along your planned route, or your current location for "cheapest nearby", are sent through our server to HERE to find stations and prices. HERE doesn't receive your name, email or account details.</li>
-        <li><strong>RevenueCat</strong> manages subscriptions. Your FuelPilot account ID (a random identifier, not your email) and your App Store or Google Play purchase records for FuelPilot are shared with RevenueCat to confirm and keep track of your FuelPilot Pro subscription.</li>
+        <li><strong>HERE Technologies</strong> provides fuel prices and, with FuelPilot Big Rig, truck routes. Points along your planned route, or your current location for "cheapest nearby", are sent through our server to HERE to find stations and prices. With Big Rig, your start, destination and vehicle size are sent the same way so HERE can plan a route your vehicle fits. HERE doesn't receive your name, email or account details.</li>
+        <li><strong>RevenueCat</strong> manages subscriptions. Your FuelPilot account ID (a random identifier, not your email) and your App Store or Google Play purchase records for FuelPilot are shared with RevenueCat to confirm and keep track of your FuelPilot Pro or Big Rig subscription.</li>
+        <li><strong>Resend</strong> delivers the emails we send about your account, such as a password reset code. Your email address and the message are sent through it.</li>
         <li><strong>U.S. National Weather Service</strong> provides the weather shown on the map. Your approximate location is sent to its weather service.</li>
         <li><strong>U.S. Census Bureau (TIGERweb)</strong> is used when you export an IFTA report: points along your trips and receipt locations are checked against official state boundaries to work out miles and fuel per state.</li>
-        <li><strong>Anthropic</strong> reads receipts (FuelPilot Pro). When you scan a receipt, the photo is sent to Anthropic's Claude API to read the numbers on it, and it's used only for that. FuelPilot asks for your permission before the first scan, and you can turn photo reading off at any time in Settings, under Receipts. You then type the details in yourself.</li>
+        <li><strong>Anthropic</strong> reads receipts (FuelPilot Pro and Big Rig). When you scan a receipt, the photo is sent to Anthropic's Claude API to read the numbers on it, and it's used only for that. FuelPilot asks for your permission before the first scan, and you can turn photo reading off at any time in Settings, under Receipts. You then type the details in yourself.</li>
       </ul>
       <p>When you export a report, the file is saved to private storage in your account and shared through a private download link that expires after 24 hours. Exported files are deleted when you delete your account.</p>
 
       <h2 id="retention">Keeping and deleting data</h2>
       <p>Your data is kept while your account exists. You can delete individual trips and receipts in the app at any time.</p>
       <p>You can delete your whole account in the app, in <span class="path">Settings › Profile › Delete account</span>. This permanently removes your account and everything in it from our servers (vehicles, trips, receipts, receipt photos, exports, saved places, station reports, your profile photo and preferences) and clears it from your phone. Deletion is immediate and can't be undone. If you can't get into the app, you can ask us to delete your account by email; see <a href="/delete-account/">Delete your account</a>.</p>
-      <p>Deleting your account doesn't cancel a FuelPilot Pro subscription. Cancel it in your App Store or Google Play subscription settings. Apple or Google, and RevenueCat, keep records of FuelPilot Pro purchases as needed for billing, refunds and tax.</p>
+      <p>Deleting your account doesn't cancel a FuelPilot Pro or Big Rig subscription. Cancel it in your App Store or Google Play subscription settings. Apple or Google, and RevenueCat, keep records of your subscription purchases as needed for billing, refunds and tax.</p>
 
       <h2 id="security">Security</h2>
       <p>Data is sent over encrypted connections (HTTPS) and stored with per-user access rules, so your records can only be read by your signed-in account. Receipt photos and exports are kept in private storage that only your account can open.</p>
@@ -148,7 +149,7 @@
         <a href="/delete-account/">Delete your account</a>
       </nav>
       <p>Questions? <a href="mailto:support@fuelpilotapp.com">support@fuelpilotapp.com</a></p>
-      <p>&copy; 2026 David Kulagin</p>
+      <p>&copy; 2026 Ghost Systems LLC</p>
     </div>
   </footer>
 </body>

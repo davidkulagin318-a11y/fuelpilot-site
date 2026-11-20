@@ -20,9 +20,9 @@ SITE = {
     'privacy': ('privacy/index.html', 'Privacy policy | FuelPilot',
                 'What data the FuelPilot app collects, why, where it goes, and how to delete it.', 'privacy'),
     'terms': ('terms/index.html', 'Terms of use | FuelPilot',
-              'The terms for using the FuelPilot app, FuelPilot Pro and this website.', None),
+              'The terms for using the FuelPilot app, FuelPilot Pro, FuelPilot Big Rig and this website.', None),
     'support': ('support/index.html', 'Support | FuelPilot',
-                'Help with FuelPilot: fuel prices, Autopilot, navigation, exports, receipts and FuelPilot Pro.', 'support'),
+                'Help with FuelPilot: fuel prices, Autopilot, navigation, Big Rig truck routes, exports, receipts and subscriptions.', 'support'),
     'delete-account': ('delete-account/index.html', 'Delete your account | FuelPilot',
                        'How to delete your FuelPilot account and data, in the app or by email.', None),
     '404': ('404.html', 'Page not found | FuelPilot', 'This page does not exist.', None),
@@ -93,7 +93,7 @@ FOOT = """{main_close}
         <a href="/delete-account/">Delete your account</a>
       </nav>
       <p>Questions? <a href="mailto:support@fuelpilotapp.com">support@fuelpilotapp.com</a></p>
-      <p>&copy; 2026 David Kulagin</p>
+      <p>&copy; 2026 Ghost Systems LLC</p>
     </div>
   </footer>
 </body>

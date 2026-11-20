@@ -473,6 +473,7 @@ h1, h2, h3, p { margin: 0; }
 .page ul, .page ol { margin: 12px 0 0; padding-left: 1.3em; }
 .page li + li { margin-top: 8px; }
 .page .path { font-weight: 600; color: var(--text); white-space: nowrap; }
+@media (max-width: 480px) { .page .path { white-space: normal; } }
 
 .page .toc {
   margin: 28px 0 0;
