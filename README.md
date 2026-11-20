@@ -13,6 +13,12 @@ account deletion. Plain HTML and CSS, hosted free on GitHub Pages.
 | `/terms/` | built from `_build/pages/terms.html` | Terms of use (Apple's standard EULA still applies to App Store purchases) |
 | `/delete-account/` | built from `_build/pages/delete-account.html` | Play Console "delete account" URL |
 
+## Tracking links
+
+`/fb`, `/reddit`, `/tt`, `/yt`, `/ig`, `/forum`, `/qr`, `/bigrig` and `/pr` send
+visitors to the App Store with a campaign tag, one per marketing channel. They
+are made by `python3 _build/links.py`; add a link or set the provider ID there.
+
 ## Editing
 
 - Every page shares one header and footer. Edit the body in `_build/pages/`
