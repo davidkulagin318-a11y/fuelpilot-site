@@ -381,6 +381,7 @@ h1, h2, h3, p { margin: 0; }
   max-width: 960px;
 }
 @media (min-width: 760px) { .plan-cards { grid-template-columns: 1fr 1fr; } }
+@media (min-width: 1080px) { .plan-cards { grid-template-columns: repeat(3, 1fr); max-width: none; } }
 .plan {
   padding: 28px;
   background: var(--surface);
@@ -421,6 +422,7 @@ h1, h2, h3, p { margin: 0; }
   border-radius: var(--r-panel);
 }
 .next > div { padding: 28px; }
+.next > div:only-child { grid-column: 1 / -1; }
 .next > div + div { border-top: 1px solid var(--line); }
 @media (min-width: 760px) {
   .next { grid-template-columns: 1fr 1fr; }
