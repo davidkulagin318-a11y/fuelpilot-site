@@ -44,10 +44,10 @@ DNS at Porkbun for fuelpilotapp.com:
 | A | (blank) | 185.199.111.153 |
 | CNAME | www | davidkulagin318-a11y.github.io |
 
-## When the app is live
+## App Store
 
-Swap the "Coming soon to the App Store" pill in `_build/pages/home.html` for Apple's
-"Download on the App Store" badge, linked to
-`https://apps.apple.com/app/id6823442691`, and add
-`<meta name="apple-itunes-app" content="app-id=6823442691">` to `HEAD` in
-`_build/build.py` for Safari's app banner.
+The app is live. The home page's "Download on the App Store" button links to
+`https://apps.apple.com/app/id6823442691`, and every page carries
+`<meta name="apple-itunes-app" content="app-id=6823442691">` (in `HEAD` in
+`_build/build.py`) for Safari's app banner. The phone on the home page is a real
+screenshot, `assets/phone-screen.webp` (960 x 2087).

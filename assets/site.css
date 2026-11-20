@@ -221,18 +221,19 @@ h1, h2, h3, p { margin: 0; }
   align-items: center;
   gap: 16px 28px;
 }
-.store-soon {
+.store-link {
   display: inline-flex;
   align-items: center;
   min-height: 52px;
-  padding: 0 22px;
+  padding: 0 24px;
   border-radius: var(--r-button);
-  background: var(--surface-2);
-  border: 1px solid var(--line-strong);
-  color: var(--text);
+  background: var(--accent);
+  color: var(--on-accent);
   font-weight: 600;
   font-size: 20px;
+  text-decoration: none;
 }
+.store-link:hover { background: #74bfe6; }
 .quiet-link {
   display: inline-flex;
   align-items: center;
@@ -264,11 +265,11 @@ h1, h2, h3, p { margin: 0; }
   .hero-visual { justify-content: center; }
 }
 
-/* The phone: the app's route preview, drawn in code. Fixed size so the
-   map, pins and sheet line up; zoomed down on very small screens. */
+/* The phone: a real screenshot of the app inside a drawn frame. Fixed
+   size; zoomed down on very small screens. */
 .phone {
   width: 340px;
-  height: 700px;
+  height: 716px;
   padding: 10px;
   border-radius: 52px;
   background: #050506;
@@ -280,158 +281,13 @@ h1, h2, h3, p { margin: 0; }
 .screen {
   position: relative;
   width: 320px;
-  height: 680px;
+  height: 696px;
   border-radius: 42px;
   overflow: hidden;
   background: #121213;
 }
-.phone-map { position: absolute; inset: 0; width: 320px; height: 680px; }
-.phone-map .grid-line { stroke: rgba(237, 237, 237, 0.06); stroke-width: 1; fill: none; }
-.phone-map .road { fill: none; stroke: #2a2a2d; stroke-width: 9; stroke-linecap: round; }
-.phone-map .road.minor { stroke-width: 5; }
-.phone-map .casing { fill: none; stroke: #0a0a0b; stroke-width: 12; stroke-linecap: round; stroke-linejoin: round; }
-.phone-map .route { fill: none; stroke: var(--accent); stroke-width: 7; stroke-linecap: round; stroke-linejoin: round; }
-.phone-map .puck { fill: var(--accent); stroke: #fff; stroke-width: 3; }
-.phone-map .dest { fill: var(--text); stroke: var(--ink); stroke-width: 3; }
 
-.island {
-  position: absolute;
-  top: 12px;
-  left: 50%;
-  width: 96px;
-  height: 28px;
-  margin-left: -48px;
-  border-radius: 14px;
-  background: #000;
-}
-.cluster {
-  position: absolute;
-  top: 52px;
-  left: 12px;
-  right: 12px;
-  height: 44px;
-  padding: 0 14px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background: var(--surface);
-  border: 1px solid var(--line);
-  border-radius: var(--r-panel);
-  font-size: 14px;
-  color: var(--text-2);
-}
-.cluster b { color: var(--text); font-weight: 600; font-variant-numeric: tabular-nums; }
-
-.pin {
-  position: absolute;
-  height: 24px;
-  padding: 0 7px;
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
-  border-radius: var(--r-tag);
-  background: var(--surface-2);
-  border: 1px solid var(--line-strong);
-  color: var(--text);
-  font-size: 15px;
-  font-weight: 600;
-  font-variant-numeric: tabular-nums;
-}
-.pin.dim { color: var(--muted); }
-.pin.stop { background: var(--drop); border-color: var(--ink); color: var(--ink); height: 28px; padding: 0 9px; font-size: 16px; }
-.pin.stop svg { width: 11px; height: 14px; fill: var(--ink); }
-.pos-a { left: 30px; top: 168px; }
-.pos-b { left: 214px; top: 292px; }
-.pos-c { left: 16px; top: 284px; }
-.pos-stop { left: 116px; top: 246px; }
-
-.psheet {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  height: 292px;
-  padding: 20px 14px 20px;
-  background: var(--surface);
-  border-top: 1px solid var(--line);
-  border-radius: 20px 20px 0 0;
-}
-.grabber {
-  position: absolute;
-  top: 8px;
-  left: 50%;
-  width: 36px;
-  height: 5px;
-  margin-left: -18px;
-  border-radius: 3px;
-  background: var(--line-strong);
-}
-.stop-card {
-  display: grid;
-  grid-template-columns: 40px 1fr auto;
-  gap: 0 12px;
-  align-items: center;
-  padding: 12px 14px;
-  background: var(--surface-2);
-  border-radius: var(--r-panel);
-}
-.stop-card .tile {
-  grid-row: span 2;
-  width: 40px;
-  height: 40px;
-  border-radius: var(--r-control);
-  background: rgba(238, 217, 138, 0.14);
-  display: grid;
-  place-items: center;
-}
-.stop-card .tile svg { width: 15px; height: 20px; fill: var(--drop); }
-.stop-name { font-size: 19px; font-weight: 600; line-height: 1.25; }
-.stop-meta { grid-column: 2; font-size: 14px; color: var(--text-2); line-height: 1.3; }
-.stop-price {
-  grid-column: 3;
-  grid-row: 1 / span 2;
-  font-size: 30px;
-  line-height: 1;
-  font-weight: 600;
-  font-variant-numeric: tabular-nums;
-}
-.stop-price small { font-size: 0.5em; vertical-align: 0.75em; }
-.sheet-rows {
-  margin-top: 12px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  border: 1px solid var(--line);
-  border-radius: var(--r-control);
-}
-.sheet-rows span {
-  padding: 8px 12px;
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 1.2;
-  font-variant-numeric: tabular-nums;
-}
-.sheet-rows span + span { border-left: 1px solid var(--line); }
-.sheet-rows small { display: block; font-size: 13px; font-weight: 400; color: var(--text-2); }
-.saves {
-  margin-top: 12px;
-  font-size: 16px;
-  font-weight: 500;
-  color: var(--good);
-}
-.go {
-  position: absolute;
-  left: 14px;
-  right: 14px;
-  bottom: 20px;
-  height: 52px;
-  display: grid;
-  place-items: center;
-  border-radius: var(--r-button);
-  background: var(--accent);
-  color: var(--on-accent);
-  font-size: 19px;
-  font-weight: 600;
-}
+.screen img { display: block; width: 320px; height: 696px; }
 
 /* ── Sections ───────────────────────────────────────────── */
 

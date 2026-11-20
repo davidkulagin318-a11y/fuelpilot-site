@@ -46,6 +46,7 @@ HEAD = """<!doctype html>
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <title>{title}</title>
   <meta name="description" content="{description}">
+  <meta name="apple-itunes-app" content="app-id=6823442691">
 {canonical}  <meta name="theme-color" content="#0f0f10">
   <meta name="color-scheme" content="dark">
   <meta property="og:type" content="website">
