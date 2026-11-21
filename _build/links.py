@@ -13,12 +13,11 @@ import os
 APP_ID = "6823442691"
 # Provider ID from an App Store Connect campaign link (the pt= number).
 # Leave empty and the links still open the App Store, but aren't counted.
-PROVIDER_ID = ""
+PROVIDER_ID = "129159671"
 
 LINKS = {
     "fb": "fb_organic",
     "reddit": "reddit",
-    "tt": "tiktok",
     "yt": "youtube",
     "ig": "instagram",
     "forum": "forums",

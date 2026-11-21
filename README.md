@@ -15,7 +15,7 @@ account deletion. Plain HTML and CSS, hosted free on GitHub Pages.
 
 ## Tracking links
 
-`/fb`, `/reddit`, `/tt`, `/yt`, `/ig`, `/forum`, `/qr`, `/bigrig` and `/pr` send
+`/fb`, `/reddit`, `/yt`, `/ig`, `/forum`, `/qr`, `/bigrig` and `/pr` send
 visitors to the App Store with a campaign tag, one per marketing channel. They
 are made by `python3 _build/links.py`; add a link or set the provider ID there.
 
