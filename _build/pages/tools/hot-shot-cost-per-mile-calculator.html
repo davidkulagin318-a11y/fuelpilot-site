@@ -1,0 +1,79 @@
+<p class="crumbs"><a href="/tools/">Free tools</a></p>
+<h1>Hot shot cost per mile calculator</h1>
+<p class="summary">Work out what every mile really costs your hot shot or owner-operator truck: fuel, maintenance and tires, your monthly payments and insurance, and the empty miles you don't get paid for. You'll get your cost per mile, cost per loaded mile and the rate you need just to break even.</p>
+
+<form class="calc" data-calc="hotshot" novalidate>
+  <p class="note">Example numbers are filled in so you can see how it works. Replace them with your own.</p>
+  <fieldset>
+    <legend>Miles and fuel</legend>
+    <div class="calc-grid">
+      <label>Miles per week <span class="unit">loaded and empty</span><input name="weekly" type="number" inputmode="decimal" min="0" step="any" value="2500" required></label>
+      <label>Empty miles <span class="unit">% of all miles</span><input name="deadhead" type="number" inputmode="decimal" min="0" max="95" step="any" value="15"></label>
+      <label>Your MPG<input name="mpg" type="number" inputmode="decimal" min="0" step="any" value="10" required></label>
+      <label>Diesel price <span class="unit">$ per gallon</span><input name="price" type="number" inputmode="decimal" min="0" step="any" value="{diesel_price}" required></label>
+      <label>Maintenance and tires <span class="unit">$ per mile</span><input name="maint" type="number" inputmode="decimal" min="0" step="any" value="0.15"></label>
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend>Monthly costs</legend>
+    <div class="calc-grid">
+      <label>Truck payment<input name="truck" type="number" inputmode="decimal" min="0" step="any" value="1000"></label>
+      <label>Trailer payment<input name="trailer" type="number" inputmode="decimal" min="0" step="any" value="400"></label>
+      <label>Insurance<input name="insurance" type="number" inputmode="decimal" min="0" step="any" value="800"></label>
+      <label>Everything else <span class="unit">phone, ELD, permits, load board, accounting</span><input name="other" type="number" inputmode="decimal" min="0" step="any" value="300"></label>
+      <label>What you want to take home <span class="unit">per month, optional</span><input name="pay" type="number" inputmode="decimal" min="0" step="any" value="" placeholder="0"></label>
+    </div>
+  </fieldset>
+  <div class="calc-out" aria-live="polite">
+    <p class="calc-big"><span data-out="per-loaded">—</span> <span class="calc-big-label" data-out="big-label">per loaded mile to break even</span></p>
+    <dl>
+      <div><dt>Fuel per mile</dt><dd data-out="fuel-mile">—</dd></div>
+      <div><dt>Running cost per mile <span class="unit">fuel, maintenance, tires</span></dt><dd data-out="run-mile">—</dd></div>
+      <div><dt>Monthly costs per mile</dt><dd data-out="fixed-mile">—</dd></div>
+      <div><dt>Total cost per mile <span class="unit">all miles</span></dt><dd data-out="total-mile">—</dd></div>
+      <div><dt>Miles per month</dt><dd data-out="month-miles">—</dd></div>
+      <div><dt>Fuel per month</dt><dd data-out="month-fuel">—</dd></div>
+      <div><dt>Total per month</dt><dd data-out="month-total">—</dd></div>
+    </dl>
+    <p class="calc-error" data-out="error" hidden></p>
+  </div>
+  <p class="note">The diesel price starts at the US average from the EIA, ${diesel_price} ({diesel_date}). Change it to what you pay. A month is counted as 52 ÷ 12 weeks. Nothing you enter leaves your browser.</p>
+  <noscript><p class="note">This calculator needs JavaScript. The math is below.</p></noscript>
+</form>
+
+<h2>How it's worked out</h2>
+<ul>
+  <li><strong>Miles per month</strong> = miles per week × 52 ÷ 12</li>
+  <li><strong>Fuel per mile</strong> = diesel price ÷ MPG</li>
+  <li><strong>Monthly costs per mile</strong> = monthly costs ÷ miles per month</li>
+  <li><strong>Total cost per mile</strong> = fuel + maintenance and tires + monthly costs per mile</li>
+  <li><strong>Break-even rate per loaded mile</strong> = total cost per mile ÷ (1 − empty miles ÷ 100)</li>
+</ul>
+<p>The last step matters most. You pay for every mile, but you're only paid for the loaded ones. With 15% of your miles empty, every loaded mile has to cover about 1.18 miles of cost.</p>
+<p>Example, using the numbers filled in above with diesel at $5.94: fuel is about 59¢ a mile, running costs about 74¢, and $2,500 a month in fixed costs over about 10,833 miles adds about 23¢. That's about 97¢ for every mile driven, or about $1.15 per loaded mile just to break even, before you pay yourself.</p>
+
+<h2>What's not included</h2>
+<ul>
+  <li><strong>Taxes.</strong> Income and self-employment tax, and any fuel tax you settle through IFTA, depend on your situation.</li>
+  <li><strong>Tolls, scales and lumpers.</strong> Add a monthly average under Everything else.</li>
+  <li><strong>Dispatch or factoring fees.</strong> If you pay a percentage, your rate has to cover that on top.</li>
+</ul>
+
+<h2>Cut the biggest number: fuel</h2>
+<p>Fuel is often the biggest cost per mile. FuelPilot Big Rig picks the cheapest truck stop or truck lane you can reach for every stop on the run, on truck-legal routes for your rig's height, weight and length, and logs your miles by state for IFTA. There's a Hot shot / HD pickup vehicle type. Big Rig is $19.99 a month or $199.99 a year with a 7-day free trial, on iPhone now and on Android in the next update. <a href="/big-rig/">More about Big Rig</a>.</p>
+<p class="cta-row"><a class="store-link" href="https://apps.apple.com/app/id6823442691" rel="noopener noreferrer">Download on the App Store</a> <a class="store-link" href="https://play.google.com/store/apps/details?id=com.ghostsystems.fuelpilot" rel="noopener noreferrer">Get it on Google Play</a></p>
+
+<h2>Questions</h2>
+<!-- faq -->
+<h3>How do I calculate cost per mile for a hot shot truck?</h3>
+<p>Add up your fuel per mile (diesel price ÷ MPG), maintenance and tires per mile, and your monthly fixed costs divided by the miles you drive in a month. Then divide by the share of miles that are loaded to get the rate you need per loaded mile.</p>
+
+<h3>What's a good cost per mile for hot shot trucking?</h3>
+<p>There isn't one number. It depends on your truck, your payments, insurance, MPG and how many miles you run. Running more miles spreads your fixed costs thinner, so the same truck costs less per mile the more it runs. Work out your own with the calculator and keep it current as fuel prices change.</p>
+
+<h3>How do empty miles affect my rate?</h3>
+<p>You pay for empty miles but aren't paid for them, so their cost has to come out of your loaded miles. Divide your cost per mile by the share of miles that are loaded. At 15% empty, multiply by about 1.18.</p>
+
+<h3>Does it work for a semi?</h3>
+<p>Yes. The math is the same for any truck. Put in your own MPG, miles and monthly costs.</p>
+<!-- /faq -->

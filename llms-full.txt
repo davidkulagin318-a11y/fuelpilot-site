@@ -16,7 +16,7 @@ Key facts:
 - Not yet available: Apple CarPlay (built, turned on in a later update). No Android Auto.
 - Made by Ghost Systems LLC, a small US company founded by David Kulagin, a diesel mechanic who hauls for work.
 - Compared with GasBuddy: GasBuddy is best known for user-reported gas prices, the GasBuddy card and a trip cost calculator; FuelPilot is a navigation app that plans stops from your tank and range, adds them to your route and logs the trip.
-- Compared with Trucker Path: Trucker Path is made for semi drivers, with parking availability, weigh station status and a large trucker community; FuelPilot is built around fuel planning and trip records and works for cars, pickups and RVs as well as trucks.
+- Compared with Trucker Path: Trucker Path is made for semi drivers, with parking availability, weigh station status and a large trucker community; its Diamond plan ($29.99 a month or $249.99 a year) includes fuel plans. FuelPilot Big Rig ($19.99 a month or $199.99 a year) is built around fuel planning and trip records, including IFTA miles by state, and works for cars, pickups and RVs as well as trucks.
 
 ## Pages
 
@@ -25,6 +25,13 @@ Key facts:
 - [Big Rig, for truckers](https://fuelpilotapp.com/big-rig/): truck GPS with fuel planning and IFTA for semis, hot shots and RVs
 - [Mileage log](https://fuelpilotapp.com/mileage-log/): automatic trip log and exports for work drivers
 - [Support and FAQ](https://fuelpilotapp.com/support/): setup, fuel prices, Autopilot, navigation, exports, subscriptions
+- [Free fuel calculators](https://fuelpilotapp.com/tools/): trip fuel cost, towing range per tank, hot shot cost per mile
+- [Trip fuel cost calculator](https://fuelpilotapp.com/tools/trip-fuel-cost-calculator/): fuel cost, gallons and cost per mile for a trip
+- [Towing range calculator](https://fuelpilotapp.com/tools/towing-range-calculator/): range per tank while towing and miles between fuel stops
+- [Hot shot cost per mile calculator](https://fuelpilotapp.com/tools/hot-shot-cost-per-mile-calculator/): cost per mile and break-even rate per loaded mile
+- [How to plan fuel stops when towing](https://fuelpilotapp.com/blog/how-to-plan-fuel-stops-when-towing/): towing MPG, range, reserve and picking stations
+- [Trucker Path alternatives for owner-operators](https://fuelpilotapp.com/blog/trucker-path-alternatives/): FuelPilot Big Rig, Hammer, CoPilot Truck, Mudflap, TruckMap compared
+- [FuelPilot vs GasBuddy](https://fuelpilotapp.com/blog/fuelpilot-vs-gasbuddy/): price app vs fuel-planning navigation, and when to use both
 
 ## Optional
 
@@ -121,9 +128,9 @@ FuelPilot is built for it. Towing cuts your MPG and your range, so with towing m
 #### Does FuelPilot do truck routing for semis, hot shots and RVs?
 Yes, with FuelPilot Big Rig. Enter your rig's height, weight and length and it plans truck-legal routes around low bridges, weight limits and restricted roads. For a semi or hot shot it only sends you to truck stops and truck lanes, at the truck-lane diesel price. Truck routes depend on map data and the sizes you enter, so always follow posted signs. Big Rig is on iPhone now and comes to Android in the next update. See FuelPilot for truckers.
 #### How is FuelPilot different from GasBuddy?
-GasBuddy is best known for gas prices reported by its users, the GasBuddy card discount and a trip cost calculator. FuelPilot is a navigation app: it gives you turn-by-turn directions, plans where to stop based on your tank and range, adds those stops to your route and logs the trip. Many drivers use a price app and a maps app together. FuelPilot puts both jobs in one.
+GasBuddy is best known for gas prices reported by its users, the GasBuddy card discount and a trip cost calculator. FuelPilot is a navigation app: it gives you turn-by-turn directions, plans where to stop based on your tank and range, adds those stops to your route and logs the trip. Many drivers use a price app and a maps app together. FuelPilot puts both jobs in one. See FuelPilot vs GasBuddy.
 #### How is FuelPilot different from Trucker Path?
-Trucker Path is made for semi drivers, with truck stop parking availability, weigh station status and a large trucker community. FuelPilot is built around fuel planning and trip records, and works for cars, pickups and RVs as well as trucks. With Big Rig you can switch truck routing off and drive your personal vehicle in the same app.
+Trucker Path is made for semi drivers, with truck stop parking availability, weigh station status and a large trucker community. FuelPilot is built around fuel planning and trip records, and works for cars, pickups and RVs as well as trucks. With Big Rig you can switch truck routing off and drive your personal vehicle in the same app. See Trucker Path alternatives.
 #### Can FuelPilot track my mileage for taxes or IFTA?
 Yes. Every drive you navigate with FuelPilot is saved to your logbook with its route, miles, time and fuel, and you can tag trips business or personal. With Pro you can export a mileage log, a fuel expense report or a quarterly IFTA summary with miles and gallons by state, as a spreadsheet. Drives you don't navigate with FuelPilot aren't logged. See FuelPilot as a mileage log.
 #### Is FuelPilot free?
@@ -152,6 +159,8 @@ A trailer can cut your MPG by a third or more, so the range you're used to is wr
 With FuelPilot Big Rig, set your vehicle type to RV / motorhome and enter its height, weight and length. Routes then clear your rig's size, avoiding low bridges, weight limits and restricted roads, and every fuel station still shows so you can pick the one that suits you. Truck routes depend on map data and the sizes you enter, so always follow posted signs. Big Rig is on iPhone now and comes to Android in the next update.
 ### What it costs
 Navigation and the cheapest gas near you are free. Towing mode and Autopilot come with FuelPilot Pro, $7.99 a month or $49.99 a year. RV routing for your rig's size comes with Big Rig, $19.99 a month or $199.99 a year, which includes everything in Pro. Both start with a 7-day free trial. FuelPilot works in the United States and Canada.
+### Free tools
+Work out how far you can go between stops with the towing range calculator, or read how to plan fuel stops when towing.
 ### Questions
 #### How far can I tow on a tank of fuel?
 Multiply your usable tank size by your towing MPG, then keep a reserve. A 36-gallon tank at 9 MPG towing is 324 miles, and keeping a quarter tank in reserve leaves about 243 miles between stops. Towing MPG varies with weight, wind, hills and speed, which is why FuelPilot learns your real MPG from your fill-ups instead of using the window sticker.
@@ -180,6 +189,8 @@ FuelPilot Big Rig plans truck-legal routes for your rig's height, weight and len
 Truck routes depend on map data and the sizes you enter, so always follow posted signs. If truck routing can't be reached, FuelPilot shows the car route and warns you before you start and while you drive. If no legal truck route exists for a trip, it tells you instead of routing.
 ### What it costs
 Big Rig is $19.99 a month or $199.99 a year in the US and includes everything in FuelPilot Pro. It starts with a 7-day free trial. Big Rig is on iPhone now and comes to Android in the next update. FuelPilot works in the United States and Canada.
+### Free tools
+See what every mile costs you with the hot shot cost per mile calculator, or compare Trucker Path alternatives.
 ### Questions
 #### Is there a truck GPS app that also plans fuel stops?
 Yes. FuelPilot Big Rig combines truck-legal routing with fuel planning: it picks the cheapest truck stops and truck lanes you can reach along a truck-legal route, adds them to your directions and logs the miles for IFTA.
@@ -298,3 +309,242 @@ In the app, open Settings › Profile › Delete account. This permanently delet
 ### Still need help?
 Email us and include your phone model and iOS version.
 support@fuelpilotapp.com
+
+## Blog (https://fuelpilotapp.com/blog/how-to-plan-fuel-stops-when-towing/)
+
+### How to plan fuel stops when towing a travel trailer or fifth wheel
+November 25, 2026 · By David Kulagin, maker of FuelPilot
+Work out your real towing MPG, multiply it by your usable tank, keep a quarter tank in reserve, and plan a stop before every stretch where stations are far apart. Then pick stations you can get a trailer in and out of, and check the plan again after every fill-up.
+### 1. Find your real towing MPG
+The number on your dash when you're not towing is no use here. A trailer is heavy and it's a wall of air behind your truck. When the Department of Energy's Oak Ridge National Laboratory tested an SUV pulling a 3,500 lb enclosed cargo trailer, fuel economy dropped by about 30% in city driving and by about 50% at 80 mph. A big travel trailer or fifth wheel can do the same or worse.
+The way to know your number is the fill-up method:
+- Fill the tank and reset your trip meter.
+- Tow as you normally would.
+- At the next fill-up, divide the miles driven by the gallons it took to fill back up.
+Do it over two or three tanks and take the average. Your truck's MPG readout can be off, and one tank into a headwind will make you think it's worse than it is.
+### 2. Work out your range, and keep a reserve
+Range is usable tank size times towing MPG. A 36-gallon tank at 9 MPG towing is 324 miles. Don't plan to use all of it. Keep a quarter tank in reserve and you've got about 243 miles between stops.
+The reserve is for the things you can't plan: a closed station, a pump that won't take your card, a detour, a long climb, a headwind. The towing range calculator does this math for your rig.
+### 3. Plan around the long empty stretches
+In most of the East you'll pass a station every few miles. In parts of the West and in rural Canada you can go well over 100 miles without one. Look at the whole route before you leave and mark the gaps. Fill up before every gap that's longer than your range after reserve, even if the tank isn't low yet. Fuel there may cost more. Running out costs more.
+### 4. Slow down
+Air drag climbs fast with speed, and a trailer adds a lot of it. That's why the Oak Ridge test lost so much more at 80 mph than around town. Dropping your cruising speed is the easiest way to stretch your range while towing. Many trailer tires are also rated for lower speeds than car tires, so check the sidewall.
+### 5. Pick stations you can get out of
+The cheapest station on the map is no good if you can't swing a 35-foot trailer through it. Before you commit to a stop:
+- Check it on satellite view. Look for pumps you can pull straight through and an exit that doesn't need a tight turn.
+- Prefer the outside pumps, with room to pull forward when you're done.
+- For diesel, many larger stations and travel centers have diesel at the car pumps or separate lanes that fit an RV. Truck lanes are built for semis, so check the station's rules before you pull in.
+- Plan your stops when you'd want a break anyway. A fuel stop is a good time for a walk-around: hitch, safety chains, lights and tire pressures.
+### 6. Check the plan after every fill-up
+Things change once you're moving. Wind, hills and traffic change your real MPG, and prices change through the day. Every time you fill up, look at the next stretch again and decide where the next stop is.
+### Let an app do the planning
+Doing all of this by hand works. It also means stopping to do math while you're towing. FuelPilot does it for you:
+- Towing mode adjusts your range for the trailer, and FuelPilot learns your real MPG from your fill-ups.
+- Autopilot picks the cheapest stations you can reach for the whole trip, keeping the reserve you choose, and adds them to your turn-by-turn directions.
+- After each fill-up it checks that the next stop still makes sense.
+- With Big Rig, routes clear your motorhome's height, weight and length.
+Towing mode and Autopilot come with FuelPilot Pro, $7.99 a month or $49.99 a year with a 7-day free trial. More about towing with FuelPilot.
+### Questions
+#### How much does towing a travel trailer reduce gas mileage?
+It depends on the trailer's weight and shape and how fast you drive. In a Department of Energy test at Oak Ridge National Laboratory, an SUV towing a 3,500 lb enclosed trailer lost about 30% of its fuel economy in city driving and about 50% at 80 mph. Measure your own with the fill-up method over two or three tanks.
+#### How often should I stop for fuel when towing?
+Plan stops from your range after reserve. Multiply your usable tank by your towing MPG, then take off a quarter tank. A 36-gallon tank at 9 MPG gives about 243 miles between stops. Stop earlier before any stretch with no stations.
+#### How much fuel should I keep in reserve when towing?
+A quarter tank is a common rule. It covers a closed station, a detour or a headwind. Keep more in remote areas or in winter.
+#### Can I use truck stop diesel lanes with a fifth wheel?
+Some stations allow it and some don't. Truck lanes are built for semis, so check the station's rules first. Many larger stations and travel centers have diesel at car pumps or lanes that fit an RV.
+#### What's the best app for planning fuel stops while towing?
+Look for one that plans from your towing range, not just one that lists prices. FuelPilot adjusts your range for the trailer, picks the cheapest stations you can reach along the route and adds them to your directions.
+David Kulagin is a diesel mechanic who hauls for work. He founded Ghost Systems LLC, which makes FuelPilot.
+
+## Blog (https://fuelpilotapp.com/blog/trucker-path-alternatives/)
+
+### Trucker Path alternatives for owner-operators who want fuel planning
+November 25, 2026 · By David Kulagin, maker of FuelPilot
+Trucker Path is the app most drivers already have, and its Diamond plan plans fuel stops too. If you're an owner-operator paying for your own fuel, the questions are what that costs, what else you need, and whether another app does the job for less. Here are the main alternatives, what each is best at, and where Trucker Path is still the better pick.
+I make FuelPilot, one of the apps on this list, so weigh that. Prices are US prices as listed on each company's site or the App Store in November 2026. They change, so check before you buy.
+### First: what Trucker Path already does
+The free app covers truck stops, fuel prices, parking, weigh station status history, a load board and a big driver community. The Diamond plan, $29.99 a month, $149.99 for six months or $249.99 a year with a 7-day trial, adds CarPlay, trips with more than three stops, HOS rest reminders and Smart Fuel Plans, which work out where to stop and how much to put in. Any user can also buy discounted fuel through the app.
+So if you need parking and a fuel plan in one app and the price is fine with you, Trucker Path Diamond may be all you need. The alternatives below make sense when you want something cheaper, something free, or something that also covers your pickup, your RV or your IFTA miles.
+### The alternatives at a glance
+- App | Price (Nov 2026) | Best for
+- FuelPilot Big Rig | $19.99/mo or $199.99/yr | Fuel stops planned for you, IFTA miles, one app for the truck and the car
+- Hammer | Free | Free truck GPS with offline maps
+- CoPilot Truck | $9.99/mo or $119.99/yr | Offline truck navigation
+- Mudflap | Free | Diesel discounts at independent truck stops
+- TruckMap | Free | A free map of truck stops, weigh stations and parking
+### FuelPilot Big Rig
+Best for: owner-operators and hot shot drivers who want every fuel stop planned from their real range, and their IFTA miles worked out from the trips they drive.
+- Truck-legal routes for your rig's height, weight and length, plus axles, trailers and hazmat.
+- Fuel Autopilot picks the cheapest truck stop or truck lane you can reach for every stop on the run, before you leave, and re-checks after each fill-up. It plans at the truck-lane diesel price.
+- It learns your real MPG from your fill-ups. No OBD-II adapter or ELD connection needed.
+- A quarterly IFTA summary with miles and gallons by state, from the GPS path of the trips you navigated and the receipts you scanned. Drives you don't navigate with FuelPilot aren't included.
+- Switch Big Rig off and it's a normal navigation app for your car or pickup.
+Where it falls short: no parking availability, no weigh station status, no CarPlay yet and no load board. Big Rig is on iPhone now and comes to Android in the next update. It's $10 a month less than Trucker Path Diamond and $50 a year less on the annual plan.
+More about FuelPilot Big Rig
+### Hammer
+Best for: drivers who want a truck GPS and don't want to pay for one.
+Hammer is a free truck GPS from TruckersReport.com, with offline maps and lane guidance, covering the US, Canada and Mexico. If all you need is truck-safe directions, start here. You'll still be picking your own fuel stops.
+### CoPilot Truck
+Best for: drivers who run through areas with no signal and want navigation that works offline.
+CoPilot is a long-running truck navigation app with offline maps. Truck navigation is a subscription, $9.99 a month or $119.99 a year in the US App Store, with a 14-day trial.
+### Mudflap
+Best for: cutting what you pay per gallon.
+Mudflap isn't really a navigation app. It's a free app for discounted diesel at more than 3,600 truck stops, with savings that vary by stop and can reach $1.00 a gallon. There's no credit check, and paying by debit card or bank account has no fee. It also has free truck-safe navigation. Mudflap pairs well with a planning app: find out where you need to stop, then check whether a discounted stop is close.
+### TruckMap
+Best for: a free look at what's ahead.
+TruckMap is a free truck GPS that shows diesel stations, weigh stations and parking. It's a good free backup to whatever you use as your main app.
+### How to choose
+- Parking is your biggest problem: stay with Trucker Path. Parking availability and its driver community are what it does best.
+- Fuel is your biggest cost: use an app that plans stops from your range, like FuelPilot Big Rig or Trucker Path Diamond, and add Mudflap for discounts.
+- You don't want to pay: Hammer for directions, Mudflap for discounts, TruckMap for stops and parking.
+- You also drive a car or pull an RV: FuelPilot covers both in one app.
+To see what fuel and fixed costs add up to per mile, try the free cost per mile calculator.
+### Questions
+#### What is the best alternative to Trucker Path?
+It depends on what you use Trucker Path for. For fuel planning and IFTA miles at a lower price, FuelPilot Big Rig. For a free truck GPS, Hammer. For diesel discounts, Mudflap. For parking, Trucker Path is still the one to beat.
+#### Does Trucker Path plan fuel stops?
+Yes, with a Diamond membership. Smart Fuel Plans use your truck's fuel settings and prices along your route to pick stops and how much fuel to add at each one.
+#### Is there a cheaper truck GPS that plans fuel stops?
+FuelPilot Big Rig is $19.99 a month or $199.99 a year, with a 7-day free trial. It plans truck-legal routes for your rig's size and picks the cheapest truck stops and truck lanes you can reach along the way.
+#### Is there a free truck GPS app?
+Yes. Hammer and TruckMap are free truck GPS apps, and Mudflap includes free truck-safe navigation alongside its diesel discounts.
+#### Which truck app works for hot shots?
+Any truck GPS that lets you enter your rig's height, weight and length. FuelPilot Big Rig has a Hot shot / HD pickup vehicle type, sends you to truck stops and truck lanes and plans from your real MPG.
+David Kulagin is a diesel mechanic who hauls for work. He founded Ghost Systems LLC, which makes FuelPilot.
+
+## Blog (https://fuelpilotapp.com/blog/fuelpilot-vs-gasbuddy/)
+
+### FuelPilot vs GasBuddy: a price map or a planned route?
+November 25, 2026 · By David Kulagin, maker of FuelPilot
+GasBuddy tells you what fuel costs near you and saves you money at the pump with its payment card. FuelPilot is turn-by-turn navigation that plans your fuel stops for the whole trip from your tank and your real MPG. For cheap gas around town, GasBuddy is hard to beat. For long trips, towing and diesel, FuelPilot does the planning GasBuddy leaves to you.
+I make FuelPilot, so weigh this with that in mind. I've tried to be straight about where GasBuddy is the better app.
+### The short version
+- GasBuddy | FuelPilot
+- What it is | Fuel price app with a payment card | Navigation app that plans fuel stops
+- Where prices come from | Reported by its users | HERE Technologies
+- Turn-by-turn directions | Gets you directions to a station | Built in, with spoken directions
+- Picks your stops for a trip | You pick from prices along the route | Autopilot picks them from your range (Pro)
+- Knows your towing range | No | Towing mode (Pro)
+- Discount at the pump | Pay with GasBuddy card | None of its own; plans on the discounts you enter
+- Trip and mileage log | Fuel log | Every navigated trip, with mileage and IFTA exports (Pro)
+- Truck routing | No | Big Rig plan
+- Price | Free; Plus $7.99/mo or $89/yr; Premium $9.99/mo or $99/yr | Free; Pro $7.99/mo or $49.99/yr; Big Rig $19.99/mo or $199.99/yr
+Prices are US prices as listed in November 2026. Check each app before you buy.
+### What GasBuddy does well
+- Price coverage. GasBuddy's users report prices as they fill up, so in most towns you can see what every station is charging right now.
+- Money off at the pump. Pay with GasBuddy is a payment card that takes money off each gallon. The paid Plus and Premium plans save 20¢ a gallon on your first 50 gallons each month, and Premium adds roadside assistance.
+- Free tools. The app is free to use, with a trip cost calculator, a fuel log, fuel outage tracking and vehicle recall alerts.
+- Route search. You can see prices along a route and choose where to stop.
+If you mostly drive around town and want the cheapest gas nearby, GasBuddy does that job well and for free.
+### What FuelPilot does differently
+A price map tells you where fuel is cheap. It doesn't know how far your tank will get you, so you still have to work out which of those stations you can reach, then switch to a maps app to get there. On a long trip, or with a trailer behind you, that's where people run low or overpay at the only station left.
+- It plans from your range. FuelPilot knows your tank size, learns your real MPG from your fill-ups and works out how far you can go.
+- Autopilot picks the stops. Before you leave, it picks the cheapest stations you can reach for the whole trip, keeping the reserve you choose, and adds them to your directions. After each fill-up it checks that the next stop still makes sense.
+- Towing mode. Turn it on when you hitch up and your range is planned for the trailer.
+- It's the navigation app. Turn-by-turn directions with spoken guidance are built in, so you don't switch apps.
+- Trips log themselves. Every drive you navigate is saved with its miles, time and fuel. With Pro you can export a mileage log, a fuel expense report or a quarterly IFTA summary.
+- Trucks and RVs. The Big Rig plan routes for your rig's height, weight and length and sends semis and hot shots to truck stops and truck lanes only.
+### Where GasBuddy is the better pick
+- You drive locally and just want the cheapest gas near you.
+- You want a discount card at the pump. FuelPilot doesn't have one.
+- You want crowd-reported prices. FuelPilot's prices come from HERE and can lag behind the pump, so the price on the pump is the one you pay.
+- You don't want to pay anything. FuelPilot's free plan has navigation and the cheapest gas near you, but Autopilot needs Pro.
+### Where FuelPilot is the better pick
+- Road trips and long runs where the stop you choose depends on how far your tank goes.
+- Towing a travel trailer, fifth wheel or cargo trailer, when your range drops and you need stations you can actually reach.
+- Diesel pickups, hot shots, semis and RVs that need truck-legal routes or truck lanes.
+- Driving for work, when you need a mileage log or fuel expense report at tax time.
+### Can you use both?
+Yes. If you pay with a discount card, enter the discount once in FuelPilot under Settings › My discounts and it compares stations on the price you actually pay. Plenty of drivers keep GasBuddy for local fill-ups and plan road trips in FuelPilot.
+Want to see what a trip will cost first? Try the free trip fuel cost calculator.
+### Questions
+#### Is FuelPilot better than GasBuddy?
+They do different jobs. GasBuddy is better for finding cheap gas around town and for its pump discount card. FuelPilot is better for trips: it's a navigation app that picks the cheapest fuel stops you can reach from your tank and real MPG and adds them to your route.
+#### Does GasBuddy plan fuel stops for a road trip?
+GasBuddy shows prices along a route so you can choose where to stop. FuelPilot's Autopilot picks the stops for you from your range and reserve and adds them to your turn-by-turn directions.
+#### Is FuelPilot free like GasBuddy?
+FuelPilot is free to download and use for navigation and the cheapest gas near you, and a free account shows fuel prices along your route. Autopilot, towing mode and exports come with FuelPilot Pro, $7.99 a month or $49.99 a year, with a 7-day free trial.
+#### Where do FuelPilot's fuel prices come from?
+From HERE Technologies. GasBuddy's prices are reported by its users. Any app's prices can lag behind the pump, so the price on the pump is the one you pay.
+#### Do both apps work in Canada?
+Yes. Both work in the United States and Canada.
+David Kulagin is a diesel mechanic who hauls for work. He founded Ghost Systems LLC, which makes FuelPilot.
+
+## Free calculator (https://fuelpilotapp.com/tools/hot-shot-cost-per-mile-calculator/)
+
+### Hot shot cost per mile calculator
+Work out what every mile really costs your hot shot or owner-operator truck: fuel, maintenance and tires, your monthly payments and insurance, and the empty miles you don't get paid for. You'll get your cost per mile, cost per loaded mile and the rate you need just to break even.
+### How it's worked out
+- Miles per month = miles per week × 52 ÷ 12
+- Fuel per mile = diesel price ÷ MPG
+- Monthly costs per mile = monthly costs ÷ miles per month
+- Total cost per mile = fuel + maintenance and tires + monthly costs per mile
+- Break-even rate per loaded mile = total cost per mile ÷ (1 − empty miles ÷ 100)
+The last step matters most. You pay for every mile, but you're only paid for the loaded ones. With 15% of your miles empty, every loaded mile has to cover about 1.18 miles of cost.
+Example, using the numbers filled in above with diesel at $5.94: fuel is about 59¢ a mile, running costs about 74¢, and $2,500 a month in fixed costs over about 10,833 miles adds about 23¢. That's about 97¢ for every mile driven, or about $1.15 per loaded mile just to break even, before you pay yourself.
+### What's not included
+- Taxes. Income and self-employment tax, and any fuel tax you settle through IFTA, depend on your situation.
+- Tolls, scales and lumpers. Add a monthly average under Everything else.
+- Dispatch or factoring fees. If you pay a percentage, your rate has to cover that on top.
+### Cut the biggest number: fuel
+Fuel is often the biggest cost per mile. FuelPilot Big Rig picks the cheapest truck stop or truck lane you can reach for every stop on the run, on truck-legal routes for your rig's height, weight and length, and logs your miles by state for IFTA. There's a Hot shot / HD pickup vehicle type. Big Rig is $19.99 a month or $199.99 a year with a 7-day free trial, on iPhone now and on Android in the next update. More about Big Rig.
+### Questions
+#### How do I calculate cost per mile for a hot shot truck?
+Add up your fuel per mile (diesel price ÷ MPG), maintenance and tires per mile, and your monthly fixed costs divided by the miles you drive in a month. Then divide by the share of miles that are loaded to get the rate you need per loaded mile.
+#### What's a good cost per mile for hot shot trucking?
+There isn't one number. It depends on your truck, your payments, insurance, MPG and how many miles you run. Running more miles spreads your fixed costs thinner, so the same truck costs less per mile the more it runs. Work out your own with the calculator and keep it current as fuel prices change.
+#### How do empty miles affect my rate?
+You pay for empty miles but aren't paid for them, so their cost has to come out of your loaded miles. Divide your cost per mile by the share of miles that are loaded. At 15% empty, multiply by about 1.18.
+#### Does it work for a semi?
+Yes. The math is the same for any truck. Put in your own MPG, miles and monthly costs.
+
+## Free calculator (https://fuelpilotapp.com/tools/towing-range-calculator/)
+
+### Towing range calculator
+How far can you tow on a tank? Enter your tank size and MPG, and either your towing MPG or how much towing cuts it. You'll get your range on a full tank, how far to plan between fuel stops with a reserve left, and how much range the trailer costs you.
+### How it's worked out
+- Towing MPG = your towing MPG, or MPG × (1 − drop ÷ 100)
+- Full-tank range = usable tank × towing MPG
+- Miles between stops = full-tank range × (1 − reserve ÷ 100)
+Example: a 36-gallon tank at 9 MPG towing is 324 miles on a full tank. Keep a quarter tank in reserve and you've got about 243 miles between stops.
+### What drop to use
+When Oak Ridge National Laboratory tested an SUV towing a 3,500 lb enclosed cargo trailer for the Department of Energy, fuel economy fell by about 30% in city driving and about 50% at 80 mph. Heavier, taller trailers, hills, headwinds and higher speeds push it toward the top of that range. The 35% starting value is a middle guess. Your own fill-ups are the only real answer: divide miles towed by gallons to refill, over two or three tanks, and put that in the towing MPG box.
+For tank size, use the gallons it takes to fill up from empty, not a guess. Fuel gauges aren't exact, which is one more reason to keep a reserve.
+### Plan stops around your real range
+FuelPilot's towing mode adjusts your range for the trailer and learns your real MPG from your fill-ups. Autopilot then picks the cheapest stations you can reach for the whole trip, keeping the reserve you choose, and adds them to your turn-by-turn directions. Read the full guide: how to plan fuel stops when towing.
+### Questions
+#### How far can I tow on a tank of gas or diesel?
+Multiply your usable tank size by your towing MPG. A 36-gallon tank at 9 MPG gives 324 miles on a full tank. Keeping a quarter tank in reserve leaves about 243 miles between stops.
+#### How much does towing reduce range?
+About as much as it reduces MPG. In a Department of Energy test, an SUV towing a 3,500 lb enclosed trailer lost about 30% of its fuel economy in city driving and about 50% at 80 mph. Heavy travel trailers and fifth wheels often fall somewhere in that range, depending on speed, wind and hills.
+#### How much reserve should I keep when towing?
+A quarter tank is a common rule. Keep more in remote areas, in winter, or before a long climb.
+#### Why is my towing range lower than the calculator says?
+Headwinds, hills, speed and idling all cut MPG, and fuel gauges aren't exact. Measure your towing MPG over a few tanks and use that.
+
+## Free calculator (https://fuelpilotapp.com/tools/trip-fuel-cost-calculator/)
+
+### Trip fuel cost calculator
+Enter how far you're going, your MPG and the price of fuel to see what the trip will cost, how many gallons you'll burn and the cost per mile. Works for gas or diesel, one way or round trip, and splits the cost if you're sharing the ride.
+### How it's worked out
+- Gallons = miles ÷ MPG
+- Fuel cost = gallons × price per gallon
+- Cost per mile = price per gallon ÷ MPG
+Example: a 500-mile drive at 22 MPG uses about 22.7 gallons. At $4.00 a gallon that's about $90.91, or about 18¢ a mile. Round trip, double it.
+### Getting a closer number
+- Use your real MPG, not the sticker. Divide the miles you drove by the gallons it took to fill back up, over a couple of tanks.
+- Highway speed matters. Fuel economy usually drops quickly above about 50 mph, so a fast highway trip can come in under your average MPG.
+- Towing changes everything. A trailer can cut your MPG by a third or more. Use the towing range calculator to plan stops.
+- Prices vary along the way. The same trip can cost noticeably more or less depending on where you stop.
+### Let FuelPilot pick the cheap stops
+This calculator tells you what a trip costs at one price. FuelPilot checks prices along your actual route, picks the cheapest stations you can reach with your tank and real MPG, and gives you turn-by-turn directions to each one. Navigation is free; Autopilot fuel stops come with FuelPilot Pro.
+### Questions
+#### How do I calculate the fuel cost of a road trip?
+Divide the miles by your MPG to get gallons, then multiply by the price per gallon. A 500-mile trip at 22 MPG and $4.00 a gallon is about 22.7 gallons, or about $90.91.
+#### How do I work out fuel cost per mile?
+Divide the price per gallon by your MPG. At $4.00 a gallon and 22 MPG, fuel costs about 18¢ a mile. At $5.94 diesel and 10 MPG, it's about 59¢ a mile.
+#### Is the calculator accurate for diesel?
+Yes. The math is the same for any fuel. Pick Diesel to start from the national average diesel price, then change it to the price you expect to pay.
+#### Does it work in Canada?
+The calculator uses miles and US gallons. For litres and kilometres, convert first: 1 US gallon is 3.785 litres and 1 mile is 1.609 km.

@@ -16,7 +16,7 @@ Key facts:
 - Not yet available: Apple CarPlay (built, turned on in a later update). No Android Auto.
 - Made by Ghost Systems LLC, a small US company founded by David Kulagin, a diesel mechanic who hauls for work.
 - Compared with GasBuddy: GasBuddy is best known for user-reported gas prices, the GasBuddy card and a trip cost calculator; FuelPilot is a navigation app that plans stops from your tank and range, adds them to your route and logs the trip.
-- Compared with Trucker Path: Trucker Path is made for semi drivers, with parking availability, weigh station status and a large trucker community; FuelPilot is built around fuel planning and trip records and works for cars, pickups and RVs as well as trucks.
+- Compared with Trucker Path: Trucker Path is made for semi drivers, with parking availability, weigh station status and a large trucker community; its Diamond plan ($29.99 a month or $249.99 a year) includes fuel plans. FuelPilot Big Rig ($19.99 a month or $199.99 a year) is built around fuel planning and trip records, including IFTA miles by state, and works for cars, pickups and RVs as well as trucks.
 
 ## Pages
 
@@ -25,6 +25,13 @@ Key facts:
 - [Big Rig, for truckers](https://fuelpilotapp.com/big-rig/): truck GPS with fuel planning and IFTA for semis, hot shots and RVs
 - [Mileage log](https://fuelpilotapp.com/mileage-log/): automatic trip log and exports for work drivers
 - [Support and FAQ](https://fuelpilotapp.com/support/): setup, fuel prices, Autopilot, navigation, exports, subscriptions
+- [Free fuel calculators](https://fuelpilotapp.com/tools/): trip fuel cost, towing range per tank, hot shot cost per mile
+- [Trip fuel cost calculator](https://fuelpilotapp.com/tools/trip-fuel-cost-calculator/): fuel cost, gallons and cost per mile for a trip
+- [Towing range calculator](https://fuelpilotapp.com/tools/towing-range-calculator/): range per tank while towing and miles between fuel stops
+- [Hot shot cost per mile calculator](https://fuelpilotapp.com/tools/hot-shot-cost-per-mile-calculator/): cost per mile and break-even rate per loaded mile
+- [How to plan fuel stops when towing](https://fuelpilotapp.com/blog/how-to-plan-fuel-stops-when-towing/): towing MPG, range, reserve and picking stations
+- [Trucker Path alternatives for owner-operators](https://fuelpilotapp.com/blog/trucker-path-alternatives/): FuelPilot Big Rig, Hammer, CoPilot Truck, Mudflap, TruckMap compared
+- [FuelPilot vs GasBuddy](https://fuelpilotapp.com/blog/fuelpilot-vs-gasbuddy/): price app vs fuel-planning navigation, and when to use both
 
 ## Optional
 

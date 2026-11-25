@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; base-uri 'none'; form-action 'none'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Towing range calculator: how far can you tow on a tank? | FuelPilot</title>
+  <meta name="description" content="How far you can tow on a tank and how far to plan between fuel stops with a reserve, from your tank size and towing MPG.">
+  <meta name="apple-itunes-app" content="app-id=6823442691">
+  <link rel="canonical" href="https://fuelpilotapp.com/tools/towing-range-calculator/">
+  <meta name="theme-color" content="#0f0f10">
+  <meta name="color-scheme" content="dark">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="FuelPilot">
+  <meta property="og:title" content="Towing range calculator: how far can you tow on a tank? | FuelPilot">
+  <meta property="og:description" content="How far you can tow on a tank and how far to plan between fuel stops with a reserve, from your tank size and towing MPG.">
+  <meta property="og:image" content="https://fuelpilotapp.com/assets/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" href="/assets/favicon-48.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="preload" href="/assets/fonts/barlow-semi-condensed-regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/barlow-semi-condensed-semibold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/site.css">
+  <script src="/assets/calc.js" defer></script>
+  <script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "FuelPilot",
+     "item": "https://fuelpilotapp.com/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Free tools",
+     "item": "https://fuelpilotapp.com/tools/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Towing range calculator",
+     "item": "https://fuelpilotapp.com/tools/towing-range-calculator/"
+    }
+   ]
+  },
+  {
+   "@type": "WebApplication",
+   "name": "Towing range calculator",
+   "description": "How far you can tow on a tank and how far to plan between fuel stops with a reserve, from your tank size and towing MPG.",
+   "url": "https://fuelpilotapp.com/tools/towing-range-calculator/",
+   "applicationCategory": "UtilitiesApplication",
+   "operatingSystem": "Any",
+   "browserRequirements": "Requires JavaScript",
+   "isAccessibleForFree": true,
+   "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "Ghost Systems LLC",
+    "url": "https://fuelpilotapp.com/",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://fuelpilotapp.com/assets/icon-512.png"
+    }
+   }
+  },
+  {
+   "@type": "FAQPage",
+   "url": "https://fuelpilotapp.com/tools/towing-range-calculator/",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "How far can I tow on a tank of gas or diesel?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Multiply your usable tank size by your towing MPG. A 36-gallon tank at 9 MPG gives 324 miles on a full tank. Keeping a quarter tank in reserve leaves about 243 miles between stops."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How much does towing reduce range?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "About as much as it reduces MPG. In a Department of Energy test, an SUV towing a 3,500 lb enclosed trailer lost about 30% of its fuel economy in city driving and about 50% at 80 mph. Heavy travel trailers and fifth wheels often fall somewhere in that range, depending on speed, wind and hills."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How much reserve should I keep when towing?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A quarter tank is a common rule. Keep more in remote areas, in winter, or before a long climb."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Why is my towing range lower than the calculator says?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Headwinds, hills, speed and idling all cut MPG, and fuel gauges aren't exact. Measure your towing MPG over a few tanks and use that."
+     }
+    }
+   ]
+  }
+ ]
+}
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="/" aria-label="FuelPilot home">
+        <img src="/assets/icon-128.png" width="40" height="40" alt="">
+        FuelPilot
+      </a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="/support/">Support</a>
+        <a href="/privacy/">Privacy</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="page">
+    <div class="wrap">
+      <p class="crumbs"><a href="/tools/">Free tools</a></p>
+      <h1>Towing range calculator</h1>
+      <p class="summary">How far can you tow on a tank? Enter your tank size and MPG, and either your towing MPG or how much towing cuts it. You'll get your range on a full tank, how far to plan between fuel stops with a reserve left, and how much range the trailer costs you.</p>
+
+      <form class="calc" data-calc="towing" novalidate>
+        <div class="calc-grid">
+          <label>Usable tank size <span class="unit">gallons</span><input name="tank" type="number" inputmode="decimal" min="0" step="any" value="36" required></label>
+          <label>MPG when not towing<input name="mpg" type="number" inputmode="decimal" min="0" step="any" value="15" required></label>
+          <label>Towing MPG, if you know it <span class="unit">leave blank to estimate</span><input name="towmpg" type="number" inputmode="decimal" min="0" step="any" value="" placeholder="e.g. 9"></label>
+          <label>MPG drop while towing <span class="unit">% (used if towing MPG is blank)</span><input name="drop" type="number" inputmode="decimal" min="0" max="90" step="any" value="35"></label>
+          <label>Reserve to keep <span class="unit">% of tank</span><input name="reserve" type="number" inputmode="decimal" min="0" max="90" step="any" value="25"></label>
+        </div>
+        <div class="calc-out" aria-live="polite">
+          <p class="calc-big"><span data-out="between">—</span> <span class="calc-big-label">between fuel stops</span></p>
+          <dl>
+            <div><dt>Towing MPG used</dt><dd data-out="tow-mpg">—</dd></div>
+            <div><dt>Full tank, towing</dt><dd data-out="tow-range">—</dd></div>
+            <div><dt>Full tank, not towing</dt><dd data-out="range">—</dd></div>
+            <div><dt>Range the trailer costs you</dt><dd data-out="lost">—</dd></div>
+            <div><dt>Reserve left at each stop</dt><dd data-out="reserve-gal">—</dd></div>
+          </dl>
+          <p class="calc-error" data-out="error" hidden></p>
+        </div>
+        <p class="note">Nothing you enter leaves your browser.</p>
+        <noscript><p class="note">This calculator needs JavaScript. The math is below.</p></noscript>
+      </form>
+
+      <h2>How it's worked out</h2>
+      <ul>
+        <li><strong>Towing MPG</strong> = your towing MPG, or MPG × (1 − drop ÷ 100)</li>
+        <li><strong>Full-tank range</strong> = usable tank × towing MPG</li>
+        <li><strong>Miles between stops</strong> = full-tank range × (1 − reserve ÷ 100)</li>
+      </ul>
+      <p>Example: a 36-gallon tank at 9 MPG towing is 324 miles on a full tank. Keep a quarter tank in reserve and you've got about 243 miles between stops.</p>
+
+      <h2>What drop to use</h2>
+      <p>When Oak Ridge National Laboratory tested an SUV towing a 3,500 lb enclosed cargo trailer for the Department of Energy, fuel economy fell by about 30% in city driving and about 50% at 80 mph. Heavier, taller trailers, hills, headwinds and higher speeds push it toward the top of that range. The 35% starting value is a middle guess. Your own fill-ups are the only real answer: divide miles towed by gallons to refill, over two or three tanks, and put that in the towing MPG box.</p>
+      <p>For tank size, use the gallons it takes to fill up from empty, not a guess. Fuel gauges aren't exact, which is one more reason to keep a reserve.</p>
+
+      <h2>Plan stops around your real range</h2>
+      <p>FuelPilot's towing mode adjusts your range for the trailer and learns your real MPG from your fill-ups. Autopilot then picks the cheapest stations you can reach for the whole trip, keeping the reserve you choose, and adds them to your turn-by-turn directions. Read the full guide: <a href="/blog/how-to-plan-fuel-stops-when-towing/">how to plan fuel stops when towing</a>.</p>
+      <p class="cta-row"><a class="store-link" href="https://apps.apple.com/app/id6823442691" rel="noopener noreferrer">Download on the App Store</a> <a class="store-link" href="https://play.google.com/store/apps/details?id=com.ghostsystems.fuelpilot" rel="noopener noreferrer">Get it on Google Play</a></p>
+
+      <h2>Questions</h2>
+      <!-- faq -->
+      <h3>How far can I tow on a tank of gas or diesel?</h3>
+      <p>Multiply your usable tank size by your towing MPG. A 36-gallon tank at 9 MPG gives 324 miles on a full tank. Keeping a quarter tank in reserve leaves about 243 miles between stops.</p>
+
+      <h3>How much does towing reduce range?</h3>
+      <p>About as much as it reduces MPG. In a Department of Energy test, an SUV towing a 3,500 lb enclosed trailer lost about 30% of its fuel economy in city driving and about 50% at 80 mph. Heavy travel trailers and fifth wheels often fall somewhere in that range, depending on speed, wind and hills.</p>
+
+      <h3>How much reserve should I keep when towing?</h3>
+      <p>A quarter tank is a common rule. Keep more in remote areas, in winter, or before a long climb.</p>
+
+      <h3>Why is my towing range lower than the calculator says?</h3>
+      <p>Headwinds, hills, speed and idling all cut MPG, and fuel gauges aren't exact. Measure your towing MPG over a few tanks and use that.</p>
+      <!-- /faq -->
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <nav class="footer-links" aria-label="Footer">
+        <a href="/towing/">Towing and RVs</a>
+        <a href="/big-rig/">Truckers</a>
+        <a href="/mileage-log/">Mileage log</a>
+        <a href="/tools/">Free calculators</a>
+        <a href="/blog/">Blog</a>
+        <a href="/support/">Support</a>
+        <a href="/privacy/">Privacy policy</a>
+        <a href="/terms/">Terms of use</a>
+        <a href="/delete-account/">Delete your account</a>
+      </nav>
+      <p>Questions? <a href="mailto:support@fuelpilotapp.com">support@fuelpilotapp.com</a></p>
+      <p>&copy; 2026 Ghost Systems LLC</p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -34,6 +34,22 @@ SITE = {
                 'Truck-legal routes for your rig\'s height, weight and length, fuel stops at truck stops and truck lanes only, and IFTA miles by state. For semis, hot shots and RVs.', None),
     'mileage-log': ('mileage-log/index.html', 'Automatic mileage log and fuel expense tracker | FuelPilot',
                     'FuelPilot logs every drive you navigate with miles, time and fuel. Tag trips business or personal and export a mileage log or fuel expense report.', None),
+    'blog': ('blog/index.html', 'Blog: fuel planning guides and app comparisons | FuelPilot',
+             'Guides and honest comparisons for planning fuel on the road: towing, hot shots, truck apps and price apps.', None),
+    'blog/fuelpilot-vs-gasbuddy': ('blog/fuelpilot-vs-gasbuddy/index.html', 'FuelPilot vs GasBuddy: a price map or a planned route? | FuelPilot',
+                                   'GasBuddy finds cheap gas near you. FuelPilot plans every fuel stop for a trip from your tank and real MPG. What each does best and when to use both.', None),
+    'blog/trucker-path-alternatives': ('blog/trucker-path-alternatives/index.html', 'Trucker Path alternatives for owner-operators who want fuel planning | FuelPilot',
+                                       'Trucker Path alternatives compared for owner-operators and hot shots: FuelPilot Big Rig, Hammer, CoPilot Truck, Mudflap and TruckMap, with prices.', None),
+    'blog/how-to-plan-fuel-stops-when-towing': ('blog/how-to-plan-fuel-stops-when-towing/index.html', 'How to plan fuel stops when towing a travel trailer or fifth wheel | FuelPilot',
+                                                'Find your real towing MPG, work out your range with a reserve, plan around empty stretches and pick stations you can get a trailer through.', None),
+    'tools': ('tools/index.html', 'Free fuel calculators: trip cost, towing range, cost per mile | FuelPilot',
+              'Free calculators for drivers: trip fuel cost, towing range per tank and hot shot cost per mile. No sign-up.', None),
+    'tools/trip-fuel-cost-calculator': ('tools/trip-fuel-cost-calculator/index.html', 'Trip fuel cost calculator: gas or diesel, round trip | FuelPilot',
+                                        'Work out what a trip will cost in fuel, the gallons you\'ll burn and your cost per mile. Gas or diesel, one way or round trip, split between riders.', None),
+    'tools/towing-range-calculator': ('tools/towing-range-calculator/index.html', 'Towing range calculator: how far can you tow on a tank? | FuelPilot',
+                                      'How far you can tow on a tank and how far to plan between fuel stops with a reserve, from your tank size and towing MPG.', None),
+    'tools/hot-shot-cost-per-mile-calculator': ('tools/hot-shot-cost-per-mile-calculator/index.html', 'Hot shot cost per mile calculator | FuelPilot',
+                                                'Work out your hot shot or owner-operator cost per mile: fuel, maintenance, payments, insurance and empty miles, and your break-even rate per loaded mile.', None),
     '404': ('404.html', 'Page not found | FuelPilot', 'This page does not exist.', None),
 }
 
@@ -42,6 +58,20 @@ SITE = {
 # it is set here in each page.
 CSP = ("default-src 'none'; style-src 'self'; img-src 'self'; font-src 'self'; "
        "base-uri 'none'; form-action 'none'")
+
+# Pages that run the calculator script, so their policy allows scripts from this site.
+CALC_PAGES = {'tools/trip-fuel-cost-calculator', 'tools/towing-range-calculator', 'tools/hot-shot-cost-per-mile-calculator'}
+CSP_CALC = CSP.replace("default-src 'none'; ", "default-src 'none'; script-src 'self'; ")
+
+# Starting prices in the calculators: US averages from the EIA weekly
+# Gasoline and Diesel Fuel Update. Update both the price and the date.
+PRICES = {
+    'gas_price': '3.995', 'gas_date': 'week of Nov 9, 2026',
+    'diesel_price': '5.937', 'diesel_date': 'week of Nov 16, 2026',
+}
+
+POSTS = ['blog/how-to-plan-fuel-stops-when-towing', 'blog/trucker-path-alternatives', 'blog/fuelpilot-vs-gasbuddy']
+PUBLISHED = '2026-11-25'
 
 CHECK = ('<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" '
          'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg>')
@@ -58,7 +88,7 @@ HEAD = """<!doctype html>
   <meta name="apple-itunes-app" content="app-id=6823442691">
 {canonical}  <meta name="theme-color" content="#0f0f10">
   <meta name="color-scheme" content="dark">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="{ogtype}">
   <meta property="og:site_name" content="FuelPilot">
   <meta property="og:title" content="{title}">
   <meta property="og:description" content="{description}">
@@ -72,7 +102,7 @@ HEAD = """<!doctype html>
   <link rel="preload" href="/assets/fonts/barlow-semi-condensed-regular.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/assets/fonts/barlow-semi-condensed-semibold.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/assets/site.css">
-{jsonld}</head>
+{script}{jsonld}</head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
 
@@ -99,6 +129,8 @@ FOOT = """{main_close}
         <a href="/towing/">Towing and RVs</a>
         <a href="/big-rig/">Truckers</a>
         <a href="/mileage-log/">Mileage log</a>
+        <a href="/tools/">Free calculators</a>
+        <a href="/blog/">Blog</a>
         <a href="/support/">Support</a>
         <a href="/privacy/">Privacy policy</a>
         <a href="/terms/">Terms of use</a>
@@ -209,7 +241,36 @@ def jsonld(slug: str, body: str, title: str, url: str) -> str:
                       'breadcrumb': {'@type': 'BreadcrumbList', 'itemListElement': [
                           {'@type': 'ListItem', 'position': 1, 'name': 'FuelPilot', 'item': 'https://fuelpilotapp.com/'},
                           {'@type': 'ListItem', 'position': 2, 'name': text(re.search(r'<h1>(.*?)</h1>', body).group(1)), 'item': url}]}})
-    pairs = faq_pairs(body) if slug in ('home', 'support', 'towing', 'big-rig', 'mileage-log') else []
+    elif slug in POSTS or slug in CALC_PAGES or slug in ('blog', 'tools'):
+        section = 'Blog' if slug.startswith('blog') else 'Free tools'
+        crumbs = [{'@type': 'ListItem', 'position': 1, 'name': 'FuelPilot', 'item': 'https://fuelpilotapp.com/'},
+                  {'@type': 'ListItem', 'position': 2, 'name': section, 'item': 'https://fuelpilotapp.com/' + slug.split('/')[0] + '/'}]
+        h1 = text(re.search(r'<h1>(.*?)</h1>', body).group(1))
+        if '/' in slug:
+            crumbs.append({'@type': 'ListItem', 'position': 3, 'name': h1, 'item': url})
+        graph.append({'@type': 'BreadcrumbList', 'itemListElement': crumbs})
+        publisher = {'@type': 'Organization', 'name': 'Ghost Systems LLC', 'url': 'https://fuelpilotapp.com/',
+                     'logo': {'@type': 'ImageObject', 'url': 'https://fuelpilotapp.com/assets/icon-512.png'}}
+        if slug in POSTS:
+            graph.append({'@type': 'BlogPosting', 'headline': h1, 'description': SITE[slug][2], 'url': url,
+                          'mainEntityOfPage': url, 'image': 'https://fuelpilotapp.com/assets/og.png',
+                          'datePublished': PUBLISHED, 'dateModified': PUBLISHED, 'inLanguage': 'en',
+                          'author': {'@type': 'Person', 'name': 'David Kulagin', 'jobTitle': 'Founder, Ghost Systems LLC'},
+                          'publisher': publisher, 'about': {'@id': 'https://fuelpilotapp.com/#app'}})
+        elif slug in CALC_PAGES:
+            graph.append({'@type': 'WebApplication', 'name': h1, 'description': SITE[slug][2], 'url': url,
+                          'applicationCategory': 'UtilitiesApplication', 'operatingSystem': 'Any',
+                          'browserRequirements': 'Requires JavaScript', 'isAccessibleForFree': True,
+                          'offers': {'@type': 'Offer', 'price': '0', 'priceCurrency': 'USD'}, 'publisher': publisher})
+        elif slug == 'blog':
+            graph.append({'@type': 'Blog', 'name': 'FuelPilot blog', 'url': url, 'publisher': publisher,
+                          'blogPost': [{'@type': 'BlogPosting', 'headline': text(re.search(r'<h1>(.*?)</h1>', (PAGES / f'{p}.html').read_text()).group(1)),
+                                        'url': f'https://fuelpilotapp.com/{p}/', 'datePublished': PUBLISHED} for p in POSTS]})
+        else:
+            graph.append({'@type': 'CollectionPage', 'name': h1, 'url': url, 'hasPart': [
+                {'@type': 'WebApplication', 'name': text(re.search(r'<h1>(.*?)</h1>', (PAGES / f'{p}.html').read_text()).group(1)),
+                 'url': f'https://fuelpilotapp.com/{p}/'} for p in sorted(CALC_PAGES)]})
+    pairs = faq_pairs(body) if slug in ('home', 'support', 'towing', 'big-rig', 'mileage-log') or slug in POSTS or slug in CALC_PAGES else []
     if pairs:
         graph.append({'@type': 'FAQPage', 'url': url, 'mainEntity': [
             {'@type': 'Question', 'name': q, 'acceptedAnswer': {'@type': 'Answer', 'text': a}} for q, a in pairs]})
@@ -224,28 +285,44 @@ def llms_full() -> str:
     pages so it never drifts from them."""
     out = [Path(ROOT / 'llms.txt').read_text().strip(), '']
     for slug, label in (('home', 'Home page'), ('towing', 'Towing and RVs'), ('big-rig', 'Big Rig, for truckers'),
-                        ('mileage-log', 'Mileage log'), ('support', 'Support and FAQ')):
-        body = (PAGES / f'{slug}.html').read_text()
+                        ('mileage-log', 'Mileage log'), ('support', 'Support and FAQ'),
+                        *[(p, 'Blog') for p in POSTS], *[(p, 'Free calculator') for p in sorted(CALC_PAGES)]):
+        body = fill((PAGES / f'{slug}.html').read_text())
+        body = re.sub(r'<form .*?</form>', '', body, flags=re.S)
+        body = re.sub(r'<p class="crumbs">.*?</p>', '', body, flags=re.S)
         body = re.sub(r'<(svg|ul class="toc"|p class="cta-row")[^>]*>.*?</(svg|ul|p)>', '', body, flags=re.S)
         body = re.sub(r'<section class="hero">.*?</section>', '', body, flags=re.S)
         url = 'https://fuelpilotapp.com/' + ('' if slug == 'home' else slug + '/')
         out.append(f'\n## {label} ({url})\n')
-        for tag, inner in re.findall(r'<(h1|h2|h3|p|li|dt|dd)[^>]*>(.*?)</\1>', body, re.S):
-            t = text(inner.replace('{check}', ''))
+        for tag, inner in re.findall(r'<(h1|h2|h3|p|li|dt|dd|tr)[^>]*>(.*?)</\1>', body, re.S):
+            if tag == 'tr':
+                t = ' | '.join(text(c) for c in re.findall(r'<t[hd][^>]*>(.*?)</t[hd]>', inner, re.S)).strip(' |')
+            else:
+                t = text(inner.replace('{check}', ''))
             if not t:
                 continue
-            out.append({'h1': '### ', 'h2': '### ', 'h3': '#### ', 'li': '- ', 'dt': '- ', 'dd': '  '}.get(tag, '') + t)
+            out.append({'h1': '### ', 'h2': '### ', 'h3': '#### ', 'li': '- ', 'dt': '- ', 'dd': '  ', 'tr': '- '}.get(tag, '') + t)
     return '\n'.join(out).replace('\n\n\n', '\n\n') + '\n'
+
+
+def fill(body: str) -> str:
+    body = body.replace('{check}', CHECK)
+    for k, v in PRICES.items():
+        body = body.replace('{' + k + '}', v)
+    return body
 
 
 def main() -> None:
     for slug, (out, title, description, current) in SITE.items():
-        body = (PAGES / f'{slug}.html').read_text().replace('{check}', CHECK)
+        body = fill((PAGES / f'{slug}.html').read_text())
+        assert '{' not in re.sub(r'<script.*?</script>', '', body, flags=re.S).replace('{check}', ''), slug
         home = slug == 'home'
         url_path = '/' if home else f'/{slug}/'
         canonical = '' if slug == '404' else f'  <link rel="canonical" href="https://fuelpilotapp.com{url_path}">\n'
         head = HEAD.format(
-            csp=CSP,
+            csp=CSP_CALC if slug in CALC_PAGES else CSP,
+            ogtype='article' if slug in POSTS else 'website',
+            script='  <script src="/assets/calc.js" defer></script>\n' if slug in CALC_PAGES else '',
             title=title,
             description=description,
             canonical=canonical,

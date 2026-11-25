@@ -1,0 +1,66 @@
+<p class="crumbs"><a href="/tools/">Free tools</a></p>
+<h1>Trip fuel cost calculator</h1>
+<p class="summary">Enter how far you're going, your MPG and the price of fuel to see what the trip will cost, how many gallons you'll burn and the cost per mile. Works for gas or diesel, one way or round trip, and splits the cost if you're sharing the ride.</p>
+
+<form class="calc" data-calc="trip" novalidate>
+  <div class="calc-grid">
+    <label>Distance <span class="unit">miles, one way</span><input name="miles" type="number" inputmode="decimal" min="0" step="any" value="500" required></label>
+    <label>Your MPG <span class="unit">miles per gallon</span><input name="mpg" type="number" inputmode="decimal" min="0" step="any" value="22" required></label>
+    <label>Fuel
+      <select name="fuel">
+        <option value="regular" data-price="{gas_price}">Regular gas</option>
+        <option value="diesel" data-price="{diesel_price}">Diesel</option>
+      </select>
+    </label>
+    <label>Price <span class="unit">$ per gallon</span><input name="price" type="number" inputmode="decimal" min="0" step="any" value="{gas_price}" required></label>
+    <label>People sharing the cost<input name="people" type="number" inputmode="numeric" min="1" step="1" value="1"></label>
+    <label class="check"><input name="round" type="checkbox"> Round trip</label>
+  </div>
+  <div class="calc-out" aria-live="polite">
+    <p class="calc-big"><span data-out="cost">—</span> <span class="calc-big-label">for fuel</span></p>
+    <dl>
+      <div><dt>Miles driven</dt><dd data-out="total-miles">—</dd></div>
+      <div><dt>Gallons</dt><dd data-out="gallons">—</dd></div>
+      <div><dt>Cost per mile</dt><dd data-out="per-mile">—</dd></div>
+      <div><dt>Each person pays</dt><dd data-out="per-person">—</dd></div>
+    </dl>
+    <p class="calc-error" data-out="error" hidden></p>
+  </div>
+  <p class="note">Starting prices are US averages from the EIA: regular ${gas_price} ({gas_date}), diesel ${diesel_price} ({diesel_date}). Change them to what you'll pay. Nothing you enter leaves your browser.</p>
+  <noscript><p class="note">This calculator needs JavaScript. The math is below.</p></noscript>
+</form>
+
+<h2>How it's worked out</h2>
+<ul>
+  <li><strong>Gallons</strong> = miles ÷ MPG</li>
+  <li><strong>Fuel cost</strong> = gallons × price per gallon</li>
+  <li><strong>Cost per mile</strong> = price per gallon ÷ MPG</li>
+</ul>
+<p>Example: a 500-mile drive at 22 MPG uses about 22.7 gallons. At $4.00 a gallon that's about $90.91, or about 18¢ a mile. Round trip, double it.</p>
+
+<h2>Getting a closer number</h2>
+<ul>
+  <li><strong>Use your real MPG, not the sticker.</strong> Divide the miles you drove by the gallons it took to fill back up, over a couple of tanks.</li>
+  <li><strong>Highway speed matters.</strong> Fuel economy usually drops quickly above about 50 mph, so a fast highway trip can come in under your average MPG.</li>
+  <li><strong>Towing changes everything.</strong> A trailer can cut your MPG by a third or more. Use the <a href="/tools/towing-range-calculator/">towing range calculator</a> to plan stops.</li>
+  <li><strong>Prices vary along the way.</strong> The same trip can cost noticeably more or less depending on where you stop.</li>
+</ul>
+
+<h2>Let FuelPilot pick the cheap stops</h2>
+<p>This calculator tells you what a trip costs at one price. FuelPilot checks prices along your actual route, picks the cheapest stations you can reach with your tank and real MPG, and gives you turn-by-turn directions to each one. Navigation is free; Autopilot fuel stops come with FuelPilot Pro.</p>
+<p class="cta-row"><a class="store-link" href="https://apps.apple.com/app/id6823442691" rel="noopener noreferrer">Download on the App Store</a> <a class="store-link" href="https://play.google.com/store/apps/details?id=com.ghostsystems.fuelpilot" rel="noopener noreferrer">Get it on Google Play</a></p>
+
+<h2>Questions</h2>
+<!-- faq -->
+<h3>How do I calculate the fuel cost of a road trip?</h3>
+<p>Divide the miles by your MPG to get gallons, then multiply by the price per gallon. A 500-mile trip at 22 MPG and $4.00 a gallon is about 22.7 gallons, or about $90.91.</p>
+
+<h3>How do I work out fuel cost per mile?</h3>
+<p>Divide the price per gallon by your MPG. At $4.00 a gallon and 22 MPG, fuel costs about 18¢ a mile. At $5.94 diesel and 10 MPG, it's about 59¢ a mile.</p>
+
+<h3>Is the calculator accurate for diesel?</h3>
+<p>Yes. The math is the same for any fuel. Pick Diesel to start from the national average diesel price, then change it to the price you expect to pay.</p>
+
+<h3>Does it work in Canada?</h3>
+<p>The calculator uses miles and US gallons. For litres and kilometres, convert first: 1 US gallon is 3.785 litres and 1 mile is 1.609 km.</p>
+<!-- /faq -->
