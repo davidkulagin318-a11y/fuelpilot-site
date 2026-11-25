@@ -9,7 +9,7 @@ Key facts:
 - Price: free to download and use. FuelPilot Pro is $7.99 a month or $49.99 a year. FuelPilot Big Rig is $19.99 a month or $199.99 a year and includes everything in Pro. Both start with a 7-day free trial. US prices.
 - Free: turn-by-turn navigation with spoken directions, the cheapest gas near you, fuel prices along your route (with a free account), a 7-day trip logbook, one vehicle.
 - Pro: Fuel Autopilot (plans and adds every fuel stop for the trip at the cheapest station you can reach, then re-checks after each fill-up), receipt photo reading, the full logbook, mileage log / fuel expense / quarterly IFTA exports as spreadsheets, more than one vehicle, towing mode.
-- Big Rig: truck-legal routes for the rig's height, weight and length (plus axles, trailers and hazmat), avoiding low bridges, weight limits and restricted roads; for semis and hot shots, fuel stops at truck stops and truck lanes only, at the truck-lane diesel price; RV routing that clears the motorhome's size. Can be switched off to drive a car.
+- Big Rig: truck-legal routes for the rig's height, weight and length (plus axles, trailers and hazmat), avoiding low bridges, weight limits and restricted roads; for semis and hot shots, fuel stops at truck stops and truck lanes only, at the truck-lane diesel price; RV routing that clears the motorhome's size; a road-ahead list of upcoming fuel stops, truck stops, weigh stations, rest areas, restrictions, and weather and road alerts (weigh station locations, not open/closed status). Can be switched off to drive a car.
 - No OBD-II adapter needed: it plans from tank size, the fuel level you set and the MPG it learns.
 - Fuel discounts and memberships: enter discounts once; Costco, Sam's Club, BJ's and cardlock stations only show if you have a membership.
 - Fuel prices come from HERE Technologies.
@@ -88,7 +88,7 @@ Export a mileage log, a fuel expense report or a quarterly IFTA summary with mil
 #### Every vehicle, towing included Pro
 Each vehicle keeps its own tank size and MPG, and towing mode adjusts your range when there's a trailer behind you.
 #### Big Rig mode Big Rig
-For semis, hot shots and RVs. Enter your rig's height, weight and length and FuelPilot plans truck-legal routes around low bridges, weight limits and restricted roads, and only sends you to truck stops and truck lanes. Switch it off any time to drive a car.
+For semis, hot shots and RVs. Enter your rig's height, weight and length and FuelPilot plans truck-legal routes around low bridges, weight limits and restricted roads, and only sends you to truck stops and truck lanes. The road-ahead list shows your fuel stops, truck stops, weigh stations, rest areas and weather and road alerts coming up. Switch it off any time to drive a car.
 ### Free, Pro and Big Rig
 Navigation and nearby prices are free. Pro adds the parts that save money and paperwork on every trip. Big Rig adds truck routing for semis, hot shots and RVs.
 #### Free
@@ -116,6 +116,7 @@ or $19.99 a month
 - Routes around low bridges, weight limits and restricted roads
 - Fuel stops at truck stops and truck lanes only
 - Truck-lane diesel prices
+- Weigh stations and the road ahead
 - For semis, hot shots and RVs
 Pro and Big Rig renew automatically until you cancel in your App Store or Google Play account settings. Cancel at least 24 hours before the trial or a billing period ends to avoid the next charge. Prices are in US dollars and may differ by country. Truck routes depend on map data and the sizes you enter, so always follow posted signs. FuelPilot is available in the United States and Canada. Big Rig is on iPhone now and coming to Android in the next update.
 ### Coming next
@@ -186,6 +187,7 @@ FuelPilot Big Rig plans truck-legal routes for your rig's height, weight and len
 - Truck-legal routes. Enter your rig's height, weight and length, plus axles, trailers and hazmat. Routes avoid low bridges, weight limits, restricted roads and hazmat restrictions. Any box you leave blank uses a typical semi: 13'6", 80,000 lb and 72 ft.
 - Truck stops and truck lanes only. For a semi or hot shot, fuel stops are truck stops and truck lanes, priced at the truck-lane diesel price.
 - Fuel Autopilot. Every fuel stop for the run, picked before you leave from prices along the whole route and the range you really have. After each fill-up it checks the next stop still makes sense.
+- The road ahead. A list of what's coming up on your route: your fuel stops, truck stops, weigh stations, rest areas, restrictions, and weather and road alerts. Weigh stations on your route also show on the map.
 - IFTA summary. Export a quarterly summary with miles and gallons by state, worked out from the GPS path of the trips you navigated and the receipts you scanned.
 - Receipts read for you. Photograph a receipt and the station, gallons, price and total fill themselves in.
 - One app for the truck and the car. Switch Big Rig mode off on the map to get car routes and every gas station, and back on for the truck.
@@ -203,6 +205,8 @@ Yes. Set your vehicle type to Hot shot / HD pickup and enter its height, weight 
 It works them out for you. Miles by state come from the GPS path of the trips you navigated with FuelPilot, checked against official state boundaries, and fuel by state comes from where your receipts were scanned. Export the quarterly summary as a spreadsheet. Drives you didn't navigate with FuelPilot aren't included, so check the totals before you file.
 #### Does it avoid hazmat-restricted roads?
 Yes. Mark your load as hazmat in your vehicle settings and Big Rig routes avoid hazmat restrictions.
+#### Does FuelPilot show weigh stations?
+Yes, with Big Rig. Weigh stations on your route show on the map and in the road-ahead list, along with your fuel stops, truck stops, rest areas, and weather and road alerts. It doesn't show whether a scale is open right now.
 #### Can I use it in my own car on the weekend?
 Yes. Turn off the Big Rig switch on the map or in Settings and you get car routes and every gas station again.
 
@@ -535,8 +539,9 @@ Best for: owner-operators and hot shot drivers who want every fuel stop planned 
 - Fuel Autopilot picks the cheapest truck stop or truck lane you can reach for every stop on the run, before you leave, and re-checks after each fill-up. It plans at the truck-lane diesel price.
 - It learns your real MPG from your fill-ups. No OBD-II adapter or ELD connection needed.
 - A quarterly IFTA summary with miles and gallons by state, from the GPS path of the trips you navigated and the receipts you scanned. Drives you don't navigate with FuelPilot aren't included.
+- A road-ahead list of your fuel stops, truck stops, weigh stations, rest areas, and weather and road alerts.
 - Switch Big Rig off and it's a normal navigation app for your car or pickup.
-Where it falls short: no parking availability, no weigh station status, no CarPlay yet and no load board. Big Rig is on iPhone now and comes to Android in the next update. It's $10 a month less than Trucker Path Diamond and $50 a year less on the annual plan.
+Where it falls short: it shows weigh stations on your route but not whether they're open, and there's no parking availability, no CarPlay yet and no load board. Big Rig is on iPhone now and comes to Android in the next update. It's $10 a month less than Trucker Path Diamond and $50 a year less on the annual plan.
 More about FuelPilot Big Rig
 ### Hammer
 Best for: drivers who want a truck GPS and don't want to pay for one.
