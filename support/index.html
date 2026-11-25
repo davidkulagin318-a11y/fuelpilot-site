@@ -25,6 +25,235 @@
   <link rel="preload" href="/assets/fonts/barlow-semi-condensed-regular.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/assets/fonts/barlow-semi-condensed-semibold.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/assets/site.css">
+  <script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "FAQPage",
+   "url": "https://fuelpilotapp.com/support/",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "What do I need to set up first?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Allow location when FuelPilot asks, then add your vehicle in the Vehicle tab with its tank size and MPG. Range and fuel stop picks depend on those two numbers, and FuelPilot learns your real MPG as you log fill-ups. Set the fuel gauge in the app to match your tank before a trip."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do I need an account?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No. Tap Continue without an account on the sign-in screen to use the app right away. Signing out as a guest deletes your vehicles, trips and receipts, so create an account in Settings first if you want to keep them. Fuel prices along your route, FuelPilot Pro and Big Rig need an account."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do I need an OBD-II adapter?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No. There's nothing to plug in. FuelPilot plans from your tank size, the fuel level you set and the MPG it learns from your fill-ups."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Is FuelPilot on Android?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. FuelPilot is on Google Play. A few newer features, including Big Rig, come to Android in the next update."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Where do the fuel prices come from?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "From HERE Technologies, a fuel price provider, and they're refreshed regularly. Prices can still lag behind the pump, so the price on the pump is the one you pay."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Why didn't Autopilot pick the cheapest station I can see?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Autopilot picks the cheapest station you can reach with your reserve left, on or close to your route. A cheaper station might be out of range, too far off the route, or not save enough to be worth the detour. You can change your reserve and the minimum savings for a detour in Settings › Autopilot."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How does Autopilot plan a long trip?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "It plans every fuel stop for the whole trip before you leave and shows them in the route preview. Tap Add stops to add them. After each fill-up it checks that the next stop still makes sense, and changes it if prices or your range have moved. You can turn partial fills on or off and set the smallest fill in Settings."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Why doesn't it send me to Costco or a cardlock?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Stations that need a membership are left out until you tell FuelPilot you have one. Turn on Costco, Sam's Club, BJ's or fleet cardlock in Settings › Fuel memberships."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Does FuelPilot avoid low bridges and truck restrictions?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "With FuelPilot Big Rig, yes. Set your vehicle's type and its height, weight and length, and Big Rig plans truck-legal routes around low bridges, weight limits and restricted roads, and only sends you to truck stops and truck lanes. Truck routes depend on map data and the sizes you enter, so always follow posted signs. Without Big Rig, routes are planned for passenger vehicles and don't account for bridge heights, weight limits or truck restrictions."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How do I set up my truck or RV?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "In the Vehicle tab, edit the vehicle and set its type to RV / motorhome, Hot shot / HD pickup or Semi, then enter its height, weight and length. For a truck you can also enter axles, trailers and hazmat. Any box you leave blank uses a typical size: a semi is 13'6\", 80,000 lb and 72 ft. Truck and RV routes need FuelPilot Big Rig. If Big Rig mode is on and your vehicle is still set to Car / pickup, routes are planned for a typical semi."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What changes when Big Rig mode is on?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "For a semi or hot shot, routes follow truck-legal roads and avoid low bridges, weight limits and hazmat restrictions, fuel stops are truck stops and truck lanes only at the truck-lane diesel price, and Food is left out of the quick stops. For an RV, routes clear its height, weight and length, and every station still shows. The top of the map says Truck routes with your rig's size, and the route preview says Truck route."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How do I go back to car routes?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Turn off the Big Rig switch on the bar at the top of the map, or in Settings › Big Rig. You get car routes and every gas station again. Turn it back on any time. If a route is on screen, it's planned again for the new mode."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What does \"Not a truck route\" mean?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Truck routing couldn't be reached, so FuelPilot is showing the normal car route and warning you before you start and while you drive. That route hasn't been checked for your rig's size, so check it yourself, or plan the route again in a moment. If no legal truck route exists for a trip, FuelPilot tells you instead of routing."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What does \"Car route — not checked\" mean?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Your vehicle is set up as an RV or truck, but you don't have FuelPilot Big Rig, so the route is planned for a car and isn't checked against your vehicle's size."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can I avoid tolls or highways?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. Turn on Avoid tolls or Avoid highways in Settings. When there's more than one way to go, the route preview lets you choose between routes."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Does FuelPilot work with CarPlay?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Not yet. CarPlay is built and will be turned on in a later update."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How are trips recorded?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Every drive you navigate with FuelPilot is saved to your logbook automatically. The free plan shows the last 7 days. Older trips are kept, and they all come back if you upgrade to Pro."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How do I export a mileage log or IFTA report?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "In the Trips tab, tap Export, choose a mileage log, fuel expense report or IFTA summary, and pick the period. You get a spreadsheet (CSV) file and a private download link that works for 24 hours, so you can email it or open it on a computer. Exports are part of FuelPilot Pro."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How does the IFTA summary work out miles by state?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "From the GPS path of the trips you navigated with FuelPilot, checked against official state boundaries, and fuel by state from where your receipts were scanned. Drives you didn't navigate with FuelPilot aren't included, so check the totals before you file."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How do I log a fuel-up?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Tap Add receipt and take a photo of the receipt. With FuelPilot Pro, the station, gallons, price and total are read from the photo for you to check and confirm. You can always type the details in yourself."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can I stop receipt photos being read by AI?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. Turn off Read receipts with AI in Settings › Receipts. Photos are then only stored with your receipt, and you enter the numbers yourself."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What does Pro include, and how much is it?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Fuel Autopilot, which picks and adds every fuel stop for your trip, plus receipt reading, your full logbook with exports, and more than one vehicle with towing mode. A free account still shows fuel prices along your route. It's $7.99 a month or $49.99 a year in the US, and starts with a 7-day free trial."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What is Big Rig, and how much is it?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Big Rig is the plan for semis, hot shots and RVs. It plans truck-legal routes for your rig's height, weight and length, and only sends you to truck stops and truck lanes, at the truck-lane diesel price. Everything in Pro is included. It's $19.99 a month or $199.99 a year in the US, and starts with a 7-day free trial. Switch Big Rig mode off on the map or in Settings any time to drive a car."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How do I switch between Pro and Big Rig?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Open Settings › Subscription and use the Pro / Big Rig switch at the top. They're in the same subscription group, so moving from Pro to Big Rig is an upgrade through Apple, not a second subscription. To go from Big Rig back to Pro, change the plan in your iPhone's subscription settings."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How do I cancel?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "On your iPhone, open Settings › [your name] › Subscriptions, tap FuelPilot and then Cancel Subscription. Cancel at least 24 hours before your trial or billing period ends to avoid the next charge. Deleting the app or your account doesn't cancel the subscription. On Android, open the Play Store, tap your profile picture, then Payments & subscriptions › Subscriptions, pick FuelPilot and tap Cancel subscription."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How do I get a refund?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Apple handles payments and refunds for the App Store. Request one at reportaproblem.apple.com."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How do I delete my account?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "In the app, open Settings › Profile › Delete account. This permanently deletes your account and all its data. If you can't sign in, see Delete your account."
+     }
+    }
+   ]
+  }
+ ]
+}
+  </script>
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
@@ -182,6 +411,9 @@
   <footer class="site-footer">
     <div class="wrap">
       <nav class="footer-links" aria-label="Footer">
+        <a href="/towing/">Towing and RVs</a>
+        <a href="/big-rig/">Truckers</a>
+        <a href="/mileage-log/">Mileage log</a>
         <a href="/support/">Support</a>
         <a href="/privacy/">Privacy policy</a>
         <a href="/terms/">Terms of use</a>

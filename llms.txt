@@ -1,0 +1,34 @@
+# FuelPilot
+
+> FuelPilot is a turn-by-turn navigation app for iPhone and Android that plans your fuel stops. It knows your tank size, learns your real MPG from your fill-ups and checks fuel prices along your whole route, then picks the cheapest stations you can reach before you run low. Every trip you navigate is logged with its miles and fuel for taxes and IFTA. It works in the United States and Canada.
+
+Key facts:
+
+- Who it's for: drivers of diesel pickups, RVs and motorhomes, anyone towing a trailer, hot shot and semi drivers, and people who log miles for work.
+- Platforms: iPhone (App Store, https://apps.apple.com/app/id6823442691) and Android (Google Play, https://play.google.com/store/apps/details?id=com.ghostsystems.fuelpilot). Big Rig is on iPhone now and comes to Android in the next update.
+- Price: free to download and use. FuelPilot Pro is $7.99 a month or $49.99 a year. FuelPilot Big Rig is $19.99 a month or $199.99 a year and includes everything in Pro. Both start with a 7-day free trial. US prices.
+- Free: turn-by-turn navigation with spoken directions, the cheapest gas near you, fuel prices along your route (with a free account), a 7-day trip logbook, one vehicle.
+- Pro: Fuel Autopilot (plans and adds every fuel stop for the trip at the cheapest station you can reach, then re-checks after each fill-up), receipt photo reading, the full logbook, mileage log / fuel expense / quarterly IFTA exports as spreadsheets, more than one vehicle, towing mode.
+- Big Rig: truck-legal routes for the rig's height, weight and length (plus axles, trailers and hazmat), avoiding low bridges, weight limits and restricted roads; for semis and hot shots, fuel stops at truck stops and truck lanes only, at the truck-lane diesel price; RV routing that clears the motorhome's size. Can be switched off to drive a car.
+- No OBD-II adapter needed: it plans from tank size, the fuel level you set and the MPG it learns.
+- Fuel discounts and memberships: enter discounts once; Costco, Sam's Club, BJ's and cardlock stations only show if you have a membership.
+- Fuel prices come from HERE Technologies.
+- Not yet available: Apple CarPlay (built, turned on in a later update). No Android Auto.
+- Made by Ghost Systems LLC, a small US company founded by David Kulagin, a diesel mechanic who hauls for work.
+- Compared with GasBuddy: GasBuddy is best known for user-reported gas prices, the GasBuddy card and a trip cost calculator; FuelPilot is a navigation app that plans stops from your tank and range, adds them to your route and logs the trip.
+- Compared with Trucker Path: Trucker Path is made for semi drivers, with parking availability, weigh station status and a large trucker community; FuelPilot is built around fuel planning and trip records and works for cars, pickups and RVs as well as trucks.
+
+## Pages
+
+- [Home](https://fuelpilotapp.com/): what FuelPilot does, plans and prices, common questions
+- [Towing and RVs](https://fuelpilotapp.com/towing/): fuel stop planning around your towing range; RV routing
+- [Big Rig, for truckers](https://fuelpilotapp.com/big-rig/): truck GPS with fuel planning and IFTA for semis, hot shots and RVs
+- [Mileage log](https://fuelpilotapp.com/mileage-log/): automatic trip log and exports for work drivers
+- [Support and FAQ](https://fuelpilotapp.com/support/): setup, fuel prices, Autopilot, navigation, exports, subscriptions
+
+## Optional
+
+- [Full text of the site](https://fuelpilotapp.com/llms-full.txt)
+- [Privacy policy](https://fuelpilotapp.com/privacy/)
+- [Terms of use](https://fuelpilotapp.com/terms/)
+- Contact: support@fuelpilotapp.com

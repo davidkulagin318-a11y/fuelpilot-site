@@ -1,0 +1,300 @@
+# FuelPilot
+
+> FuelPilot is a turn-by-turn navigation app for iPhone and Android that plans your fuel stops. It knows your tank size, learns your real MPG from your fill-ups and checks fuel prices along your whole route, then picks the cheapest stations you can reach before you run low. Every trip you navigate is logged with its miles and fuel for taxes and IFTA. It works in the United States and Canada.
+
+Key facts:
+
+- Who it's for: drivers of diesel pickups, RVs and motorhomes, anyone towing a trailer, hot shot and semi drivers, and people who log miles for work.
+- Platforms: iPhone (App Store, https://apps.apple.com/app/id6823442691) and Android (Google Play, https://play.google.com/store/apps/details?id=com.ghostsystems.fuelpilot). Big Rig is on iPhone now and comes to Android in the next update.
+- Price: free to download and use. FuelPilot Pro is $7.99 a month or $49.99 a year. FuelPilot Big Rig is $19.99 a month or $199.99 a year and includes everything in Pro. Both start with a 7-day free trial. US prices.
+- Free: turn-by-turn navigation with spoken directions, the cheapest gas near you, fuel prices along your route (with a free account), a 7-day trip logbook, one vehicle.
+- Pro: Fuel Autopilot (plans and adds every fuel stop for the trip at the cheapest station you can reach, then re-checks after each fill-up), receipt photo reading, the full logbook, mileage log / fuel expense / quarterly IFTA exports as spreadsheets, more than one vehicle, towing mode.
+- Big Rig: truck-legal routes for the rig's height, weight and length (plus axles, trailers and hazmat), avoiding low bridges, weight limits and restricted roads; for semis and hot shots, fuel stops at truck stops and truck lanes only, at the truck-lane diesel price; RV routing that clears the motorhome's size. Can be switched off to drive a car.
+- No OBD-II adapter needed: it plans from tank size, the fuel level you set and the MPG it learns.
+- Fuel discounts and memberships: enter discounts once; Costco, Sam's Club, BJ's and cardlock stations only show if you have a membership.
+- Fuel prices come from HERE Technologies.
+- Not yet available: Apple CarPlay (built, turned on in a later update). No Android Auto.
+- Made by Ghost Systems LLC, a small US company founded by David Kulagin, a diesel mechanic who hauls for work.
+- Compared with GasBuddy: GasBuddy is best known for user-reported gas prices, the GasBuddy card and a trip cost calculator; FuelPilot is a navigation app that plans stops from your tank and range, adds them to your route and logs the trip.
+- Compared with Trucker Path: Trucker Path is made for semi drivers, with parking availability, weigh station status and a large trucker community; FuelPilot is built around fuel planning and trip records and works for cars, pickups and RVs as well as trucks.
+
+## Pages
+
+- [Home](https://fuelpilotapp.com/): what FuelPilot does, plans and prices, common questions
+- [Towing and RVs](https://fuelpilotapp.com/towing/): fuel stop planning around your towing range; RV routing
+- [Big Rig, for truckers](https://fuelpilotapp.com/big-rig/): truck GPS with fuel planning and IFTA for semis, hot shots and RVs
+- [Mileage log](https://fuelpilotapp.com/mileage-log/): automatic trip log and exports for work drivers
+- [Support and FAQ](https://fuelpilotapp.com/support/): setup, fuel prices, Autopilot, navigation, exports, subscriptions
+
+## Optional
+
+- [Full text of the site](https://fuelpilotapp.com/llms-full.txt)
+- [Privacy policy](https://fuelpilotapp.com/privacy/)
+- [Terms of use](https://fuelpilotapp.com/terms/)
+- Contact: support@fuelpilotapp.com
+
+## Home page (https://fuelpilotapp.com/)
+
+### What is FuelPilot?
+FuelPilot is a turn-by-turn navigation app for iPhone and Android that plans your fuel stops. It knows your tank size, learns your real MPG from your fill-ups and checks fuel prices along your whole route, then picks the cheapest stations you can reach before you run low. Every trip you navigate is logged with its miles and fuel, ready for taxes and IFTA.
+- Who it's for
+  Drivers of diesel pickups, RVs and motorhomes, anyone towing a trailer, hot shot and semi drivers, and people who log miles for work
+- Phones
+  iPhone on the App Store and Android on Google Play
+- Where it works
+  United States and Canada
+- Price
+  Free to use. Pro is $7.99 a month or $49.99 a year. Big Rig is $19.99 a month or $199.99 a year. Both start with a 7-day free trial.
+- Fuel prices
+  From HERE Technologies, refreshed regularly
+- Made by
+  Ghost Systems LLC, a small US company started by a diesel mechanic who hauls for work
+- Towing a trailer or driving an RV
+- Driving a semi or hot shot
+- Logging miles for work
+### How a drive works
+- 1 Pick a destination Search for a place or drop a pin, then choose between routes. You get turn-by-turn directions with spoken guidance.
+- 2 FuelPilot knows your range It knows your tank size and learns your real MPG from your fill-ups, so it always knows how far you can go.
+- 3 It plans every fuel stop Before you leave, Autopilot picks the cheapest stations you can reach for the whole trip. After each fill-up it checks that the next stop still makes sense.
+- 4 The trip logs itself Miles, time, fuel and stops go into your logbook, ready for your records or your accountant.
+### What's in the app
+Navigation, fuel prices and your trip records in one place. Features marked Pro come with FuelPilot Pro. Big Rig mode comes with FuelPilot Big Rig.
+#### Fuel Autopilot Pro
+Every fuel stop for the trip, planned up front from prices along your whole route. You choose your reserve, how far out of the way you'll go and how much a detour has to save.
+#### Turn-by-turn navigation
+Spoken directions, rerouting and weather on the map. Avoid tolls or highways, and find a restroom, food, a rest area or a truck stop in one tap.
+#### Cheapest gas near you
+Tap Get gas to find the lowest price within the distance you set, from 1 to 20 miles.
+#### The price you actually pay
+Enter your fuel discounts once and every pick plans on your price. Costco, Sam's Club, BJ's and cardlock stations only show up if you have a membership.
+#### Learns your real MPG
+FuelPilot works out your real MPG from the gallons you put in and the miles you drove, so your range keeps getting more accurate. Nothing to plug in.
+#### A logbook that writes itself
+Every navigated drive is saved with its route map, miles, time, MPG, stops and what you saved on fuel. Tag trips business or personal and add notes.
+#### Receipts read for you Pro
+Take a photo of the receipt and the station, gallons, price and total fill themselves in. Prefer to type them? Turn photo reading off in Settings.
+#### Ready for tax time Pro
+Export a mileage log, a fuel expense report or a quarterly IFTA summary with miles and gallons by state, as a spreadsheet file.
+#### Every vehicle, towing included Pro
+Each vehicle keeps its own tank size and MPG, and towing mode adjusts your range when there's a trailer behind you.
+#### Big Rig mode Big Rig
+For semis, hot shots and RVs. Enter your rig's height, weight and length and FuelPilot plans truck-legal routes around low bridges, weight limits and restricted roads, and only sends you to truck stops and truck lanes. Switch it off any time to drive a car.
+### Free, Pro and Big Rig
+Navigation and nearby prices are free. Pro adds the parts that save money and paperwork on every trip. Big Rig adds truck routing for semis, hot shots and RVs.
+#### Free
+$0
+No card needed
+- Turn-by-turn navigation
+- Cheapest gas near you
+- Fuel prices along your route, with a free account
+- Trip logbook, last 7 days
+- One vehicle
+#### Pro 7-day free trial
+$49.99 a year
+or $7.99 a month
+- Everything in Free
+- Fuel Autopilot: every stop picked and added for you
+- Receipt photo reading
+- Every trip in your logbook
+- Mileage, expense and IFTA exports
+- More than one vehicle, towing mode
+#### Big Rig 7-day free trial
+$199.99 a year
+or $19.99 a month
+- Everything in Pro
+- Truck-legal routes for your rig's height, weight and length
+- Routes around low bridges, weight limits and restricted roads
+- Fuel stops at truck stops and truck lanes only
+- Truck-lane diesel prices
+- For semis, hot shots and RVs
+Pro and Big Rig renew automatically until you cancel in your App Store or Google Play account settings. Cancel at least 24 hours before the trial or a billing period ends to avoid the next charge. Prices are in US dollars and may differ by country. Truck routes depend on map data and the sizes you enter, so always follow posted signs. FuelPilot is available in the United States and Canada. Big Rig is on iPhone now and coming to Android in the next update.
+### Coming next
+Built, but not switched on in the app yet.
+#### Apple CarPlay
+The map, turn-by-turn directions and your Autopilot fuel stops on the car's screen.
+### Questions
+More answers on the support page.
+#### Is there an app that plans fuel stops for a whole road trip?
+Yes. FuelPilot's Autopilot plans every fuel stop for the trip before you leave. It picks the cheapest stations you can reach with your reserve left, on or close to your route, and adds them to your directions. After each fill-up it checks that the next stop still makes sense. Autopilot comes with FuelPilot Pro. With a free account you still see fuel prices along your route.
+#### What's a good app for planning fuel stops when towing a trailer?
+FuelPilot is built for it. Towing cuts your MPG and your range, so with towing mode on FuelPilot adjusts your range for the trailer and plans stops you can actually reach. You choose how much fuel to keep in reserve and how far out of the way you'll go for a cheaper price. Towing mode comes with Pro. See FuelPilot for towing and RVs.
+#### Does FuelPilot do truck routing for semis, hot shots and RVs?
+Yes, with FuelPilot Big Rig. Enter your rig's height, weight and length and it plans truck-legal routes around low bridges, weight limits and restricted roads. For a semi or hot shot it only sends you to truck stops and truck lanes, at the truck-lane diesel price. Truck routes depend on map data and the sizes you enter, so always follow posted signs. Big Rig is on iPhone now and comes to Android in the next update. See FuelPilot for truckers.
+#### How is FuelPilot different from GasBuddy?
+GasBuddy is best known for gas prices reported by its users, the GasBuddy card discount and a trip cost calculator. FuelPilot is a navigation app: it gives you turn-by-turn directions, plans where to stop based on your tank and range, adds those stops to your route and logs the trip. Many drivers use a price app and a maps app together. FuelPilot puts both jobs in one.
+#### How is FuelPilot different from Trucker Path?
+Trucker Path is made for semi drivers, with truck stop parking availability, weigh station status and a large trucker community. FuelPilot is built around fuel planning and trip records, and works for cars, pickups and RVs as well as trucks. With Big Rig you can switch truck routing off and drive your personal vehicle in the same app.
+#### Can FuelPilot track my mileage for taxes or IFTA?
+Yes. Every drive you navigate with FuelPilot is saved to your logbook with its route, miles, time and fuel, and you can tag trips business or personal. With Pro you can export a mileage log, a fuel expense report or a quarterly IFTA summary with miles and gallons by state, as a spreadsheet. Drives you don't navigate with FuelPilot aren't logged. See FuelPilot as a mileage log.
+#### Is FuelPilot free?
+Yes. Navigation, the cheapest gas near you and a 7-day trip logbook are free, and a free account adds fuel prices along your route. Pro ($7.99 a month or $49.99 a year) adds Autopilot fuel stops, receipt reading, the full logbook with exports, and more than one vehicle with towing mode. Big Rig ($19.99 a month or $199.99 a year) adds truck routing. Both start with a 7-day free trial.
+#### Do I need an OBD-II adapter or anything plugged in?
+No. FuelPilot plans from your tank size, the fuel level you set and the MPG it learns from your fill-ups.
+#### Does FuelPilot work in Canada?
+Yes. FuelPilot works in the United States and Canada.
+#### Does FuelPilot work with Apple CarPlay or Android Auto?
+Not yet. CarPlay is built and will be turned on in a later update.
+### Your drives stay yours
+Your data is never sold. You can delete your account and everything in it from the app at any time.
+Read the privacy policy
+
+## Towing and RVs (https://fuelpilotapp.com/towing/)
+
+### Fuel stop planning for towing and RVs
+A trailer can cut your MPG by a third or more, so the range you're used to is wrong the moment you hitch up. FuelPilot plans your fuel stops around the range you really have while towing, picks the cheapest station you can reach, and gives you turn-by-turn directions there.
+### How it works when you tow
+- Towing mode adjusts your range. Each vehicle keeps its own tank size and MPG, and with towing mode on FuelPilot adjusts your range for the trailer behind you.
+- It learns your real MPG. FuelPilot works out your MPG from the gallons you put in and the miles you drove, so your range gets more accurate with every fill-up. Nothing to plug in.
+- Autopilot plans every stop. Before you leave, it picks the cheapest stations you can reach for the whole trip, keeping the reserve you choose. After each fill-up it checks that the next stop still makes sense.
+- You set the rules. Choose how much fuel to keep in reserve, how far out of the way you'll go and how much a detour has to save before it's worth it.
+- The price you actually pay. Enter your fuel discounts once. Costco, Sam's Club, BJ's and cardlock stations only show up if you have a membership.
+### Motorhomes and big fifth wheels
+With FuelPilot Big Rig, set your vehicle type to RV / motorhome and enter its height, weight and length. Routes then clear your rig's size, avoiding low bridges, weight limits and restricted roads, and every fuel station still shows so you can pick the one that suits you. Truck routes depend on map data and the sizes you enter, so always follow posted signs. Big Rig is on iPhone now and comes to Android in the next update.
+### What it costs
+Navigation and the cheapest gas near you are free. Towing mode and Autopilot come with FuelPilot Pro, $7.99 a month or $49.99 a year. RV routing for your rig's size comes with Big Rig, $19.99 a month or $199.99 a year, which includes everything in Pro. Both start with a 7-day free trial. FuelPilot works in the United States and Canada.
+### Questions
+#### How far can I tow on a tank of fuel?
+Multiply your usable tank size by your towing MPG, then keep a reserve. A 36-gallon tank at 9 MPG towing is 324 miles, and keeping a quarter tank in reserve leaves about 243 miles between stops. Towing MPG varies with weight, wind, hills and speed, which is why FuelPilot learns your real MPG from your fill-ups instead of using the window sticker.
+#### What's the best app for planning fuel stops while towing a travel trailer?
+Look for an app that plans stops from your towing range, not just one that lists prices nearby. FuelPilot does that: it adjusts your range for the trailer, picks the cheapest stations you can reach along the route and adds them to your turn-by-turn directions.
+#### Will FuelPilot route my motorhome around low bridges?
+Yes, with FuelPilot Big Rig and your RV's height, weight and length entered. Without Big Rig, routes are planned for a passenger vehicle and don't account for bridge heights or weight limits, and the app tells you the route hasn't been checked for your vehicle's size.
+#### Does FuelPilot show diesel prices?
+Yes. FuelPilot shows prices for the fuel your vehicle uses, including diesel, from HERE Technologies. Prices can lag behind the pump, so the price on the pump is the one you pay.
+#### Can I plan a trip with FuelPilot before I leave?
+Yes. Pick a destination and choose between routes. With Pro, Autopilot shows every planned fuel stop in the route preview, and you tap Add stops to add them.
+#### Does it work for a diesel pickup that isn't towing?
+Yes. Each vehicle keeps its own settings, so you can plan with your normal range when the trailer's off and switch towing mode on when you hitch up.
+
+## Big Rig, for truckers (https://fuelpilotapp.com/big-rig/)
+
+### Truck GPS that plans your fuel stops
+FuelPilot Big Rig plans truck-legal routes for your rig's height, weight and length, sends you only to truck stops and truck lanes at the truck-lane diesel price, and picks the cheapest stop you can reach. Every trip is logged with miles by state for IFTA. For semis, hot shots and RVs.
+### What Big Rig does
+- Truck-legal routes. Enter your rig's height, weight and length, plus axles, trailers and hazmat. Routes avoid low bridges, weight limits, restricted roads and hazmat restrictions. Any box you leave blank uses a typical semi: 13'6", 80,000 lb and 72 ft.
+- Truck stops and truck lanes only. For a semi or hot shot, fuel stops are truck stops and truck lanes, priced at the truck-lane diesel price.
+- Fuel Autopilot. Every fuel stop for the run, picked before you leave from prices along the whole route and the range you really have. After each fill-up it checks the next stop still makes sense.
+- IFTA summary. Export a quarterly summary with miles and gallons by state, worked out from the GPS path of the trips you navigated and the receipts you scanned.
+- Receipts read for you. Photograph a receipt and the station, gallons, price and total fill themselves in.
+- One app for the truck and the car. Switch Big Rig mode off on the map to get car routes and every gas station, and back on for the truck.
+Truck routes depend on map data and the sizes you enter, so always follow posted signs. If truck routing can't be reached, FuelPilot shows the car route and warns you before you start and while you drive. If no legal truck route exists for a trip, it tells you instead of routing.
+### What it costs
+Big Rig is $19.99 a month or $199.99 a year in the US and includes everything in FuelPilot Pro. It starts with a 7-day free trial. Big Rig is on iPhone now and comes to Android in the next update. FuelPilot works in the United States and Canada.
+### Questions
+#### Is there a truck GPS app that also plans fuel stops?
+Yes. FuelPilot Big Rig combines truck-legal routing with fuel planning: it picks the cheapest truck stops and truck lanes you can reach along a truck-legal route, adds them to your directions and logs the miles for IFTA.
+#### Does FuelPilot work for hot shot trucks?
+Yes. Set your vehicle type to Hot shot / HD pickup and enter its height, weight and length. Routes follow truck-legal roads and fuel stops are truck stops and truck lanes at the truck-lane diesel price.
+#### Can FuelPilot do my IFTA miles by state?
+It works them out for you. Miles by state come from the GPS path of the trips you navigated with FuelPilot, checked against official state boundaries, and fuel by state comes from where your receipts were scanned. Export the quarterly summary as a spreadsheet. Drives you didn't navigate with FuelPilot aren't included, so check the totals before you file.
+#### Does it avoid hazmat-restricted roads?
+Yes. Mark your load as hazmat in your vehicle settings and Big Rig routes avoid hazmat restrictions.
+#### Can I use it in my own car on the weekend?
+Yes. Turn off the Big Rig switch on the map or in Settings and you get car routes and every gas station again.
+
+## Mileage log (https://fuelpilotapp.com/mileage-log/)
+
+### A mileage log that fills itself in
+Every drive you navigate with FuelPilot is saved to your logbook with its route, miles, time and fuel. Tag it business or personal, add a note, and export a mileage log or fuel expense report when tax time comes. FuelPilot also plans your fuel stops at the cheapest station you can reach, so the trip costs less in the first place.
+### What gets logged
+- Every navigated drive. The route map, miles, time, MPG, stops and what you saved on fuel, saved automatically when you drive with FuelPilot's directions.
+- Business or personal. Tag each trip and add notes, such as the client or job it was for.
+- Fuel receipts. Photograph a receipt and, with Pro, the station, gallons, price and total are read for you. You can always type them in yourself.
+- More than one vehicle. With Pro, add every vehicle you drive, each with its own tank size and MPG.
+### Exports
+With FuelPilot Pro, open the Trips tab, tap Export and choose a mileage log, a fuel expense report or a quarterly IFTA summary for the period you need. You get a spreadsheet (CSV) file and a private download link that works for 24 hours, so you can email it to your accountant or open it on a computer.
+### What it costs
+The logbook is free for your last 7 days. Older trips are kept, and they all come back if you upgrade. Pro is $7.99 a month or $49.99 a year in the US, starts with a 7-day free trial, and adds the full logbook, exports, receipt reading and Fuel Autopilot. FuelPilot works in the United States and Canada.
+### Questions
+#### Does FuelPilot track my mileage automatically?
+It logs every drive you navigate with FuelPilot, with no extra taps. It doesn't record drives you make without starting directions in the app, so start a route for each work trip you want in the log.
+#### Can I export a mileage log for my taxes?
+Yes, with FuelPilot Pro. Export a mileage log or a fuel expense report as a spreadsheet for any period and send it to your accountant. Ask your tax preparer what your records need to show for your situation.
+#### What's a good mileage tracker app that also saves money on gas?
+FuelPilot does both: it logs the drives you navigate for your records, and its Autopilot plans each fuel stop at the cheapest station you can reach on your route.
+#### Does it work for gig and delivery drivers?
+Yes, for the drives you navigate with FuelPilot. Tag each one business or personal and export the log when you need it.
+#### Can it do IFTA for a hot shot or semi?
+Yes. The quarterly IFTA summary has miles and gallons by state, worked out from the GPS path of the trips you navigated and the receipts you scanned. See FuelPilot for truckers.
+
+## Support and FAQ (https://fuelpilotapp.com/support/)
+
+### Support
+Answers to common questions. If yours isn't here, email support@fuelpilotapp.com and we'll get back to you, usually within a day or two.
+### Getting started
+#### What do I need to set up first?
+Allow location when FuelPilot asks, then add your vehicle in the Vehicle tab with its tank size and MPG. Range and fuel stop picks depend on those two numbers, and FuelPilot learns your real MPG as you log fill-ups. Set the fuel gauge in the app to match your tank before a trip.
+#### Do I need an account?
+No. Tap Continue without an account on the sign-in screen to use the app right away. Signing out as a guest deletes your vehicles, trips and receipts, so create an account in Settings first if you want to keep them. Fuel prices along your route, FuelPilot Pro and Big Rig need an account.
+#### Do I need an OBD-II adapter?
+No. There's nothing to plug in. FuelPilot plans from your tank size, the fuel level you set and the MPG it learns from your fill-ups.
+#### Is FuelPilot on Android?
+Yes. FuelPilot is on Google Play. A few newer features, including Big Rig, come to Android in the next update.
+### Fuel prices and Autopilot
+#### Where do the fuel prices come from?
+From HERE Technologies, a fuel price provider, and they're refreshed regularly. Prices can still lag behind the pump, so the price on the pump is the one you pay.
+#### Why didn't Autopilot pick the cheapest station I can see?
+Autopilot picks the cheapest station you can reach with your reserve left, on or close to your route. A cheaper station might be out of range, too far off the route, or not save enough to be worth the detour. You can change your reserve and the minimum savings for a detour in Settings › Autopilot.
+#### How does Autopilot plan a long trip?
+It plans every fuel stop for the whole trip before you leave and shows them in the route preview. Tap Add stops to add them. After each fill-up it checks that the next stop still makes sense, and changes it if prices or your range have moved. You can turn partial fills on or off and set the smallest fill in Settings.
+#### I get a discount at some stations.
+Enter it once in Settings › My discounts. FuelPilot then compares stations using the price you actually pay.
+#### A station is closed, or the price is wrong.
+Open the station and report it. Your own map changes right away. Other drivers see the change once reports from the station itself confirm it.
+#### Why doesn't it send me to Costco or a cardlock?
+Stations that need a membership are left out until you tell FuelPilot you have one. Turn on Costco, Sam's Club, BJ's or fleet cardlock in Settings › Fuel memberships.
+### Navigation
+#### Does FuelPilot avoid low bridges and truck restrictions?
+With FuelPilot Big Rig, yes. Set your vehicle's type and its height, weight and length, and Big Rig plans truck-legal routes around low bridges, weight limits and restricted roads, and only sends you to truck stops and truck lanes. Truck routes depend on map data and the sizes you enter, so always follow posted signs. Without Big Rig, routes are planned for passenger vehicles and don't account for bridge heights, weight limits or truck restrictions.
+#### How do I set up my truck or RV?
+In the Vehicle tab, edit the vehicle and set its type to RV / motorhome, Hot shot / HD pickup or Semi, then enter its height, weight and length. For a truck you can also enter axles, trailers and hazmat. Any box you leave blank uses a typical size: a semi is 13'6", 80,000 lb and 72 ft. Truck and RV routes need FuelPilot Big Rig. If Big Rig mode is on and your vehicle is still set to Car / pickup, routes are planned for a typical semi.
+#### What changes when Big Rig mode is on?
+For a semi or hot shot, routes follow truck-legal roads and avoid low bridges, weight limits and hazmat restrictions, fuel stops are truck stops and truck lanes only at the truck-lane diesel price, and Food is left out of the quick stops. For an RV, routes clear its height, weight and length, and every station still shows. The top of the map says Truck routes with your rig's size, and the route preview says Truck route.
+#### How do I go back to car routes?
+Turn off the Big Rig switch on the bar at the top of the map, or in Settings › Big Rig. You get car routes and every gas station again. Turn it back on any time. If a route is on screen, it's planned again for the new mode.
+#### What does "Not a truck route" mean?
+Truck routing couldn't be reached, so FuelPilot is showing the normal car route and warning you before you start and while you drive. That route hasn't been checked for your rig's size, so check it yourself, or plan the route again in a moment. If no legal truck route exists for a trip, FuelPilot tells you instead of routing.
+#### What does "Car route — not checked" mean?
+Your vehicle is set up as an RV or truck, but you don't have FuelPilot Big Rig, so the route is planned for a car and isn't checked against your vehicle's size.
+#### Can I avoid tolls or highways?
+Yes. Turn on Avoid tolls or Avoid highways in Settings. When there's more than one way to go, the route preview lets you choose between routes.
+#### Does FuelPilot work with CarPlay?
+Not yet. CarPlay is built and will be turned on in a later update.
+#### Directions stop when my screen locks.
+On your iPhone, open Settings › FuelPilot › Location, choose Always and turn on Precise Location. FuelPilot only uses your location in the background while you're navigating.
+#### The spoken directions sound robotic.
+FuelPilot uses the best voice installed on your iPhone. To download a better one, open Settings › Accessibility › Spoken Content › Voices, pick English and download an Enhanced or Premium voice. Then choose it in FuelPilot's Settings.
+### Trips and exports
+#### How are trips recorded?
+Every drive you navigate with FuelPilot is saved to your logbook automatically. The free plan shows the last 7 days. Older trips are kept, and they all come back if you upgrade to Pro.
+#### How do I export a mileage log or IFTA report?
+In the Trips tab, tap Export, choose a mileage log, fuel expense report or IFTA summary, and pick the period. You get a spreadsheet (CSV) file and a private download link that works for 24 hours, so you can email it or open it on a computer. Exports are part of FuelPilot Pro.
+#### How does the IFTA summary work out miles by state?
+From the GPS path of the trips you navigated with FuelPilot, checked against official state boundaries, and fuel by state from where your receipts were scanned. Drives you didn't navigate with FuelPilot aren't included, so check the totals before you file.
+### Receipts
+#### How do I log a fuel-up?
+Tap Add receipt and take a photo of the receipt. With FuelPilot Pro, the station, gallons, price and total are read from the photo for you to check and confirm. You can always type the details in yourself.
+#### Can I stop receipt photos being read by AI?
+Yes. Turn off Read receipts with AI in Settings › Receipts. Photos are then only stored with your receipt, and you enter the numbers yourself.
+### FuelPilot Pro and Big Rig
+#### What does Pro include, and how much is it?
+Fuel Autopilot, which picks and adds every fuel stop for your trip, plus receipt reading, your full logbook with exports, and more than one vehicle with towing mode. A free account still shows fuel prices along your route. It's $7.99 a month or $49.99 a year in the US, and starts with a 7-day free trial.
+#### What is Big Rig, and how much is it?
+Big Rig is the plan for semis, hot shots and RVs. It plans truck-legal routes for your rig's height, weight and length, and only sends you to truck stops and truck lanes, at the truck-lane diesel price. Everything in Pro is included. It's $19.99 a month or $199.99 a year in the US, and starts with a 7-day free trial. Switch Big Rig mode off on the map or in Settings any time to drive a car.
+#### How do I switch between Pro and Big Rig?
+Open Settings › Subscription and use the Pro / Big Rig switch at the top. They're in the same subscription group, so moving from Pro to Big Rig is an upgrade through Apple, not a second subscription. To go from Big Rig back to Pro, change the plan in your iPhone's subscription settings.
+#### How do I cancel?
+On your iPhone, open Settings › [your name] › Subscriptions, tap FuelPilot and then Cancel Subscription. Cancel at least 24 hours before your trial or billing period ends to avoid the next charge. Deleting the app or your account doesn't cancel the subscription.
+On Android, open the Play Store, tap your profile picture, then Payments & subscriptions › Subscriptions, pick FuelPilot and tap Cancel subscription.
+#### I got a new phone and my plan is gone.
+Sign in to FuelPilot, open Settings › Subscription and tap Restore Purchases. Make sure your phone is signed in to the same Apple Account you used to subscribe.
+#### How do I get a refund?
+Apple handles payments and refunds for the App Store. Request one at reportaproblem.apple.com.
+### Your account
+#### I forgot my password.
+On the sign-in screen, tap Forgot password? and enter your email. We'll send you a 6-digit code to type into the app, then you choose a new password. Check your spam folder if it doesn't arrive.
+#### How do I delete my account?
+In the app, open Settings › Profile › Delete account. This permanently deletes your account and all its data. If you can't sign in, see Delete your account.
+### Still need help?
+Email us and include your phone model and iOS version.
+support@fuelpilotapp.com
