@@ -126,7 +126,8 @@ ORG = {
     'logo': 'https://fuelpilotapp.com/assets/icon-512.png',
     'email': 'support@fuelpilotapp.com',
     'founder': {'@type': 'Person', 'name': 'David Kulagin', 'jobTitle': 'Founder'},
-    'sameAs': ['https://www.instagram.com/fuelpilotapp', 'https://www.youtube.com/@fuelpilotapp'],
+    'sameAs': ['https://www.instagram.com/fuelpilotapp', 'https://www.youtube.com/@fuelpilotapp',
+               'https://www.linkedin.com/company/fuelpilotapp', 'https://www.crunchbase.com/organization/fuelpilot'],
 }
 
 
