@@ -650,6 +650,6 @@ h1, h2, h3, p { margin: 0; }
 .calc label > input[type='number'], .calc label > select { margin-top: auto; }
 @media (max-width: 600px) {
   .page table { font-size: 15px; }
-  .page th, .page td { padding: 10px 8px; min-width: 0; }
+  .page th, .page td { padding: 10px 6px; min-width: 0; overflow-wrap: anywhere; hyphens: auto; }
   .page tbody th { min-width: 0; width: 28%; }
 }

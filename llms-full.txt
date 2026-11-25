@@ -29,6 +29,9 @@ Key facts:
 - [Trip fuel cost calculator](https://fuelpilotapp.com/tools/trip-fuel-cost-calculator/): fuel cost, gallons and cost per mile for a trip
 - [Towing range calculator](https://fuelpilotapp.com/tools/towing-range-calculator/): range per tank while towing and miles between fuel stops
 - [Hot shot cost per mile calculator](https://fuelpilotapp.com/tools/hot-shot-cost-per-mile-calculator/): cost per mile and break-even rate per loaded mile
+- [Best gas apps for road trips](https://fuelpilotapp.com/blog/best-gas-apps-for-road-trips/): FuelPilot, GasBuddy, iExit, Upside, Kibi, Roadtrippers, Google Maps, Waze compared
+- [FuelPilot vs MileIQ vs Everlance](https://fuelpilotapp.com/blog/fuelpilot-vs-mileiq-vs-everlance/): mileage tracker apps for work compared
+- [IFTA mileage tracking apps](https://fuelpilotapp.com/blog/ifta-mileage-tracking-app/): who needs IFTA, due dates, and ways to track miles by state
 - [How to plan fuel stops when towing](https://fuelpilotapp.com/blog/how-to-plan-fuel-stops-when-towing/): towing MPG, range, reserve and picking stations
 - [Trucker Path alternatives for owner-operators](https://fuelpilotapp.com/blog/trucker-path-alternatives/): FuelPilot Big Rig, Hammer, CoPilot Truck, Mudflap, TruckMap compared
 - [FuelPilot vs GasBuddy](https://fuelpilotapp.com/blog/fuelpilot-vs-gasbuddy/): price app vs fuel-planning navigation, and when to use both
@@ -190,7 +193,7 @@ Truck routes depend on map data and the sizes you enter, so always follow posted
 ### What it costs
 Big Rig is $19.99 a month or $199.99 a year in the US and includes everything in FuelPilot Pro. It starts with a 7-day free trial. Big Rig is on iPhone now and comes to Android in the next update. FuelPilot works in the United States and Canada.
 ### Free tools
-See what every mile costs you with the hot shot cost per mile calculator, or compare Trucker Path alternatives.
+See what every mile costs you with the hot shot cost per mile calculator, compare Trucker Path alternatives, or read about IFTA mileage tracking apps.
 ### Questions
 #### Is there a truck GPS app that also plans fuel stops?
 Yes. FuelPilot Big Rig combines truck-legal routing with fuel planning: it picks the cheapest truck stops and truck lanes you can reach along a truck-legal route, adds them to your directions and logs the miles for IFTA.
@@ -216,6 +219,8 @@ Every drive you navigate with FuelPilot is saved to your logbook with its route,
 With FuelPilot Pro, open the Trips tab, tap Export and choose a mileage log, a fuel expense report or a quarterly IFTA summary for the period you need. You get a spreadsheet (CSV) file and a private download link that works for 24 hours, so you can email it to your accountant or open it on a computer.
 ### What it costs
 The logbook is free for your last 7 days. Older trips are kept, and they all come back if you upgrade. Pro is $7.99 a month or $49.99 a year in the US, starts with a 7-day free trial, and adds the full logbook, exports, receipt reading and Fuel Autopilot. FuelPilot works in the United States and Canada.
+### Compare
+See how FuelPilot stacks up as a mileage log in FuelPilot vs MileIQ vs Everlance, and how to track miles by state in IFTA mileage tracking apps.
 ### Questions
 #### Does FuelPilot track my mileage automatically?
 It logs every drive you navigate with FuelPilot, with no extra taps. It doesn't record drives you make without starting directions in the app, so start a route for each work trip you want in the log.
@@ -309,6 +314,157 @@ In the app, open Settings › Profile › Delete account. This permanently delet
 ### Still need help?
 Email us and include your phone model and iOS version.
 support@fuelpilotapp.com
+
+## Blog (https://fuelpilotapp.com/blog/best-gas-apps-for-road-trips/)
+
+### The best gas apps for road trips, and what each one is for
+November 25, 2026 · By David Kulagin, maker of FuelPilot
+No single app does everything on a road trip. Use GasBuddy or iExit to see prices, Upside to get cash back at the pump, Kibi to pick exits with food and clean bathrooms, Roadtrippers to plan the sights, and FuelPilot to plan every fuel stop from your tank and drive you there. Here's what each is best at, so you can pick two or three that cover you.
+I make FuelPilot, so weigh that. Prices and features are as listed on each app's store page or website in November 2026.
+### At a glance
+- App | Best for | Cost
+- FuelPilot | Planning every fuel stop from your tank and real MPG, with turn-by-turn directions | Free; Pro $7.99/mo or $49.99/yr
+- GasBuddy | Crowd-reported gas prices and a discount card | Free; paid plans from $7.99/mo
+- iExit | What's at the exits ahead, and the cheapest gas at each one | Free
+- Upside | Cash back at participating stations | Free
+- Kibi | Exits with gas, food and a clean bathroom in one stop | Free with in-app purchases; iPhone only
+- Roadtrippers | Planning the route and the places to see | Free tier and paid plans
+- Google Maps, Waze | Directions, traffic, and finding a station on the fly | Free
+### FuelPilot: plans the fuel stops for you
+Most gas apps show you prices and leave the math to you: how far you can get on this tank, which cheap station you can actually reach, and whether a detour is worth it. FuelPilot does that part. It knows your tank size, learns your real MPG from your fill-ups and checks prices along the whole route. With Pro, Autopilot picks the cheapest stations you can reach for the trip, keeping the reserve you choose, and adds them to your turn-by-turn directions. Towing mode adjusts your range when you hitch up a trailer.
+Good to know: prices come from HERE Technologies, not users. There's no CarPlay yet and no discount card. Navigation and the cheapest gas near you are free; Autopilot needs Pro.
+### GasBuddy: the biggest price map
+GasBuddy's users report prices as they fill up, so it covers most towns well. Pay with GasBuddy is a payment card that takes money off each gallon, and its Plus and Premium plans save 20¢ a gallon on your first 50 gallons each month. If you want to know what every station in town charges, start here. FuelPilot vs GasBuddy goes into more detail.
+### iExit: what's at the next exit
+iExit follows you down the interstate and shows what's at each exit ahead: gas, food, hotels, rest areas, EV chargers and RV or truck parking. It shows the cheapest gas at each exit, so you can compare the exits coming up. It works with CarPlay.
+### Upside: cash back on the fill-up
+Upside is a free app that gives cash back at participating gas stations, grocery stores and restaurants. Claim an offer in the app before you pay, then pay as usual with your card. Gas offers can reach 25¢ a gallon, but they vary by station and day. It works only in the US.
+### Kibi: exits with everything you need
+Kibi plans stops where you can get gas, food and a clean bathroom at one exit, timed to your car's fuel range with a safety buffer. It scores more than 79,000 US highway exits, then hands your stops to Google Maps, Apple Maps or Waze. It's iPhone only, and it describes itself as not a turn-by-turn app and not a gas price tracker. If a good bathroom matters more than saving 20¢ a gallon, Kibi is a strong pick.
+### Roadtrippers: plan the trip, not just the fuel
+Roadtrippers is a route planner for finding attractions, campgrounds and places to stay along the way. It has a free tier and paid plans with extras like offline maps and RV tools. Use it to decide where you're going and what you'll see. It doesn't plan fuel stops around your tank.
+### Google Maps and Waze
+Free, familiar and good at traffic. Both let you search for gas stations along your route and show prices for many of them. Neither knows how far your tank will go, so picking the stop is still up to you.
+### A good road trip setup
+- Long trip, want it cheap and planned: FuelPilot, plus Upside for cash back where there's an offer.
+- Family trip with kids: Kibi for food and bathroom stops, and GasBuddy or iExit for prices.
+- Towing a camper: FuelPilot with towing mode, and Roadtrippers for campgrounds. See how to plan fuel stops when towing.
+- Short trip, free only: Google Maps or Waze, and GasBuddy.
+Want a number before you leave? The trip fuel cost calculator works out the fuel cost of any trip.
+### Questions
+#### What is the best gas app for a road trip?
+It depends on the job. GasBuddy has the widest price coverage, Upside gives cash back at participating stations, iExit shows the cheapest gas at each exit ahead, and FuelPilot plans every fuel stop for the trip from your tank and real MPG and gives you directions there.
+#### Is there an app that plans gas stops for a road trip?
+Yes. FuelPilot plans fuel stops at the cheapest stations you can reach with your range and reserve, and adds them to its turn-by-turn directions. Kibi plans exits with gas, food and a clean bathroom around your fuel range and hands them to your maps app.
+#### Can I use GasBuddy and Upside together?
+They're separate apps, so you can have both. Use GasBuddy to compare prices and Upside to see which nearby stations have a cash back offer. Whether a GasBuddy card discount and an Upside offer both apply to the same fill-up depends on each app's terms, so check before you count on it.
+#### Do Google Maps and Waze show gas prices?
+Both show prices for many stations when you search for gas along your route. Neither plans stops around how far your tank will go.
+David Kulagin is a diesel mechanic who hauls for work. He founded Ghost Systems LLC, which makes FuelPilot.
+
+## Blog (https://fuelpilotapp.com/blog/fuelpilot-vs-mileiq-vs-everlance/)
+
+### Mileage tracker apps for work: FuelPilot vs MileIQ vs Everlance
+November 25, 2026 · By David Kulagin, maker of FuelPilot
+MileIQ and Everlance log your drives automatically in the background, whether or not you open them. FuelPilot logs the drives you navigate with it, and also plans your fuel stops and tracks fuel expenses. If you want every drive caught without thinking about it, pick MileIQ or Everlance. If most of your work driving is trips you'd use directions for anyway, and fuel is a big cost, FuelPilot does both jobs.
+I make FuelPilot, so weigh that. Prices are US prices from each company's site in November 2026.
+### Why it matters
+For 2026, the IRS standard mileage rate for business use is 72.5 cents a mile. At that rate, 10,000 business miles is a $7,250 deduction, so missed trips cost real money. Whatever app you use, the log has to be one you'll actually keep up. Ask your tax preparer what your records need to show.
+### At a glance
+- MileIQ | Everlance | FuelPilot
+- How drives are logged | Detected automatically | Detected automatically | Every drive you navigate in the app
+- Free plan | 40 drives a month | 30 automatic trips a month, plus unlimited manual trips | Last 7 days of trips
+- Paid plan | Unlimited: $7.50/mo billed yearly, or $8.99 monthly | Starter: $8.99/mo or $69.99/yr | Pro: $7.99/mo or $49.99/yr
+- Navigation | No | No | Turn-by-turn, with fuel stops planned
+- Fuel expenses | Not its focus | Expense tracking with receipts | Receipt photos read for you; fuel expense report
+- IFTA miles by state | No | No | Quarterly IFTA summary (Pro)
+### MileIQ
+Best for: anyone who wants every drive logged without touching the app.
+MileIQ runs in the background and detects drives on its own. You swipe each one business or personal and it builds the reports. The free plan covers 40 drives a month; Unlimited is $7.50 a month billed yearly or $8.99 month to month.
+### Everlance
+Best for: self-employed drivers who want mileage and other business expenses in one place.
+Everlance also detects trips automatically. The free Basic plan includes 30 automatic trips a month and unlimited manual trips. Starter, with unlimited automatic tracking, is $8.99 a month or $69.99 a year, and a Professional plan is $99.99 a year.
+### FuelPilot
+Best for: drivers who navigate to their jobs and spend a lot on fuel.
+- Every drive you navigate with FuelPilot is saved with its route, miles, time and fuel. Tag it business or personal and add a note, like the client or job.
+- Photograph a fuel receipt and, with Pro, the station, gallons, price and total are read for you.
+- Export a mileage log, a fuel expense report or a quarterly IFTA summary as a spreadsheet.
+- Autopilot plans each fuel stop at the cheapest station you can reach, so the drive costs less in the first place.
+The catch: FuelPilot doesn't detect drives on its own. A drive you make without starting directions in the app isn't logged. If you often hop in the truck without navigating, you'll miss trips.
+### Which one to pick
+- Lots of short local drives, no navigation: MileIQ or Everlance.
+- You want receipts and other expenses too: Everlance.
+- Long work drives you navigate anyway, a diesel truck, or IFTA: FuelPilot. One yearly Pro plan covers the log, the fuel stops and the exports.
+- Both: some drivers use a background tracker for the log and FuelPilot for the fuel planning.
+### Questions
+#### What is the IRS mileage rate for 2026?
+The IRS standard mileage rate for business use of a car, van, pickup or panel truck is 72.5 cents a mile for 2026, up 2.5 cents from 2025.
+#### Does FuelPilot track mileage automatically like MileIQ?
+Not in the same way. MileIQ detects drives in the background. FuelPilot logs every drive you navigate with it, with no extra taps, but doesn't record drives where you didn't start directions in the app.
+#### Which mileage app is cheapest?
+Each has a free plan: MileIQ covers 40 drives a month, Everlance 30 automatic trips a month plus manual trips, and FuelPilot your last 7 days of trips. On paid plans, FuelPilot Pro is $49.99 a year, Everlance Starter $69.99 a year and MileIQ Unlimited $7.50 a month billed yearly.
+#### Is there a mileage tracker that also saves money on gas?
+FuelPilot logs the drives you navigate and plans each fuel stop at the cheapest station you can reach on your route.
+#### Which app works for IFTA?
+Of these three, only FuelPilot exports a quarterly IFTA summary with miles and gallons by state. See IFTA mileage tracking apps for owner-operators.
+David Kulagin is a diesel mechanic who hauls for work. He founded Ghost Systems LLC, which makes FuelPilot.
+
+## Blog (https://fuelpilotapp.com/blog/ifta-mileage-tracking-app/)
+
+### IFTA mileage tracking apps for owner-operators and hot shots
+November 25, 2026 · By David Kulagin, maker of FuelPilot
+Your IFTA return needs your miles in every state and the fuel you bought in each. If you run an ELD, check whether it already reports miles by state. If you don't, a phone app can do it: GPS apps like IFTA Track log state miles as you drive, manual apps like IFTA Ledger do the quarterly math from what you enter, and FuelPilot works out state miles from the trips you navigate and the receipts you scan, and also plans your fuel stops.
+I make FuelPilot, so weigh that. This isn't tax advice. Your base state's IFTA office has the final word on what your records need to show.
+### Do you need IFTA?
+You need an IFTA license if you run a qualified motor vehicle in more than one IFTA state or province. Under the agreement, a qualified motor vehicle carries people or property and:
+- has two axles and a gross or registered gross weight over 26,000 lb, or
+- has three or more axles, regardless of weight, or
+- is used in combination with a total weight over 26,000 lb.
+That last line is the one that catches hot shots. A one-ton pickup and gooseneck rated over 26,000 lb together qualify, even though the pickup alone doesn't. Recreational vehicles are not qualified motor vehicles.
+### When returns are due
+Returns are filed quarterly with your base state, by the last day of the month after each quarter:
+- January to March: April 30
+- April to June: July 31
+- July to September: October 31
+- October to December: January 31
+### What your records need
+For each quarter you report total miles and the miles in each state, and the fuel you bought in each state. IFTA licensees have to keep records that back up every return, and you can be audited. In practice that means trip records showing where you drove and your fuel receipts. Ask your base state what it accepts as the source of your miles before you rely on an app alone.
+### Your options
+- Option | How miles get logged | Cost (Nov 2026)
+- Your ELD | From the truck, if your ELD offers IFTA reports | Part of your ELD plan, if included
+- FuelPilot | GPS path of trips you navigate; fuel from scanned receipts | Pro $49.99/yr (Big Rig $199.99/yr adds truck routing)
+- IFTA Track | Phone GPS in the background | Free with in-app purchases
+- IFTA Ledger | You enter miles and fuel by state | $14.99 once
+- Paper or spreadsheet | Odometer at each state line | Free, but slow
+### Your ELD
+If you already run an ELD, look for an IFTA or state mileage report in it first. It's the least extra work. If you're exempt from the ELD rule, as some short-haul operations are, you'll need another way.
+### FuelPilot
+Every trip you navigate with FuelPilot is logged, and miles by state are worked out from the GPS path, checked against official state boundaries. Photograph a fuel receipt and the station, gallons and price are read for you, and the state comes from where it was scanned. With Pro, export a quarterly IFTA summary with miles and gallons by state as a spreadsheet.
+It also does the thing the IFTA apps don't: Autopilot picks the cheapest fuel stop you can reach for every stop on the run. With Big Rig, routes are truck-legal for your rig's height, weight and length, and fuel stops are truck stops and truck lanes. There's a Hot shot / HD pickup vehicle type.
+The catch: drives you don't navigate with FuelPilot aren't included. Navigate every loaded and empty leg, and check the totals before you file.
+### IFTA Track
+IFTA Track uses your phone's GPS to log miles by state or province automatically, and builds summary reports with miles and taxable gallons by jurisdiction. It's free to download with in-app purchases. It needs an internet connection and runs location in the background, which uses battery.
+### IFTA Ledger
+If you'd rather enter numbers yourself, IFTA Ledger is a trip log and IFTA calculator that works offline. You log miles and fuel by state and it builds the quarterly summary. Everything unlocks for a one-time $14.99.
+### Paper and odometer
+Write down the odometer at every state line, plus each fuel purchase. It's free and auditors know it, but it's easy to miss a line and slow to total up every quarter.
+### Our take
+- You have an ELD with IFTA reports: use it, and keep your fuel receipts.
+- You want to set it and forget it: a background GPS app.
+- You want state miles and cheaper fuel from one app: FuelPilot, as long as you navigate every leg with it.
+See what your miles really cost with the hot shot cost per mile calculator.
+### Questions
+#### Does a hot shot truck need IFTA?
+If the truck and trailer together weigh or are registered over 26,000 lb and you run in more than one IFTA state or province, yes. The combination rule counts the trailer, so a pickup that doesn't qualify alone can qualify with a gooseneck behind it.
+#### When are IFTA returns due?
+Quarterly, by the last day of the month after the quarter ends: April 30, July 31, October 31 and January 31.
+#### Can I use a phone app to track IFTA miles?
+Yes. Apps can log miles by state from your phone's GPS or work them out from your routes. Keep your fuel receipts and the trip records behind the totals, and check with your base state what records it expects in an audit.
+#### Does FuelPilot do IFTA?
+Yes, with FuelPilot Pro or Big Rig. It works out miles by state from the GPS path of the trips you navigate and gallons by state from your scanned receipts, and exports a quarterly summary as a spreadsheet. Drives you don't navigate with FuelPilot aren't included.
+#### Do RVs need IFTA?
+No. Recreational vehicles are not qualified motor vehicles under IFTA.
+David Kulagin is a diesel mechanic who hauls for work. He founded Ghost Systems LLC, which makes FuelPilot.
 
 ## Blog (https://fuelpilotapp.com/blog/how-to-plan-fuel-stops-when-towing/)
 

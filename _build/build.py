@@ -42,6 +42,12 @@ SITE = {
                                        'Trucker Path alternatives compared for owner-operators and hot shots: FuelPilot Big Rig, Hammer, CoPilot Truck, Mudflap and TruckMap, with prices.', None),
     'blog/how-to-plan-fuel-stops-when-towing': ('blog/how-to-plan-fuel-stops-when-towing/index.html', 'How to plan fuel stops when towing a travel trailer or fifth wheel | FuelPilot',
                                                 'Find your real towing MPG, work out your range with a reserve, plan around empty stretches and pick stations you can get a trailer through.', None),
+    'blog/best-gas-apps-for-road-trips': ('blog/best-gas-apps-for-road-trips/index.html', 'The best gas apps for road trips, and what each one is for | FuelPilot',
+                                          'FuelPilot, GasBuddy, iExit, Upside, Kibi, Roadtrippers, Google Maps and Waze compared: what each road trip gas app is best at and what it costs.', None),
+    'blog/fuelpilot-vs-mileiq-vs-everlance': ('blog/fuelpilot-vs-mileiq-vs-everlance/index.html', 'Mileage tracker apps for work: FuelPilot vs MileIQ vs Everlance | FuelPilot',
+                                              'MileIQ and Everlance detect drives automatically; FuelPilot logs the drives you navigate and plans fuel stops. Prices, free plans, IFTA and which to pick.', None),
+    'blog/ifta-mileage-tracking-app': ('blog/ifta-mileage-tracking-app/index.html', 'IFTA mileage tracking apps for owner-operators and hot shots | FuelPilot',
+                                       'Who needs IFTA, when returns are due and the ways to track miles by state: your ELD, FuelPilot, IFTA Track, IFTA Ledger or paper.', None),
     'tools': ('tools/index.html', 'Free fuel calculators: trip cost, towing range, cost per mile | FuelPilot',
               'Free calculators for drivers: trip fuel cost, towing range per tank and hot shot cost per mile. No sign-up.', None),
     'tools/trip-fuel-cost-calculator': ('tools/trip-fuel-cost-calculator/index.html', 'Trip fuel cost calculator: gas or diesel, round trip | FuelPilot',
@@ -70,7 +76,8 @@ PRICES = {
     'diesel_price': '5.937', 'diesel_date': 'week of Nov 16, 2026',
 }
 
-POSTS = ['blog/how-to-plan-fuel-stops-when-towing', 'blog/trucker-path-alternatives', 'blog/fuelpilot-vs-gasbuddy']
+POSTS = ['blog/best-gas-apps-for-road-trips', 'blog/fuelpilot-vs-mileiq-vs-everlance', 'blog/ifta-mileage-tracking-app',
+         'blog/how-to-plan-fuel-stops-when-towing', 'blog/trucker-path-alternatives', 'blog/fuelpilot-vs-gasbuddy']
 PUBLISHED = '2026-11-25'
 
 CHECK = ('<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" '
