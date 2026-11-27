@@ -38,15 +38,15 @@ SITE = {
              'Guides and honest comparisons for planning fuel on the road: towing, hot shots, truck apps and price apps.', None),
     'blog/fuelpilot-vs-gasbuddy': ('blog/fuelpilot-vs-gasbuddy/index.html', 'FuelPilot vs GasBuddy: a price map or a planned route? | FuelPilot',
                                    'GasBuddy finds cheap gas near you. FuelPilot plans every fuel stop for a trip from your tank and real MPG. What each does best and when to use both.', None),
-    'blog/trucker-path-alternatives': ('blog/trucker-path-alternatives/index.html', 'Trucker Path alternatives for owner-operators who want fuel planning | FuelPilot',
-                                       'Trucker Path alternatives compared for owner-operators and hot shots: FuelPilot Big Rig, Hammer, CoPilot Truck, Mudflap and TruckMap, with prices.', None),
-    'blog/how-to-plan-fuel-stops-when-towing': ('blog/how-to-plan-fuel-stops-when-towing/index.html', 'How to plan fuel stops when towing a travel trailer or fifth wheel | FuelPilot',
-                                                'Find your real towing MPG, work out your range with a reserve, plan around empty stretches and pick stations you can get a trailer through.', None),
+    'blog/trucker-path-alternatives': ('blog/trucker-path-alternatives/index.html', 'Trucker Path alternatives (2026): free and paid truck GPS and fuel apps | FuelPilot',
+                                       'Trucker Path alternatives compared for owner-operators and hot shots: FuelPilot Big Rig, Hammer, CoPilot Truck, Mudflap, TruckMap and Sygic, with prices.', None),
+    'blog/how-to-plan-fuel-stops-when-towing': ('blog/how-to-plan-fuel-stops-when-towing/index.html', 'How to plan fuel stops when towing, and the best apps for it | FuelPilot',
+                                                'Find your real towing MPG, work out your range with a reserve and pick stations a trailer fits through. Plus the best apps to plan fuel stops when towing, compared.', None),
     'blog/best-gas-apps-for-road-trips': ('blog/best-gas-apps-for-road-trips/index.html', 'The best gas apps for road trips, and what each one is for | FuelPilot',
                                           'FuelPilot, GasBuddy, iExit, Upside, Kibi, Roadtrippers, Google Maps and Waze compared: what each road trip gas app is best at and what it costs.', None),
     'blog/fuelpilot-vs-mileiq-vs-everlance': ('blog/fuelpilot-vs-mileiq-vs-everlance/index.html', 'Mileage tracker apps for work: FuelPilot vs MileIQ vs Everlance | FuelPilot',
                                               'MileIQ and Everlance detect drives automatically; FuelPilot logs the drives you navigate and plans fuel stops. Prices, free plans, IFTA and which to pick.', None),
-    'blog/ifta-mileage-tracking-app': ('blog/ifta-mileage-tracking-app/index.html', 'IFTA mileage tracking apps for owner-operators and hot shots | FuelPilot',
+    'blog/ifta-mileage-tracking-app': ('blog/ifta-mileage-tracking-app/index.html', 'IFTA mileage log apps for owner-operators and hot shots (2026) | FuelPilot',
                                        'Who needs IFTA, when returns are due and the ways to track miles by state: your ELD, FuelPilot, IFTA Track, IFTA Ledger or paper.', None),
     'tools': ('tools/index.html', 'Free fuel calculators: trip cost, towing range, cost per mile | FuelPilot',
               'Free calculators for drivers: trip fuel cost, towing range per tank and hot shot cost per mile. No sign-up.', None),
@@ -79,6 +79,9 @@ PRICES = {
 POSTS = ['blog/best-gas-apps-for-road-trips', 'blog/fuelpilot-vs-mileiq-vs-everlance', 'blog/ifta-mileage-tracking-app',
          'blog/how-to-plan-fuel-stops-when-towing', 'blog/trucker-path-alternatives', 'blog/fuelpilot-vs-gasbuddy']
 PUBLISHED = '2026-11-25'
+# Posts changed since they were published: slug -> date of the last real change.
+MODIFIED = {'blog/how-to-plan-fuel-stops-when-towing': '2026-11-27', 'blog/trucker-path-alternatives': '2026-11-27',
+            'blog/ifta-mileage-tracking-app': '2026-11-27'}
 
 CHECK = ('<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" '
          'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg>')
@@ -263,7 +266,7 @@ def jsonld(slug: str, body: str, title: str, url: str) -> str:
         if slug in POSTS:
             graph.append({'@type': 'BlogPosting', 'headline': h1, 'description': SITE[slug][2], 'url': url,
                           'mainEntityOfPage': url, 'image': 'https://fuelpilotapp.com/assets/og.png',
-                          'datePublished': PUBLISHED, 'dateModified': PUBLISHED, 'inLanguage': 'en',
+                          'datePublished': PUBLISHED, 'dateModified': MODIFIED.get(slug, PUBLISHED), 'inLanguage': 'en',
                           'author': {'@type': 'Person', 'name': 'David Kulagin', 'jobTitle': 'Founder, Ghost Systems LLC'},
                           'publisher': publisher, 'about': {'@id': 'https://fuelpilotapp.com/#app'}})
         elif slug in CALC_PAGES:

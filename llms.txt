@@ -31,9 +31,9 @@ Key facts:
 - [Hot shot cost per mile calculator](https://fuelpilotapp.com/tools/hot-shot-cost-per-mile-calculator/): cost per mile and break-even rate per loaded mile
 - [Best gas apps for road trips](https://fuelpilotapp.com/blog/best-gas-apps-for-road-trips/): FuelPilot, GasBuddy, iExit, Upside, Kibi, Roadtrippers, Google Maps, Waze compared
 - [FuelPilot vs MileIQ vs Everlance](https://fuelpilotapp.com/blog/fuelpilot-vs-mileiq-vs-everlance/): mileage tracker apps for work compared
-- [IFTA mileage tracking apps](https://fuelpilotapp.com/blog/ifta-mileage-tracking-app/): who needs IFTA, due dates, and ways to track miles by state
-- [How to plan fuel stops when towing](https://fuelpilotapp.com/blog/how-to-plan-fuel-stops-when-towing/): towing MPG, range, reserve and picking stations
-- [Trucker Path alternatives for owner-operators](https://fuelpilotapp.com/blog/trucker-path-alternatives/): FuelPilot Big Rig, Hammer, CoPilot Truck, Mudflap, TruckMap compared
+- [IFTA mileage log apps](https://fuelpilotapp.com/blog/ifta-mileage-tracking-app/): who needs IFTA, due dates, and ways to track miles by state
+- [How to plan fuel stops when towing](https://fuelpilotapp.com/blog/how-to-plan-fuel-stops-when-towing/): towing MPG, range, reserve, picking stations, and the best apps for towing (FuelPilot, RV LIFE Trip Wizard, Trucker Path, iExit, GasBuddy, chain apps) compared
+- [Trucker Path alternatives for owner-operators](https://fuelpilotapp.com/blog/trucker-path-alternatives/): FuelPilot Big Rig, Hammer, CoPilot Truck, Mudflap, TruckMap, Sygic compared
 - [FuelPilot vs GasBuddy](https://fuelpilotapp.com/blog/fuelpilot-vs-gasbuddy/): price app vs fuel-planning navigation, and when to use both
 
 ## Optional
