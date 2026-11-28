@@ -118,7 +118,7 @@ or $19.99 a month
 - Truck-lane diesel prices
 - Weigh stations and the road ahead
 - For semis, hot shots and RVs
-Pro and Big Rig renew automatically until you cancel in your App Store or Google Play account settings. Cancel at least 24 hours before the trial or a billing period ends to avoid the next charge. Prices are in US dollars and may differ by country. Truck routes depend on map data and the sizes you enter, so always follow posted signs. FuelPilot is available in the United States and Canada. Big Rig is on iPhone now and coming to Android in the next update.
+Pro and Big Rig renew automatically until you cancel in your App Store or Google Play account settings. Cancel at least 24 hours before the trial or a billing period ends to avoid the next charge. Prices are in US dollars and may differ by country. Truck routes depend on map data and the sizes you enter, so always follow posted signs and use your own judgment. FuelPilot is available in the United States and Canada. Big Rig is on iPhone now and coming to Android in the next update.
 ### Coming next
 Built, but not switched on in the app yet.
 #### Apple CarPlay
@@ -130,7 +130,7 @@ Yes. FuelPilot's Autopilot plans every fuel stop for the trip before you leave. 
 #### What's a good app for planning fuel stops when towing a trailer?
 FuelPilot is built for it. Towing cuts your MPG and your range, so with towing mode on FuelPilot adjusts your range for the trailer and plans stops you can actually reach. You choose how much fuel to keep in reserve and how far out of the way you'll go for a cheaper price. Towing mode comes with Pro. See FuelPilot for towing and RVs.
 #### Does FuelPilot do truck routing for semis, hot shots and RVs?
-Yes, with FuelPilot Big Rig. Enter your rig's height, weight and length and it plans truck-legal routes around low bridges, weight limits and restricted roads. For a semi or hot shot it only sends you to truck stops and truck lanes, at the truck-lane diesel price. Truck routes depend on map data and the sizes you enter, so always follow posted signs. Big Rig is on iPhone now and comes to Android in the next update. See FuelPilot for truckers.
+Yes, with FuelPilot Big Rig. Enter your rig's height, weight and length and it plans truck-legal routes around low bridges, weight limits and restricted roads. For a semi or hot shot it only sends you to truck stops and truck lanes, at the truck-lane diesel price. Truck routes depend on map data and the sizes you enter, so always follow posted signs and use your own judgment. Big Rig is on iPhone now and comes to Android in the next update. See FuelPilot for truckers.
 #### How is FuelPilot different from GasBuddy?
 GasBuddy is best known for gas prices reported by its users, the GasBuddy card discount and a trip cost calculator. FuelPilot is a navigation app: it gives you turn-by-turn directions, plans where to stop based on your tank and range, adds those stops to your route and logs the trip. Many drivers use a price app and a maps app together. FuelPilot puts both jobs in one. See FuelPilot vs GasBuddy.
 #### How is FuelPilot different from Trucker Path?
@@ -169,7 +169,7 @@ A trailer can cut your MPG by a third or more, so the range you're used to is wr
 - You set the rules. Choose how much fuel to keep in reserve, how far out of the way you'll go and how much a detour has to save before it's worth it.
 - The price you actually pay. Enter your fuel discounts once. Costco, Sam's Club, BJ's and cardlock stations only show up if you have a membership.
 ### Motorhomes and big fifth wheels
-With FuelPilot Big Rig, set your vehicle type to RV / motorhome and enter its height, weight and length. Routes then clear your rig's size, avoiding low bridges, weight limits and restricted roads, and every fuel station still shows so you can pick the one that suits you. Truck routes depend on map data and the sizes you enter, so always follow posted signs. Big Rig is on iPhone now and comes to Android in the next update.
+With FuelPilot Big Rig, set your vehicle type to RV / motorhome and enter its height, weight and length. Routes then clear your rig's size, avoiding low bridges, weight limits and restricted roads, and every fuel station still shows so you can pick the one that suits you. Truck routes depend on map data and the sizes you enter, so always follow posted signs and use your own judgment. Big Rig is on iPhone now and comes to Android in the next update.
 ### What it costs
 Navigation and the cheapest gas near you are free. Towing mode and Autopilot come with FuelPilot Pro, $7.99 a month or $49.99 a year. RV routing for your rig's size comes with Big Rig, $19.99 a month or $199.99 a year, which includes everything in Pro. Both start with a 7-day free trial. FuelPilot works in the United States and Canada.
 ### Free tools
@@ -200,7 +200,7 @@ FuelPilot Big Rig plans truck-legal routes for your rig's height, weight and len
 - IFTA summary. Export a quarterly summary with miles and gallons by state, worked out from the GPS path of the trips you navigated and the receipts you scanned.
 - Receipts read for you. Photograph a receipt and the station, gallons, price and total fill themselves in.
 - One app for the truck and the car. Switch Big Rig mode off on the map to get car routes and every gas station, and back on for the truck.
-Truck routes depend on map data and the sizes you enter, so always follow posted signs. If truck routing can't be reached, FuelPilot shows the car route and warns you before you start and while you drive. If no legal truck route exists for a trip, it tells you instead of routing.
+Truck routes depend on map data and the sizes you enter, so always follow posted signs and use your own judgment. If truck routing can't be reached, FuelPilot shows the car route and warns you before you start and while you drive. If no legal truck route exists for a trip, it tells you instead of routing.
 ### What it costs
 Big Rig is $19.99 a month or $199.99 a year in the US and includes everything in FuelPilot Pro. It starts with a 7-day free trial. Big Rig is on iPhone now and comes to Android in the next update. FuelPilot works in the United States and Canada.
 ### Free tools
@@ -274,7 +274,7 @@ Open the station and report it. Your own map changes right away. Other drivers s
 Stations that need a membership are left out until you tell FuelPilot you have one. Turn on Costco, Sam's Club, BJ's or fleet cardlock in Settings › Fuel memberships.
 ### Navigation
 #### Does FuelPilot avoid low bridges and truck restrictions?
-With FuelPilot Big Rig, yes. Set your vehicle's type and its height, weight and length, and Big Rig plans truck-legal routes around low bridges, weight limits and restricted roads, and only sends you to truck stops and truck lanes. Truck routes depend on map data and the sizes you enter, so always follow posted signs. Without Big Rig, routes are planned for passenger vehicles and don't account for bridge heights, weight limits or truck restrictions.
+With FuelPilot Big Rig, yes. Set your vehicle's type and its height, weight and length, and Big Rig plans truck-legal routes around low bridges, weight limits and restricted roads, and only sends you to truck stops and truck lanes. Truck routes depend on map data and the sizes you enter, so always follow posted signs and use your own judgment. Without Big Rig, routes are planned for passenger vehicles and don't account for bridge heights, weight limits or truck restrictions.
 #### How do I set up my truck or RV?
 In the Vehicle tab, edit the vehicle and set its type to RV / motorhome, Hot shot / HD pickup or Semi, then enter its height, weight and length. For a truck you can also enter axles, trailers and hazmat. Any box you leave blank uses a typical size: a semi is 13'6", 80,000 lb and 72 ft. Truck and RV routes need FuelPilot Big Rig. If Big Rig mode is on and your vehicle is still set to Car / pickup, routes are planned for a typical semi.
 #### What changes when Big Rig mode is on?
